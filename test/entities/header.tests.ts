@@ -4,15 +4,19 @@ import { Header } from "../../src/entities/Header";
 describe("header", () => {
   it("should work", () => {
     const header = new Header({
-      sender: {
-        senderName: "name",
-      },
+      Sender: [
+        {
+          SenderName: ["name"],
+        },
+      ],
+      SentDateTime: ["20010101"],
     });
 
     const expected = {
       sender: {
         senderName: "name",
       },
+      sentDateTime: new Date(Date.UTC(2001, 0, 1)),
     };
 
     expect(header).to.deep.equal(expected);
