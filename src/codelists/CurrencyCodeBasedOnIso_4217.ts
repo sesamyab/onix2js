@@ -200,7 +200,6 @@ export const CurrencyCodeBasedOnIso_4217 = {
 export enum CurrencyCodeBasedOnIso_4217Enum {
   UaeDirham,
   Afghani,
-  Afghani,
   Lek,
   ArmenianDram,
   NetherlandsAntillianGuilder,
@@ -214,7 +213,6 @@ export enum CurrencyCodeBasedOnIso_4217Enum {
   BarbadosDollar,
   Taka,
   BelgianFranc,
-  BulgarianLev,
   BulgarianLev,
   BahrainiDinar,
   BurundiFranc,
@@ -258,7 +256,6 @@ export enum CurrencyCodeBasedOnIso_4217Enum {
   Franc,
   PoundSterling,
   Lari,
-  GhanaCedi,
   GhanaCedi,
   GibraltarPound,
   Dalasi,
@@ -337,8 +334,6 @@ export enum CurrencyCodeBasedOnIso_4217Enum {
   QatariRial,
   RomanianOldLeu,
   RomanianLeu,
-  SerbianDinar,
-  RussianRuble,
   RussianRuble,
   RwandaFranc,
   SaudiRiyal,
@@ -378,7 +373,6 @@ export enum CurrencyCodeBasedOnIso_4217Enum {
   PesoUruguayo,
   UzbekistanSum,
   BolVar,
-  BolVar,
   BolVarSoberano,
   Dong,
   Vatu,
@@ -392,6 +386,5 @@ export enum CurrencyCodeBasedOnIso_4217Enum {
   Rand,
   Kwacha,
   ZambianKwacha,
-  ZimbabweDollar,
   ZimbabweDollar
 }

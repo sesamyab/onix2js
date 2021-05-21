@@ -37,7 +37,6 @@ export const NameIdentifierType = {
 
 export enum NameIdentifierTypeEnum {
   Proprietary,
-  Proprietary,
   DnbPublisherIdentifier,
   BRsenvereinVerkehrsnummer,
   GermanIsbnAgencyPublisherIdentifier,

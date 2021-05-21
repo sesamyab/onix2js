@@ -63,7 +63,6 @@ export enum SupportingResourceFileFormatEnum {
   Eps,
   Epub,
   Html,
-  Pdf,
   Txt,
   Xhtml,
   Xps,

@@ -478,7 +478,6 @@ export enum ProductFormDetailEnum {
   MicrosoftXbox_360,
   NintendoWii,
   SonyPlayStationPortablePsp,
-  SonyPlayStation_3,
   SonyPlayStation_4,
   SonyPlayStationVita,
   MicrosoftXboxOne,

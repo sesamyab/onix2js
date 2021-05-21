@@ -28,6 +28,5 @@ export enum OperatingSystemEnum {
   Windows,
   WindowsCe,
   WindowsMobile,
-  MacOs,
   WindowsPhone_7
 }

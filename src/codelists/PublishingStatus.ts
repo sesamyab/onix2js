@@ -33,7 +33,6 @@ export enum PublishingStatusEnum {
   WithdrawnFromSale,
   Recalled,
   ActiveButNotSoldSeparately,
-  Recalled,
   TemporarilyWithdrawnFromSale,
   PermanentlyWithdrawnFromSale
 }

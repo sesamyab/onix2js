@@ -15,7 +15,65 @@ describe("Feeds", () => {
         },
         sentDateTime: new Date(Date.UTC(2020, 9, 13)),
       },
-      products: [{}],
+      products: [
+        {
+          notificationType: "EarlyNotification",
+          recordReference: "com.xxmedia.onix.1002443",
+          productIdentifiers: [
+            {
+              idValue: "1002443",
+              productType: "Proprietary",
+            },
+            {
+              idValue: "9789185201259",
+              productType: "Isbn_13",
+            },
+          ],
+          descriptiveDetail: {
+            productComposition: "SingleComponentRetailProduct",
+            productForm: "DigitalDeliveredElectronically",
+            productFormDetail: "Epub",
+            primaryContentType: "TextEyeReadable",
+            epubTechnicalProtection: "DigitalWatermarking",
+            titleDetail: {
+              titleType:
+                "DistinctiveTitleBookCoverTitleSerialTitleOnItemSerialContentItemOrReviewedResource",
+              titleElement: {
+                titleElementLevel: "Product",
+                titleText: "Moby Dick – Valen",
+              },
+            },
+            contributors: [
+              {
+                contributorRole: "ByAuthor",
+                personName: "Herman Melville",
+                personNameInverted: "Melville, Herman",
+              },
+              {
+                contributorRole: "TranslatedBy",
+                personName: "Per Erik Wahlund",
+                personNameInverted: "Wahlund, Per Erik",
+              },
+            ],
+            languages: [
+              {
+                languageCode: "swe",
+                languageRole: "LanguageOfText",
+              },
+            ],
+            subjects: [
+              {
+                subjectCode: "FA",
+                subjectSchemeIdentifier: "BicSubjectCategory",
+              },
+              {
+                subjectCode: "FB",
+                subjectSchemeIdentifier: "ThemaSubjectCategory",
+              },
+            ],
+          },
+        },
+      ],
     };
 
     expect(onix).to.deep.equal(expected);

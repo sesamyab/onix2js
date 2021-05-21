@@ -38,17 +38,14 @@ async function generateCodelist(codelist) {
     });
   });
 
-  const codes = codelist.Code.map((code) => ({
-    name: pascalCase(code.CodeDescription),
-  }));
+  const codes = codelist.Code.map((code) => pascalCase(code.CodeDescription));
 
   sourceFile.addEnum({
     name: `${name}Enum`,
-    members: uniq(codes),
+    members: uniq(codes).map((code) => ({ name: code })),
     isExported: true,
   });
 
-  // asynchronously save all the changes above
   await project.save();
 }
 

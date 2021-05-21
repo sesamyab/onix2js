@@ -12,7 +12,6 @@ export const SupplierIdentifierType = {
 
 export enum SupplierIdentifierTypeEnum {
   Proprietary,
-  Proprietary,
   BRsenvereinVerkehrsnummer,
   GermanIsbnAgencyPublisherIdentifier,
   Gln,
