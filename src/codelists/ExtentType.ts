@@ -18,3 +18,24 @@ export const ExtentType = {
   "22": "Filesize",
   "23": "StorageFilesize",
 };
+
+export enum ExtentTypeEnum {
+  MainContentPageCount,
+  TotalTextLength,
+  FrontMatterPageCount,
+  BackMatterPageCount,
+  TotalNumberedPages,
+  ProductionPageCount,
+  AbsolutePageCount,
+  NumberOfPagesInPrintCounterpart,
+  Duration,
+  NotionalNumberOfPagesInDigitalProduct,
+  ContentPageCount,
+  TotalUnnumberedInsertPageCount,
+  DurationOfIntroductoryMatter,
+  DurationOfMainContent,
+  DurationOfBackMatter,
+  ProductionDuration,
+  Filesize,
+  StorageFilesize
+}

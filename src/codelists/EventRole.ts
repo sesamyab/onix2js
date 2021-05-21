@@ -9,3 +9,15 @@ export const EventRole = {
   "31": "PublicationLinkedToExposition",
   "32": "ProgrammeOrGuideForExposition",
 };
+
+export enum EventRoleEnum {
+  PublicationLinkedToConference,
+  CompleteProceedingsOfConference,
+  SelectedPapersFromConference,
+  PublicationLinkedToSportingEvent,
+  ProgrammeOrGuideForSportingEvent,
+  PublicationLinkedToArtisticEvent,
+  ProgrammeOrGuideForArtisticEvent,
+  PublicationLinkedToExposition,
+  ProgrammeOrGuideForExposition
+}

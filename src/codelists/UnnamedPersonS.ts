@@ -8,3 +8,14 @@ export const UnnamedPersonS = {
   "07": "SynthesisedVoiceUnspecified",
   "08": "SynthesisedVoiceBasedOnRealVoiceActor",
 };
+
+export enum UnnamedPersonSEnum {
+  Unknown,
+  Anonymous,
+  EtAl,
+  Various,
+  SynthesisedVoiceMale,
+  SynthesisedVoiceFemale,
+  SynthesisedVoiceUnspecified,
+  SynthesisedVoiceBasedOnRealVoiceActor
+}

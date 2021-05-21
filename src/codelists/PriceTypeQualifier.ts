@@ -19,3 +19,25 @@ export const PriceTypeQualifier = {
   "17": "IntroductoryPrice",
   "18": "ConsortialPrice",
 };
+
+export enum PriceTypeQualifierEnum {
+  UnqualifiedPrice,
+  MemberSubscriberPrice,
+  ExportPrice,
+  ReducedPriceApplicableWhenTheItemIsPurchasedAsPartOfASetOrSeriesOrCollection,
+  VoucherPrice,
+  ConsumerPrice,
+  CorporateLibraryEducationPrice,
+  ReservationOrderPrice,
+  PromotionalOfferPrice,
+  LinkedPrice,
+  LibraryPrice,
+  EducationPrice,
+  CorporatePrice,
+  SubscriptionServicePrice,
+  SchoolLibraryPrice,
+  AcademicLibraryPrice,
+  PublicLibraryPrice,
+  IntroductoryPrice,
+  ConsortialPrice
+}

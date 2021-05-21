@@ -12,7 +12,7 @@
                 "<node_internals>/**"
             ],
             "type": "pwa-node",
-            "preLaunchTask": "tsc: build - tsconfig.json",
+            "preLaunchTask": "tsc: build - tsconfig.codegen.json",
             "outFiles": ["${workspaceFolder}/out/**/*.js"]
         },
         {

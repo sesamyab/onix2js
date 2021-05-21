@@ -7,3 +7,13 @@ export const PrizeOrAwardAchievement = {
   "06": "JointWinner",
   "07": "Nominated",
 };
+
+export enum PrizeOrAwardAchievementEnum {
+  Winner,
+  RunnerUp,
+  Commended,
+  ShortListed,
+  LongListed,
+  JointWinner,
+  Nominated
+}

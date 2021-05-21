@@ -21,3 +21,27 @@ export const ProductIdentifierType = {
   "31": "BnfControlNumber",
   "35": "Ark",
 };
+
+export enum ProductIdentifierTypeEnum {
+  Proprietary,
+  Isbn_10,
+  Gtin_13,
+  Upc,
+  Ismn_10,
+  Doi,
+  Lccn,
+  Gtin_14,
+  Isbn_13,
+  LegalDepositNumber,
+  Urn,
+  OclcNumber,
+  CoPublisherSIsbn_13,
+  Ismn_13,
+  IsbnA,
+  JpECode,
+  OlccNumber,
+  JpMagazineId,
+  Upc12_5,
+  BnfControlNumber,
+  Ark
+}

@@ -8,3 +8,14 @@ export const PersonOrganizationNameType = {
   "06": "LaterName",
   "07": "FictionalCharacterName",
 };
+
+export enum PersonOrganizationNameTypeEnum {
+  Unspecified,
+  Pseudonym,
+  AuthorityControlledName,
+  EarlierName,
+  RealName,
+  TransliteratedFormOfPrimaryName,
+  LaterName,
+  FictionalCharacterName
+}

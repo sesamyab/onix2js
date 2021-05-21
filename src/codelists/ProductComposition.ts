@@ -7,3 +7,13 @@ export const ProductComposition = {
   "30": "MultipleItemTradeOnlyPack",
   "31": "MultipleItemPack",
 };
+
+export enum ProductCompositionEnum {
+  SingleComponentRetailProduct,
+  SingleComponentNotAvailableSeparately,
+  MultipleComponentRetailProduct,
+  MultipleItemCollectionRetailedAsSeparateParts,
+  TradeOnlyProduct,
+  MultipleItemTradeOnlyPack,
+  MultipleItemPack
+}

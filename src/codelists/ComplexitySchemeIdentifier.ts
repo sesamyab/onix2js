@@ -10,3 +10,16 @@ export const ComplexitySchemeIdentifier = {
   "09": "GuidedReadingLevel",
   "10": "ReadingRecoveryLevel",
 };
+
+export enum ComplexitySchemeIdentifierEnum {
+  LexileCode,
+  LexileNumber,
+  FryReadabilityScore,
+  IoEBookBand,
+  FountasPinnellTextLevelGradient,
+  LexileMeasure,
+  AtosForBooks,
+  FleschKincaidGradeLevel,
+  GuidedReadingLevel,
+  ReadingRecoveryLevel
+}

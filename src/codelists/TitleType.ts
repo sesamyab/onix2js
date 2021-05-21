@@ -14,3 +14,20 @@ export const TitleType = {
   "13": "ExpandedTitle",
   "14": "AlternativeTitle",
 };
+
+export enum TitleTypeEnum {
+  Undefined,
+  DistinctiveTitleBookCoverTitleSerialTitleOnItemSerialContentItemOrReviewedResource,
+  IssnKeyTitleOfSerial,
+  TitleInOriginalLanguage,
+  TitleAcronymOrInitialism,
+  AbbreviatedTitle,
+  TitleInOtherLanguage,
+  ThematicTitleOfJournalIssue,
+  FormerTitle,
+  DistributorSTitle,
+  AlternativeTitleOnCover,
+  AlternativeTitleOnBack,
+  ExpandedTitle,
+  AlternativeTitle
+}

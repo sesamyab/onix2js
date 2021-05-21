@@ -10,3 +10,16 @@ export const LanguageRole = {
   "11": "OriginalLanguageAudioTrackInAMultilingualProduct",
   "12": "LanguageOfNotes",
 };
+
+export enum LanguageRoleEnum {
+  LanguageOfText,
+  OriginalLanguageOfATranslatedText,
+  LanguageOfAbstracts,
+  OriginalLanguageInAMultilingualEdition,
+  TranslatedLanguageInAMultilingualEdition,
+  LanguageOfAudioTrack,
+  LanguageOfSubtitles,
+  LanguageOfOriginalAudioTrack,
+  OriginalLanguageAudioTrackInAMultilingualProduct,
+  LanguageOfNotes
+}

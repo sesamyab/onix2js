@@ -14,3 +14,20 @@ export const RecordSourceType = {
   "12": "EducationBookseller",
   "13": "Library",
 };
+
+export enum RecordSourceTypeEnum {
+  Unspecified,
+  Publisher,
+  PublisherSDistributor,
+  Wholesaler,
+  BibliographicAgency,
+  LibraryBookseller,
+  PublisherSSalesAgent,
+  PublisherSConversionServiceProvider,
+  ConversionServiceProvider,
+  IsbnRegistrationAgency,
+  IstcRegistrationAgency,
+  RetailBookseller,
+  EducationBookseller,
+  Library
+}

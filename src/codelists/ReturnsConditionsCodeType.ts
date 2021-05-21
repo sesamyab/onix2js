@@ -5,3 +5,11 @@ export const ReturnsConditionsCodeType = {
   "03": "UkBookTradeReturnsConditionsCode",
   "04": "OnixReturnsConditionsCode",
 };
+
+export enum ReturnsConditionsCodeTypeEnum {
+  Proprietary,
+  FrenchBookTradeReturnsConditionsCode,
+  BisacReturnableIndicatorCode,
+  UkBookTradeReturnsConditionsCode,
+  OnixReturnsConditionsCode
+}

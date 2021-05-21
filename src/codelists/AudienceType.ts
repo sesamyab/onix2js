@@ -9,3 +9,15 @@ export const AudienceType = {
   "08": "AdultEducation",
   "09": "SecondLanguageTeaching",
 };
+
+export enum AudienceTypeEnum {
+  GeneralTrade,
+  ChildrenJuvenile,
+  YoungAdult,
+  PrimaryAndSecondaryElementaryAndHighSchool,
+  CollegeHigherEducation,
+  ProfessionalAndScholarly,
+  EltEsl,
+  AdultEducation,
+  SecondLanguageTeaching
+}

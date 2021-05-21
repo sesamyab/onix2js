@@ -8,3 +8,14 @@ export const TextItemIdentifierType = {
   "15": "Isbn_13",
   "39": "Iscc",
 };
+
+export enum TextItemIdentifierTypeEnum {
+  Proprietary,
+  Gtin_13,
+  Doi,
+  Pii,
+  Sici,
+  Istc,
+  Isbn_13,
+  Iscc
+}

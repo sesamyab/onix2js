@@ -17,3 +17,23 @@ export const PublishingStatus = {
   "16": "TemporarilyWithdrawnFromSale",
   "17": "PermanentlyWithdrawnFromSale",
 };
+
+export enum PublishingStatusEnum {
+  Unspecified,
+  Cancelled,
+  Forthcoming,
+  PostponedIndefinitely,
+  Active,
+  NoLongerOurProduct,
+  OutOfStockIndefinitely,
+  OutOfPrint,
+  Inactive,
+  Unknown,
+  Remaindered,
+  WithdrawnFromSale,
+  Recalled,
+  ActiveButNotSoldSeparately,
+  Recalled,
+  TemporarilyWithdrawnFromSale,
+  PermanentlyWithdrawnFromSale
+}

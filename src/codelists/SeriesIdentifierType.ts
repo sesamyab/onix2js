@@ -11,3 +11,17 @@ export const SeriesIdentifierType = {
   "35": "Ark",
   "38": "IssnL",
 };
+
+export enum SeriesIdentifierTypeEnum {
+  Proprietary,
+  Issn,
+  GermanNationalBibliographySeriesId,
+  GermanBooksInPrintSeriesId,
+  ElectreSeriesId,
+  Doi,
+  Isbn_13,
+  Urn,
+  BnfControlNumber,
+  Ark,
+  IssnL
+}

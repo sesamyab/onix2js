@@ -10,3 +10,16 @@ export const StudyBibleType = {
   "SCO": "Scofield",
   "SPR": "SpiritFilled",
 };
+
+export enum StudyBibleTypeEnum {
+  CambridgeAnnotated,
+  LifeApplication,
+  Macarthur,
+  OxfordAnnotated,
+  StudiebibelDetNyeTestamentet,
+  NewOxfordAnnotated,
+  NorskStudiebibel,
+  Ryrie,
+  Scofield,
+  SpiritFilled
+}

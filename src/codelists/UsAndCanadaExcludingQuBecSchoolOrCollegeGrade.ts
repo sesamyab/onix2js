@@ -19,3 +19,25 @@ export const UsAndCanadaExcludingQuBecSchoolOrCollegeGrade = {
   "16": "CollegeSenior",
   "17": "CollegeGraduateStudent",
 };
+
+export enum UsAndCanadaExcludingQuBecSchoolOrCollegeGradeEnum {
+  Preschool,
+  Kindergarten,
+  FirstGrade,
+  SecondGrade,
+  ThirdGrade,
+  FourthGrade,
+  FifthGrade,
+  SixthGrade,
+  SeventhGrade,
+  EighthGrade,
+  NinthGrade,
+  TenthGrade,
+  EleventhGrade,
+  TwelfthGrade,
+  CollegeFreshman,
+  CollegeSophomore,
+  CollegeJunior,
+  CollegeSenior,
+  CollegeGraduateStudent
+}

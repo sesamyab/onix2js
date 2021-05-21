@@ -21,3 +21,27 @@ export const SalesRestrictionType = {
   "19": "ExceptThroughPod",
   "99": "NoRestrictionsOnSales",
 };
+
+export enum SalesRestrictionTypeEnum {
+  UnspecifiedSeeText,
+  RetailerExclusiveOwnBrand,
+  ThroughOfficeSuppliesOutletsOnly,
+  InternalPublisherUseOnlyDoNotList,
+  RetailerExclusive,
+  RetailerOwnBrand,
+  ToLibrariesOnly,
+  ToSchoolsOnly,
+  Indiziert,
+  ExceptToLibraries,
+  ThroughNewsOutletsOnly,
+  RetailerException,
+  ExceptToSubscriptionServices,
+  ToSubscriptionServicesOnly,
+  ExceptThroughOnlineRetail,
+  ThroughOnlineRetailOnly,
+  ExceptToSchools,
+  ThroughInventorylessPod,
+  ThroughStockProtectionPod,
+  ExceptThroughPod,
+  NoRestrictionsOnSales
+}

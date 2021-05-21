@@ -27,3 +27,33 @@ export const PriceType = {
   "41": "PublishersRetailPriceExcludingTax",
   "42": "PublishersRetailPriceIncludingTax",
 };
+
+export enum PriceTypeEnum {
+  RrpExcludingTax,
+  RrpIncludingTax,
+  FrpExcludingTax,
+  FrpIncludingTax,
+  SupplierSNetPriceExcludingTax,
+  SupplierSNetPriceExcludingTaxRentalGoods,
+  SupplierSNetPriceIncludingTax,
+  SupplierSAlternativeNetPriceExcludingTax,
+  SupplierSAlternativeNetPriceIncludingTax,
+  SpecialSaleRrpExcludingTax,
+  SpecialSaleRrpIncludingTax,
+  SpecialSaleFixedRetailPriceExcludingTax,
+  SpecialSaleFixedRetailPriceIncludingTax,
+  SupplierSNetPriceForSpecialSaleExcludingTax,
+  SupplierSNetPriceForSpecialSaleIncludingTax,
+  PrePublicationRrpExcludingTax,
+  PrePublicationRrpIncludingTax,
+  PrePublicationFixedRetailPriceExcludingTax,
+  PrePublicationFixedRetailPriceIncludingTax,
+  SupplierSPrePublicationNetPriceExcludingTax,
+  SupplierSPrePublicationNetPriceIncludingTax,
+  FreightPassThroughRrpExcludingTax,
+  FreightPassThroughBillingPriceExcludingTax,
+  ImporterSFixedRetailPriceExcludingTax,
+  ImporterSFixedRetailPriceIncludingTax,
+  PublishersRetailPriceExcludingTax,
+  PublishersRetailPriceIncludingTax
+}

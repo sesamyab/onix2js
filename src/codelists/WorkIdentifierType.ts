@@ -9,3 +9,15 @@ export const WorkIdentifierType = {
   "33": "Owi",
   "39": "Iscc",
 };
+
+export enum WorkIdentifierTypeEnum {
+  Proprietary,
+  Isbn_10,
+  Doi,
+  Istc,
+  Isbn_13,
+  Isrc,
+  Glimir,
+  Owi,
+  Iscc
+}

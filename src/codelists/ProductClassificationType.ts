@@ -15,3 +15,21 @@ export const ProductClassificationType = {
   "14": "UsScheduleB",
   "50": "ElectreGenre",
 };
+
+export enum ProductClassificationTypeEnum {
+  WcoHarmonizedSystem,
+  Unspsc,
+  Hmrc,
+  WarenverzeichnisFRDieAuEnhandelsstatistik,
+  Taric,
+  Fondsgroep,
+  SenderSProductCategory,
+  GappProductClass,
+  Cpa,
+  Ncm,
+  Cpv,
+  PkWiU,
+  Htsus,
+  UsScheduleB,
+  ElectreGenre
+}

@@ -5,3 +5,11 @@ export const BibleTextOrganization = {
   "PAR": "Parallel",
   "STN": "Standard",
 };
+
+export enum BibleTextOrganizationEnum {
+  Chronological,
+  ChainReference,
+  Interlinear,
+  Parallel,
+  Standard
+}

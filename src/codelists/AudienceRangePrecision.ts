@@ -3,3 +3,9 @@ export const AudienceRangePrecision = {
   "03": "From",
   "04": "To",
 };
+
+export enum AudienceRangePrecisionEnum {
+  Exact,
+  From,
+  To
+}

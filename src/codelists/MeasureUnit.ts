@@ -8,3 +8,14 @@ export const MeasureUnit = {
   "oz": "OuncesUs",
   "px": "Pixels",
 };
+
+export enum MeasureUnitEnum {
+  Centimeters,
+  Grams,
+  InchesUs,
+  Kilograms,
+  PoundsUs,
+  Millimeters,
+  OuncesUs,
+  Pixels
+}

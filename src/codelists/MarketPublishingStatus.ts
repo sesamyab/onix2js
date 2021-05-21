@@ -17,3 +17,23 @@ export const MarketPublishingStatus = {
   "15": "Recalled",
   "16": "TemporarilyWithdrawnFromSale",
 };
+
+export enum MarketPublishingStatusEnum {
+  Unspecified,
+  Cancelled,
+  Forthcoming,
+  PostponedIndefinitely,
+  Active,
+  NoLongerOurProduct,
+  OutOfStockIndefinitely,
+  OutOfPrint,
+  Inactive,
+  Unknown,
+  Remaindered,
+  WithdrawnFromSale,
+  NotAvailableInThisMarket,
+  ActiveButNotSoldSeparately,
+  ActiveWithMarketRestrictions,
+  Recalled,
+  TemporarilyWithdrawnFromSale
+}

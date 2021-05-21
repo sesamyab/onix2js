@@ -23,3 +23,29 @@ export const BiblePurpose = {
   "WM": "WomenS",
   "YT": "Youth",
 };
+
+export enum BiblePurposeEnum {
+  Award,
+  Baby,
+  Bride,
+  Confirmation,
+  ChildrenS,
+  Compact,
+  CrossReference,
+  DailyReadings,
+  Devotional,
+  Family,
+  GeneralText,
+  Gift,
+  LecternPulpit,
+  MenS,
+  PrimarySchool,
+  Pew,
+  Scholarly,
+  Slimline,
+  Student,
+  Study,
+  WeddingGift,
+  WomenS,
+  Youth
+}

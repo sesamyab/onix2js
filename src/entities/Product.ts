@@ -1,16 +1,12 @@
-enum NotificationType {
-  EarlyNotification = 1,
-  AdvanceNotification = 2,
-  NotificationConfirmedOnPublication = 3,
-  Update = 4,
-  Delete = 5,
-  NoticeOfSale = 8,
-  NoticeOfAcquisition = 9,
-  TestUpdate = 88,
-  TestRecord = 89,
-}
+import { NotificationOrUpdateTypeEnum } from "../codelists/NotificationOrUpdateType";
+import { ProductIdentifier } from "./ProductIdentifier";
+import { DescriptiveDetail } from "./DescriptiveDetail";
 
 export class Product {
   constructor(productJson) {}
-  notificationType: NotificationType;
+
+  notificationType: NotificationOrUpdateTypeEnum;
+  recordReference: string;
+  productIdentifiers: ProductIdentifier[];
+  descriptiveDetail: DescriptiveDetail;
 }

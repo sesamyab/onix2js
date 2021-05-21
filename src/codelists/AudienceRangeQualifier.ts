@@ -21,3 +21,27 @@ export const AudienceRangeQualifier = {
   "32": "NomenclatureNiveauxDucatifDeBase",
   "33": "FinnishUpperSecondarySchoolCourse_2021",
 };
+
+export enum AudienceRangeQualifierEnum {
+  UsSchoolGradeRange,
+  UkSchoolGrade,
+  ReadingSpeedWordsPerMinute,
+  InterestAgeMonths,
+  InterestAgeYears,
+  ReadingAgeYears,
+  SpanishSchoolGrade,
+  Skoletrinn,
+  Niv,
+  ItalianSchoolGrade,
+  Schulform,
+  Bundesland,
+  Ausbildungsberuf,
+  CanadianSchoolGradeRange,
+  FinnishSchoolGradeRange,
+  FinnishUpperSecondarySchoolCourse,
+  ChineseSchoolGradeRange,
+  NomenclatureNiveauxDucatifDTaill,
+  BrazilEducationLevel,
+  NomenclatureNiveauxDucatifDeBase,
+  FinnishUpperSecondarySchoolCourse_2021
+}

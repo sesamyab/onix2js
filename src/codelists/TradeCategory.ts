@@ -18,3 +18,24 @@ export const TradeCategory = {
   "17": "Podcast",
   "18": "Periodical",
 };
+
+export enum TradeCategoryEnum {
+  UkOpenMarketEdition,
+  AirportEdition,
+  Sonderausgabe,
+  PocketBook,
+  InternationalEditionUs,
+  LibraryAudioEdition,
+  UsOpenMarketEdition,
+  LivreScolaireDClarParLDiteur,
+  LivreScolaireNonSpCifi,
+  SupplementToNewspaper,
+  PrecioLibreTextbook,
+  NewsOutletEdition,
+  UsTextbook,
+  EBookShort,
+  SuperpocketBook,
+  BeauLivre,
+  Podcast,
+  Periodical
+}

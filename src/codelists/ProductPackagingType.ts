@@ -22,3 +22,28 @@ export const ProductPackagingType = {
   "23": "CarryCase",
   "24": "InTin",
 };
+
+export enum ProductPackagingTypeEnum {
+  NoOuterPackaging,
+  SlipSleeve,
+  Clamshell,
+  KeepCase,
+  JewelCase,
+  Digipak,
+  InBox,
+  SlipCased,
+  SlipCasedSet,
+  Tube,
+  Binder,
+  InWalletOrFolder,
+  LongTriangularPackage,
+  LongSquarePackage,
+  SoftboxForDvd,
+  Pouch,
+  RigidPlasticCase,
+  CardboardCase,
+  ShrinkWrapped,
+  BlisterPack,
+  CarryCase,
+  InTin
+}

@@ -17,3 +17,23 @@ export const BibleContents = {
   "PT": "Pentateuch",
   "ZZ": "OtherPortions",
 };
+
+export enum BibleContentsEnum {
+  ApocryphaCatholicCanon,
+  ApocryphaCanonUnspecified,
+  AdditionalApocryphalTextsGreekOrthodoxCanon,
+  AdditionalApocryphalTextsSlavonicOrthodoxCanon,
+  AdditionalApocryphalTexts,
+  GeneralCanonWithApocryphaCatholicCanon,
+  GeneralCanonWithApocryphalTextsCanonUnspecified,
+  GeneralCanon,
+  Gospels,
+  OldTestament,
+  NewTestament,
+  NewTestamentWithPsalmsAndProverbs,
+  PaulSEpistles,
+  PsalmsAndProverbs,
+  Psalms,
+  Pentateuch,
+  OtherPortions
+}

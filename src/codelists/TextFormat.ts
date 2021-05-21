@@ -5,3 +5,11 @@ export const TextFormat = {
   "06": "DefaultTextFormat",
   "07": "BasicAsciiText",
 };
+
+export enum TextFormatEnum {
+  Html,
+  Xml,
+  Xhtml,
+  DefaultTextFormat,
+  BasicAsciiText
+}

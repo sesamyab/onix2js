@@ -12,3 +12,18 @@ export const DvdRegion = {
   "B": "BluRayRegionB",
   "C": "BluRayRegionC",
 };
+
+export enum DvdRegionEnum {
+  AllRegions,
+  DvdRegion_1,
+  DvdRegion_2,
+  DvdRegion_3,
+  DvdRegion_4,
+  DvdRegion_5,
+  DvdRegion_6,
+  DvdRegion_7,
+  DvdRegion_8,
+  BluRayRegionA,
+  BluRayRegionB,
+  BluRayRegionC
+}

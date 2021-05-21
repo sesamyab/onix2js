@@ -18,3 +18,24 @@ export const PublishingRole = {
   "18": "Binder",
   "19": "Manufacturer",
 };
+
+export enum PublishingRoleEnum {
+  Publisher,
+  CoPublisher,
+  Sponsor,
+  PublisherOfOriginalLanguageVersion,
+  HostDistributorOfElectronicContent,
+  PublishedForOnBehalfOf,
+  PublishedInAssociationWith,
+  NewOrAcquiringPublisher,
+  PublishingGroup,
+  PublisherOfFacsimileOriginal,
+  RepackagerOfPreboundEdition,
+  FormerPublisher,
+  PublicationFunder,
+  ResearchFunder,
+  FundingBody,
+  Printer,
+  Binder,
+  Manufacturer
+}

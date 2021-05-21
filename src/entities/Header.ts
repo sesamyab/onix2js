@@ -1,4 +1,6 @@
+import { Sender } from "./Sender";
+
 export class Header {
-  sender: any;
+  sender: Sender;
   senderDateTime: Date;
 }

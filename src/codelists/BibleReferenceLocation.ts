@@ -6,3 +6,12 @@ export const BibleReferenceLocation = {
   "UNK": "Unknown",
   "ZZZ": "Other",
 };
+
+export enum BibleReferenceLocationEnum {
+  CenterColumn,
+  PageEnd,
+  SideColumn,
+  VerseEnd,
+  Unknown,
+  Other
+}

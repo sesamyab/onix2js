@@ -4,3 +4,10 @@ export const TextCaseFlag = {
   "02": "TitleCase",
   "03": "AllCapitals",
 };
+
+export enum TextCaseFlagEnum {
+  Undefined,
+  SentenceCase,
+  TitleCase,
+  AllCapitals
+}

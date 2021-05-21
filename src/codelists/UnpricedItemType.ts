@@ -7,3 +7,13 @@ export const UnpricedItemType = {
   "06": "RevenueShare",
   "07": "CalculatedFromContents",
 };
+
+export enum UnpricedItemTypeEnum {
+  FreeOfCharge,
+  PriceToBeAnnounced,
+  NotSoldSeparately,
+  ContactSupplier,
+  NotSoldAsSet,
+  RevenueShare,
+  CalculatedFromContents
+}

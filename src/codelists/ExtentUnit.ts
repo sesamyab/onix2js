@@ -14,3 +14,20 @@ export const ExtentUnit = {
   "18": "Kbytes",
   "19": "Mbytes",
 };
+
+export enum ExtentUnitEnum {
+  Characters,
+  Words,
+  Pages,
+  HoursIntegerAndDecimals,
+  MinutesIntegerAndDecimals,
+  SecondsIntegerOnly,
+  Tracks,
+  Discs,
+  HoursHhh,
+  HoursAndMinutesHhhmm,
+  HoursMinutesSecondsHhhmmss,
+  Bytes,
+  Kbytes,
+  Mbytes
+}

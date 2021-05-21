@@ -19,3 +19,25 @@ export const DateFormat = {
   "25": "YyyyH",
   "32": "TextStringH",
 };
+
+export enum DateFormatEnum {
+  Yyyymmdd,
+  Yyyymm,
+  Yyyyww,
+  Yyyyq,
+  Yyyys,
+  Yyyy,
+  Yyyymmddyyyymmdd,
+  Yyyymmyyyymm,
+  Yyyywwyyyyww,
+  Yyyyqyyyyq,
+  Yyyysyyyys,
+  Yyyyyyyy,
+  TextString,
+  YyyymmddThhmm,
+  YyyymmddThhmmss,
+  YyyymmddH,
+  YyyymmH,
+  YyyyH,
+  TextStringH
+}

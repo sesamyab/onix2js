@@ -5,6 +5,7 @@ import {
   ObjectLiteralExpression,
   IndentationText,
 } from "ts-morph";
+import { uniq } from "lodash";
 
 import { pascalCase } from "change-case";
 
@@ -37,13 +38,27 @@ async function generateCodelist(codelist) {
     });
   });
 
+  const codes = codelist.Code.map((code) => ({
+    name: pascalCase(code.CodeDescription),
+  }));
+
+  sourceFile.addEnum({
+    name: `${name}Enum`,
+    members: uniq(codes),
+    isExported: true,
+  });
+
   // asynchronously save all the changes above
   await project.save();
 }
 
 async function generate(codelists) {
-  for (let i = 1; i < codelists.length; i += 1) {
-    await generateCodelist(codelists[i]);
+  for (let i = 0; i < codelists.length; i += 1) {
+    try {
+      await generateCodelist(codelists[i]);
+    } catch (err) {
+      console.log(err.message);
+    }
   }
 }
 
