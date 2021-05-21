@@ -1,7 +1,7 @@
 export const TextFormat = {
-    "02": "Html",
-    "03": "Xml",
-    "05": "Xhtml",
-    "06": "DefaultTextFormat",
-    "07": "BasicAsciiText"
+  "02": "Html",
+  "03": "Xml",
+  "05": "Xhtml",
+  "06": "DefaultTextFormat",
+  "07": "BasicAsciiText",
 };

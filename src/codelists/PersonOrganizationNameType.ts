@@ -1,10 +1,10 @@
 export const PersonOrganizationNameType = {
-    "00": "Unspecified",
-    "01": "Pseudonym",
-    "02": "AuthorityControlledName",
-    "03": "EarlierName",
-    "04": "RealName",
-    "05": "TransliteratedFormOfPrimaryName",
-    "06": "LaterName",
-    "07": "FictionalCharacterName"
+  "00": "Unspecified",
+  "01": "Pseudonym",
+  "02": "AuthorityControlledName",
+  "03": "EarlierName",
+  "04": "RealName",
+  "05": "TransliteratedFormOfPrimaryName",
+  "06": "LaterName",
+  "07": "FictionalCharacterName",
 };

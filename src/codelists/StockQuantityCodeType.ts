@@ -1,4 +1,4 @@
 export const StockQuantityCodeType = {
-    "01": "Proprietary",
-    "02": "ApaStockQuantityCode"
+  "01": "Proprietary",
+  "02": "ApaStockQuantityCode",
 };

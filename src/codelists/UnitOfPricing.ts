@@ -1,4 +1,4 @@
 export const UnitOfPricing = {
-    "00": "PerCopyOfWholeProduct",
-    "01": "PerPageForPrintedLooseLeafContentOnly"
+  "00": "PerCopyOfWholeProduct",
+  "01": "PerPageForPrintedLooseLeafContentOnly",
 };

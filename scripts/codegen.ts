@@ -3,6 +3,7 @@ import {
   Writers,
   VariableDeclarationKind,
   ObjectLiteralExpression,
+  IndentationText,
 } from "ts-morph";
 
 import { pascalCase } from "change-case";
@@ -10,7 +11,12 @@ import { pascalCase } from "change-case";
 import * as data from "../onix53.json";
 
 async function generateCodelist(codelist) {
-  const project = new Project({});
+  const project = new Project({
+    manipulationSettings: {
+      indentationText: IndentationText.TwoSpaces,
+      useTrailingCommas: true,
+    },
+  });
 
   const name = pascalCase(codelist.CodeListDescription);
   const sourceFile = project.createSourceFile(`src/codelists/${name}.ts`, {});
