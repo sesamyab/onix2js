@@ -1,11 +1,15 @@
 import { Header } from "./Header";
 import { Product } from "./Product";
+import { parseStringPromise } from "xml2js";
 
 export default class Onix {
-  constructor(onixJson, { mode = "strict" }) {}
+  constructor(onixJson: any, { mode = "strict" }) {
+    this.header = new Header(onixJson.header);
+    this.product = new Product(onixJson.product);
+  }
 
-  static parse(xmlText) {
-    const onixJson = {}; // Parse the xml
+  static async parse(xmlText) {
+    const onixJson = await parseStringPromise(xmlText);
     return new Onix(onixJson, {});
   }
 
