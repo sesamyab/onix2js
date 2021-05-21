@@ -4,11 +4,10 @@ import {
 } from "../codelists/ContributorRoleCode";
 
 export class Contributor {
-  constructor(contributorJson) {
-    this.personName = contributorJson.PersonName[0];
-    this.personNameInverted = contributorJson.PersonNameInverted[0];
-    this.contributorRole =
-      ContributorRoleCode[contributorJson.ContributorRole[0]];
+  constructor(json) {
+    this.personName = json.PersonName[0];
+    this.personNameInverted = json.PersonNameInverted[0];
+    this.contributorRole = ContributorRoleCode[json.ContributorRole[0]];
   }
 
   contributorRole: ContributorRoleCodeEnum;

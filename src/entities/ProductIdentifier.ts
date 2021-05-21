@@ -4,10 +4,9 @@ import {
 } from "../codelists/ProductIdentifierType";
 
 export class ProductIdentifier {
-  constructor(productIndetifierJson) {
-    this.productType =
-      ProductIdentifierType[productIndetifierJson.ProductIDType[0]];
-    this.idValue = productIndetifierJson.IDValue[0];
+  constructor(json) {
+    this.productType = ProductIdentifierType[json.ProductIDType[0]];
+    this.idValue = json.IDValue[0];
   }
 
   productType: ProductIdentifierTypeEnum;

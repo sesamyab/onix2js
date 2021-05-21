@@ -3,9 +3,9 @@ import { Product } from "./Product";
 import { parseStringPromise } from "xml2js";
 
 export default class Onix {
-  constructor(onixJson: any, { mode = "strict" }) {
-    this.header = new Header(onixJson.Header[0]);
-    this.products = onixJson.Product.map((product) => new Product(product));
+  constructor(json: any, { mode = "strict" }) {
+    this.header = new Header(json.Header[0]);
+    this.products = json.Product.map((product) => new Product(product));
   }
 
   static async parse(xmlText) {

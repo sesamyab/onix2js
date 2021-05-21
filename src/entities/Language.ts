@@ -1,9 +1,9 @@
 import { LanguageRoleEnum, LanguageRole } from "../codelists/LanguageRole";
 
 export class Language {
-  constructor(languageJson) {
-    this.languageCode = languageJson.LanguageCode[0];
-    this.languageRole = LanguageRole[languageJson.LanguageRole[0]];
+  constructor(json) {
+    this.languageCode = json.LanguageCode[0];
+    this.languageRole = LanguageRole[json.LanguageRole[0]];
   }
 
   languageRole: LanguageRoleEnum;

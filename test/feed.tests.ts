@@ -72,6 +72,36 @@ describe("Feeds", () => {
               },
             ],
           },
+          collateralDetail: {
+            textContent: {
+              contentAudience: "Unrestricted",
+              text: "Den stora valen Moby Dick är kapten Ahabs största fiende. I en tidigare strid med valen har Ahab förlorat sitt ben. Nu beger han sig ut på jakt efter det väldiga djuret. En ung man ombord, Ismael, blir vittne till kaptenens totala besatthet och märker att han är beredd att offra allting, sitt liv, sitt skepp och sin besättning. <br><br> Översättningen är gjord av Per Erik Wahlund som även har skrivit inledningen och de utförliga ord- och namnförklaringarna i slutet av boken.",
+              textFormat: "Html",
+              textType: "Description",
+            },
+            supportingResources: [
+              {
+                resourceContentType: "FrontCover",
+                contentAudience: "Unrestricted",
+                resourceMode: "Image",
+                resourceVersion: {
+                  resourceForm: "DownloadableFile",
+                  resourceLink:
+                    "https://images.xx.se/cover/1002443/1002443_202008061615.jpg",
+                },
+              },
+              {
+                resourceContentType: "SampleContent",
+                contentAudience: "Unrestricted",
+                resourceMode: "Text",
+                resourceVersion: {
+                  resourceForm: "DownloadableFile",
+                  resourceLink:
+                    "https://samplefiles.xx.se/epub/1002443/1002443_201512091111.epub",
+                },
+              },
+            ],
+          },
         },
       ],
     };
