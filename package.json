@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^15.0.1"
+    "@types/node": "^15.0.1",
+    "ts-morph": "10.1.0"
   }
 }

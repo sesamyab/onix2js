@@ -5,6 +5,17 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Codegen",
+            "program": "${workspaceFolder}/scripts/codegen.ts",
+            "request": "launch",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "type": "pwa-node",
+            "preLaunchTask": "tsc: build - tsconfig.json",
+            "outFiles": ["${workspaceFolder}/out/**/*.js"]
+        },
+        {
             "type": "pwa-node",
             "request": "launch",
             "name": "Launch Program",

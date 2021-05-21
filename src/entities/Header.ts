@@ -1,1 +1,4 @@
-export class Header {}
+export class Header {
+  sender: any;
+  senderDateTime: Date;
+}
