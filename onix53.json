@@ -2085,8 +2085,7 @@
 					{
 						"CodeValue": 22,
 						"CodeDescription": "Filesize",
-						"CodeNotes": "Approximate size of a digital file or package (in the form it is downloaded), expressed in the specified extent unit"
-						},
+						"CodeNotes": "Approximate size of a digital file or package (in the form it is downloaded), expressed in the specified extent unit",						
 						"IssueNumber": 0,
 						"ModifiedNumber": 53
 					},

@@ -10,6 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^15.0.1",
+    "change-case": "4.1.2",
     "ts-morph": "10.1.0"
   }
 }

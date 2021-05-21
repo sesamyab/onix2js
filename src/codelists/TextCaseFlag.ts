@@ -1,0 +1,6 @@
+export const TextCaseFlag = {
+    "00": "Undefined",
+    "01": "SentenceCase",
+    "02": "TitleCase",
+    "03": "AllCapitals"
+};

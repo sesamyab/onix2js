@@ -5,41 +5,44 @@ import {
   ObjectLiteralExpression,
 } from "ts-morph";
 
-async function generate(codelist) {
-  // initialize
-  const project = new Project({
-    // Optionally specify compiler options, tsconfig.json, in-memory file system, and more here.
-    // If you initialize with a tsconfig.json, then it will automatically populate the project
-    // with the associated source files.
-    // Read more: https://ts-morph.com/setup/
-  });
+import { pascalCase } from "change-case";
 
-  const sourceFile = project.createSourceFile(
-    "src/codelists/MyCodelist.ts",
-    {}
-  );
+import * as data from "../onix53.json";
+
+async function generateCodelist(codelist) {
+  const project = new Project({});
+
+  const name = pascalCase(codelist.CodeListDescription);
+  const sourceFile = project.createSourceFile(`src/codelists/${name}.ts`, {});
 
   const prop = sourceFile
     .addVariableStatement({
       declarationKind: VariableDeclarationKind.Const,
-      declarations: [{ name: "ViewStore", initializer: Writers.object({}) }],
+      declarations: [{ name, initializer: Writers.object({}) }],
       isExported: true,
     })
-    // .setIsDefaultExport(true)
     .getDeclarations()[0]
     .getInitializer() as ObjectLiteralExpression;
 
-  prop.addPropertyAssignment({
-    name: "someProp",
-    initializer: "'ur mum'",
+  codelist.Code.forEach((code) => {
+    prop.addPropertyAssignment({
+      name: `"${code.CodeValue}"`,
+      initializer: `"${pascalCase(code.CodeDescription)}"`,
+    });
   });
 
   // asynchronously save all the changes above
   await project.save();
 }
 
+async function generate(codelists) {
+  for (let i = 1; i < codelists.length; i += 1) {
+    await generateCodelist(codelists[i]);
+  }
+}
+
 console.log("start");
-generate()
+generate(data.ONIXCodeTable.CodeList)
   .then(() => {
     console.log("done");
   })
