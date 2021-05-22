@@ -1,29 +1,41 @@
 import { Publisher } from "./Publisher";
 import { PublishingDate } from "./PublishingDate";
 import { SalesRights } from "./SalesRights";
+import { Imprint } from "./Imprint";
 
 import {
   PublishingStatusEnum,
   PublishingStatus,
 } from "../codelists/PublishingStatus";
 
+import { parseValue, parseType } from "../utils/parse";
+
 export class PublishingDetail {
   constructor(json) {
-    this.publisher = new Publisher(json.Publisher[0]);
-    this.publishingStatus = PublishingStatus[json.PublishingStatus[0]];
+    this.publisher = new Publisher(parseValue(json, "Publisher"));
+    this.publishingStatus = parseType(
+      json,
+      "PublishingStatus",
+      PublishingStatus
+    );
     this.publishingDates = json.PublishingDate.map(
       (pd) => new PublishingDate(pd)
     );
-    this.salesRights = new SalesRights(json.SalesRights[0]);
+    this.salesRights = new SalesRights(parseValue(json, "SalesRights"));
+    this.imprint = new Imprint(parseValue(json, "Imprint"));
   }
 
   publisher: Publisher;
   publishingStatus: PublishingStatusEnum;
   publishingDates: PublishingDate[];
   salesRights: SalesRights;
+  imprint: Imprint;
 }
 
 // <PublishingDetail>
+//   <Imprint>
+//     <ImprintName>Cicero</ImprintName>
+//   </Imprint>
 //   <Publisher>
 //     <PublishingRole>01</PublishingRole>
 //     <PublisherName>xx Media</PublisherName>

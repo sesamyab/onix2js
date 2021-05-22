@@ -8,7 +8,13 @@ export function parseValue(json: Object, path: string) {
   }
 
   if (Array.isArray(value)) {
-    return value[0];
+    const [item] = value;
+
+    if (item._) {
+      return trim(item._);
+    }
+
+    return trim(item);
   }
 
   return value;
@@ -27,5 +33,13 @@ export function parseType(json: Object, path: string, type: Object) {
     return null;
   }
 
-  return typedValue;
+  return trim(typedValue);
+}
+
+export function trim(text: string): any {
+  if (typeof text !== "string") {
+    return text;
+  }
+
+  return text.replace(/^\s+|\s+$/g, "");
 }

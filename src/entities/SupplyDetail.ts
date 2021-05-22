@@ -4,12 +4,17 @@ import {
   ProductAvailabilityEnum,
   ProductAvailability,
 } from "../codelists/ProductAvailability";
+import { parseValue, parseType } from "../utils/parse";
 
 export class SupplyDetail {
   constructor(json) {
-    this.supplier = new Supplier(json.Supplier[0]);
-    this.price = new Price(json.Price[0]);
-    this.productAvailability = ProductAvailability[json.ProductAvailability[0]];
+    this.supplier = new Supplier(parseValue(json, "Supplier"));
+    this.price = new Price(parseValue(json, "Price"));
+    this.productAvailability = parseType(
+      json,
+      "ProductAvailability",
+      ProductAvailability
+    );
   }
 
   supplier: Supplier;
@@ -21,6 +26,9 @@ export class SupplyDetail {
 //     <Supplier>
 //         <SupplierRole>03</SupplierRole>
 //         <SupplierName>xx Media AB</SupplierName>
+//         <Website>
+//            <WebsiteLink>ftp://ftp.qa.xx.dk/yy.epub</WebsiteLink>
+//         </Website>
 //     </Supplier>
 //     <ProductAvailability>20</ProductAvailability>
 //     <Price>

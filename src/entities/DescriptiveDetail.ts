@@ -20,6 +20,7 @@ import { TitleDetail } from "./TitleDetail";
 import { Contributor } from "./Contributor";
 import { Language } from "./Language";
 import { Subject } from "./Subject";
+import { Extent } from "./Extent";
 
 export class DescriptiveDetail {
   constructor(json) {
@@ -31,9 +32,10 @@ export class DescriptiveDetail {
       EPublicationTechnicalProtection[json.EpubTechnicalProtection[0]];
 
     this.titleDetail = new TitleDetail(json.TitleDetail[0]);
-    this.contributors = json.Contributor.map((c) => new Contributor(c));
-    this.languages = json.Language.map((l) => new Language(l));
-    this.subjects = json.Subject.map((s) => new Subject(s));
+    this.contributors = json.Contributor?.map((c) => new Contributor(c)) || [];
+    this.languages = json.Language?.map((l) => new Language(l)) || [];
+    this.subjects = json.Subject?.map((s) => new Subject(s)) || [];
+    this.extents = json.Extent?.map((e) => new Extent(e)) || [];
   }
 
   productComposition: ProductCompositionEnum;
@@ -45,4 +47,5 @@ export class DescriptiveDetail {
   contributors: Contributor[];
   languages: Language[];
   subjects: Subject[];
+  extents: Extent[];
 }

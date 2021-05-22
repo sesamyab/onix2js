@@ -11,7 +11,7 @@ export class TextContent {
     this.textType = TextType[json.TextType[0]];
     this.contentAudience = ContentAudience[json.ContentAudience[0]];
 
-    this.text = parseValue(json, "Text.0._");
+    this.text = parseValue(json, "Text");
     this.textFormat = parseType(json, "Text.0.$.textformat", TextFormat);
   }
 

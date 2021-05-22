@@ -48,11 +48,15 @@ describe("Feeds", () => {
                 contributorRole: "ByAuthor",
                 personName: "Herman Melville",
                 personNameInverted: "Melville, Herman",
+                keyNames: null,
+                namesBeforeKey: null,
               },
               {
                 contributorRole: "TranslatedBy",
                 personName: "Per Erik Wahlund",
                 personNameInverted: "Wahlund, Per Erik",
+                keyNames: null,
+                namesBeforeKey: null,
               },
             ],
             languages: [
@@ -61,6 +65,7 @@ describe("Feeds", () => {
                 languageRole: "LanguageOfText",
               },
             ],
+            extents: [],
             subjects: [
               {
                 subjectCode: "FA",
@@ -103,6 +108,9 @@ describe("Feeds", () => {
             ],
           },
           publishingDetail: {
+            imprint: {
+              imprintName: null,
+            },
             publisher: {
               publishingRole: "Publisher",
             },
@@ -132,6 +140,9 @@ describe("Feeds", () => {
               supplier: {
                 supplierName: "xx Media AB",
                 supplierRole: "PublisherSNonExclusiveDistributorToRetailers",
+                website: {
+                  websiteLink: null,
+                },
               },
               price: {
                 priceType: "SupplierSNetPriceExcludingTax",
@@ -187,11 +198,15 @@ describe("Feeds", () => {
             contributors: [
               {
                 contributorRole: "ByAuthor",
+                keyNames: "Webb",
+                namesBeforeKey: "Katherine",
                 personName: null,
                 personNameInverted: null,
               },
               {
                 contributorRole: "TranslatedBy",
+                keyNames: "Oxvig",
+                namesBeforeKey: "Ulla",
                 personName: null,
                 personNameInverted: null,
               },
@@ -200,6 +215,18 @@ describe("Feeds", () => {
               {
                 languageCode: "dan",
                 languageRole: "LanguageOfText",
+              },
+            ],
+            extents: [
+              {
+                extentType: "MainContentPageCount",
+                extentUnit: "Pages",
+                extentValue: "384",
+              },
+              {
+                extentType: "Filesize",
+                extentUnit: "Kbytes",
+                extentValue: "962",
               },
             ],
             subjects: [
@@ -240,7 +267,7 @@ describe("Feeds", () => {
           collateralDetail: {
             textContent: {
               contentAudience: "Unrestricted",
-              text: null,
+              text: "<p>England 1922. Da en grusom forbrydelse finder sted i den idylliske landsby Slaughterford, sender det rystelser gennem det lille samfund, som forandrer byen og menneskene i den for altid.</p><p>Hos den velhavende Hadleigh-familie på Manor Farm arbejder den 15-årige landsbypige Pudding Cartwright i hestestalden. Som alle andre i den lille by holder Pudding af sin altid venlige og elskværdige arbejdsgiver, Alistair, og hun er på nærmeste hold vidne til det ulykkelige ægteskab mellem Alistair og storbypigen Irene. Irene har nemlig i al hast forladt London og den mand, hun virkelig elsker, for at undgå at gøre skandale, og hun kæmper nu med at vænne sig til sit nye liv i den lille, søvnige by.</p><p>Da et mord bliver begået, sender det chokbølger gennem den lille by, og Puddings bror, Donny, der ikke har været sig selv, siden han kom tilbage fra krigen, mistænkes for at stå bag forbrydelsen. Med hjælp fra Irene må Pudding nu gå i gang med at afdække, hvad der virkelig skete, og med det afsløres sandheder, som ingen af dem kunne have forudset.</p>",
               textFormat: null,
               textType: "Description",
             },
@@ -257,6 +284,9 @@ describe("Feeds", () => {
             ],
           },
           publishingDetail: {
+            imprint: {
+              imprintName: "Cicero",
+            },
             publisher: {
               publishingRole: "Publisher",
             },
@@ -282,6 +312,9 @@ describe("Feeds", () => {
               supplier: {
                 supplierName: "Gyldendal",
                 supplierRole: "Unspecified",
+                website: {
+                  websiteLink: "ftp://ftp.qa.xx.dk/yy.epub",
+                },
               },
               price: {
                 priceType: "SupplierSNetPriceExcludingTax",
