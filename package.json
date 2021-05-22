@@ -2,13 +2,16 @@
   "name": "onix2js",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "mocha"
   },
   "author": "Markus Ahlstrand",
   "license": "MIT",
+  "files": [
+    "dist/**/*"
+  ],
   "devDependencies": {
     "@types/mocha": "^8.2.2",
     "@types/node": "^15.0.1",
