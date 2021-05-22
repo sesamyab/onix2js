@@ -4,13 +4,15 @@ import {
   ContentAudienceEnum,
   ContentAudience,
 } from "../codelists/ContentAudience";
+import { parseValue } from "../utils/parse";
 
 export class TextContent {
-  constructor(subjectJson) {
-    this.textType = TextType[subjectJson.TextType[0]];
-    this.contentAudience = ContentAudience[subjectJson.ContentAudience[0]];
-    this.text = subjectJson.Text[0]._;
-    this.textFormat = TextFormat[subjectJson.Text[0].$.textformat];
+  constructor(json) {
+    this.textType = TextType[json.TextType[0]];
+    this.contentAudience = ContentAudience[json.ContentAudience[0]];
+
+    this.text = parseValue(json, "Text.0._");
+    this.textFormat = TextFormat[parseValue(json, "Text.0.$.textformat")];
   }
 
   textType: TextTypeEnum;

@@ -4,10 +4,10 @@ import {
 } from "../codelists/SubjectSchemeIdentifier";
 
 export class Subject {
-  constructor(subjectJson) {
+  constructor(json) {
     this.subjectSchemeIdentifier =
-      SubjectSchemeIdentifier[subjectJson.SubjectSchemeIdentifier[0]];
-    this.subjectCode = subjectJson.SubjectCode[0];
+      SubjectSchemeIdentifier[json.SubjectSchemeIdentifier[0]];
+    this.subjectCode = json.SubjectCode[0];
   }
 
   subjectSchemeIdentifier: SubjectSchemeIdentifierEnum;

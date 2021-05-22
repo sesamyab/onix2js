@@ -2,11 +2,12 @@ import {
   ContributorRoleCodeEnum,
   ContributorRoleCode,
 } from "../codelists/ContributorRoleCode";
+import { parseValue } from "../utils/parse";
 
 export class Contributor {
   constructor(json) {
-    this.personName = json.PersonName[0];
-    this.personNameInverted = json.PersonNameInverted[0];
+    this.personName = parseValue(json, "PersonName");
+    this.personNameInverted = parseValue(json, "PersonNameInverted");
     this.contributorRole = ContributorRoleCode[json.ContributorRole[0]];
   }
 

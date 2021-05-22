@@ -5,6 +5,9 @@ import {
 import { ProductIdentifier } from "./ProductIdentifier";
 import { DescriptiveDetail } from "./DescriptiveDetail";
 import { CollateralDetail } from "./CollateralDetail";
+import { PublishingDetail } from "./PublishingDetail";
+import { RelatedMaterial } from "./RelatedMaterial";
+import { ProductSupply } from "./ProductSupply";
 
 export class Product {
   constructor(json) {
@@ -15,6 +18,9 @@ export class Product {
     );
     this.descriptiveDetail = new DescriptiveDetail(json.DescriptiveDetail[0]);
     this.collateralDetail = new CollateralDetail(json.CollateralDetail[0]);
+    this.publishingDetail = new PublishingDetail(json.PublishingDetail[0]);
+    this.relatedMaterial = new RelatedMaterial(json.RelatedMaterial[0]);
+    this.productSupply = new ProductSupply(json.ProductSupply[0]);
   }
 
   notificationType: NotificationOrUpdateTypeEnum;
@@ -22,4 +28,7 @@ export class Product {
   productIdentifiers: ProductIdentifier[];
   descriptiveDetail: DescriptiveDetail;
   collateralDetail: CollateralDetail;
+  publishingDetail: PublishingDetail;
+  relatedMaterial: RelatedMaterial;
+  productSupply: ProductSupply;
 }
