@@ -2,12 +2,13 @@
     "compilerOptions": {
         "target": "es5",
         "module": "commonjs",
-        "outDir": "out",
+        "outDir": "dist",
         "sourceMap": true,
         "resolveJsonModule": true,
         "esModuleInterop": true,
     },
     "exclude": [
         "scripts",        
+        "test"
     ]
 }

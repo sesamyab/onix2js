@@ -1,1 +1,3 @@
-console.log("test");
+import Onix from "./entities/Onix";
+
+export default Onix;

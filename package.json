@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "mocha"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Markus Ahlstrand",
+  "license": "MIT",
   "devDependencies": {
     "@types/mocha": "^8.2.2",
     "@types/node": "^15.0.1",
