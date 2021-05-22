@@ -2,7 +2,7 @@ import { expect } from "chai";
 import { Header } from "../../src/entities/Header";
 
 describe("header", () => {
-  it("should work", () => {
+  it("create class", () => {
     const header = new Header({
       Sender: [
         {

@@ -8,6 +8,7 @@ import { CollateralDetail } from "./CollateralDetail";
 import { PublishingDetail } from "./PublishingDetail";
 import { RelatedMaterial } from "./RelatedMaterial";
 import { ProductSupply } from "./ProductSupply";
+import { parseValue } from "../utils/parse";
 
 export class Product {
   constructor(json) {
@@ -18,9 +19,13 @@ export class Product {
     );
     this.descriptiveDetail = new DescriptiveDetail(json.DescriptiveDetail[0]);
     this.collateralDetail = new CollateralDetail(json.CollateralDetail[0]);
-    this.publishingDetail = new PublishingDetail(json.PublishingDetail[0]);
-    this.relatedMaterial = new RelatedMaterial(json.RelatedMaterial[0]);
-    this.productSupply = new ProductSupply(json.ProductSupply[0]);
+    this.publishingDetail = new PublishingDetail(
+      parseValue(json, "PublishingDetail")
+    );
+    this.relatedMaterial = new RelatedMaterial(
+      parseValue(json, "RelatedMaterial")
+    );
+    this.productSupply = new ProductSupply(parseValue(json, "ProductSupply"));
   }
 
   notificationType: NotificationOrUpdateTypeEnum;
