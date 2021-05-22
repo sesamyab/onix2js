@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ContributorRoleCode = {
   "A01": "ByAuthor",
   "A02": "With",
@@ -227,3 +230,4 @@ export enum ContributorRoleCodeEnum {
   VariousRoles,
   Other
 }
+  

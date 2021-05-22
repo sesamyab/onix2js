@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const PriceType = {
   "01": "RrpExcludingTax",
   "02": "RrpIncludingTax",
@@ -57,3 +60,4 @@ export enum PriceTypeEnum {
   PublishersRetailPriceExcludingTax,
   PublishersRetailPriceIncludingTax
 }
+  

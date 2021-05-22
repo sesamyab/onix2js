@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const UsageType = {
   "00": "NoConstraints",
   "01": "Preview",
@@ -25,3 +28,4 @@ export enum UsageTypeEnum {
   MultiUserLicense,
   PreviewOnPremises
 }
+  

@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const SeriesIdentifierType = {
   "01": "Proprietary",
   "02": "Issn",
@@ -25,3 +28,4 @@ export enum SeriesIdentifierTypeEnum {
   Ark,
   IssnL
 }
+  

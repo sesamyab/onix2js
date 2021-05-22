@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ProductAvailability = {
   "01": "Cancelled",
   "09": "NotYetAvailablePostponedIndefinitely",
@@ -63,3 +66,4 @@ export enum ProductAvailabilityEnum {
   NoLongerReceivingUpdates,
   ContactSupplier
 }
+  

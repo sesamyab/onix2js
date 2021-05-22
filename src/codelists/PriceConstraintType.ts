@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const PriceConstraintType = {
   "00": "NoConstraints",
   "06": "Lend",
@@ -15,3 +18,4 @@ export enum PriceConstraintTypeEnum {
   MultiUserLicense,
   PreviewOnPremises
 }
+  

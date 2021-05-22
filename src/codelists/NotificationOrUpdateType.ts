@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const NotificationOrUpdateType = {
   "01": "EarlyNotification",
   "02": "AdvanceNotificationConfirmed",
@@ -21,3 +24,4 @@ export enum NotificationOrUpdateTypeEnum {
   TestUpdatePartial,
   TestRecord
 }
+  

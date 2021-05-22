@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const MeasureType = {
   "01": "Height",
   "02": "Width",
@@ -61,3 +64,4 @@ export enum MeasureTypeEnum {
   PalletHeight,
   PalletWeight
 }
+  

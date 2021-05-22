@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const OnixAdultAudienceRating = {
   "00": "Unrated",
   "01": "AnyAdultAudience",
@@ -19,3 +22,4 @@ export enum OnixAdultAudienceRatingEnum {
   ContentWarningLanguage,
   ContentWarningIntolerance
 }
+  

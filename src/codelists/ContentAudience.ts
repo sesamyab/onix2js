@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ContentAudience = {
   "00": "Unrestricted",
   "01": "Restricted",
@@ -25,3 +28,4 @@ export enum ContentAudienceEnum {
   SearchEngineIndex,
   Bloggers
 }
+  

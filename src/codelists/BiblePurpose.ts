@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const BiblePurpose = {
   "AW": "Award",
   "BB": "Baby",
@@ -49,3 +52,4 @@ export enum BiblePurposeEnum {
   WomenS,
   Youth
 }
+  

@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const TextScriptBasedOnIso_15924 = {
   "Adlm": "Adlam",
   "Afak": "Afaka",
@@ -381,3 +384,4 @@ export enum TextScriptBasedOnIso_15924Enum {
   CodeForUndeterminedScript,
   CodeForUncodedScript
 }
+  

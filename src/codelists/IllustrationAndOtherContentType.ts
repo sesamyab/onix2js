@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const IllustrationAndOtherContentType = {
   "00": "UnspecifiedSeeDescription",
   "01": "IllustrationsBlackAndWhite",
@@ -65,3 +68,4 @@ export enum IllustrationAndOtherContentTypeEnum {
   Glossary,
   TableOfContents
 }
+  

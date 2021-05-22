@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const WebsiteRole = {
   "00": "UnspecifiedSeeWebsiteDescription",
   "01": "PublisherSCorporateWebsite",
@@ -93,3 +96,4 @@ export enum WebsiteRoleEnum {
   PublisherSWebsiteForDigitalPreservation,
   ThirdPartyWebsiteForDigitalPreservation
 }
+  

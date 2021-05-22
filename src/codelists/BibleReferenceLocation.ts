@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const BibleReferenceLocation = {
   "CCL": "CenterColumn",
   "PGE": "PageEnd",
@@ -15,3 +18,4 @@ export enum BibleReferenceLocationEnum {
   Unknown,
   Other
 }
+  

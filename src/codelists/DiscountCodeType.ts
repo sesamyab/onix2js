@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const DiscountCodeType = {
   "01": "BicDiscountGroupCode",
   "02": "ProprietaryDiscountCode",
@@ -17,3 +20,4 @@ export enum DiscountCodeTypeEnum {
   BicCommissionGroupCode,
   IsniBasedDiscountGroupCode
 }
+  

@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const CountryBasedOnIso_3166_1 = {
   "AD": "Andorra",
   "AE": "UnitedArabEmirates",
@@ -507,3 +510,4 @@ export enum CountryBasedOnIso_3166_1Enum {
   Zambia,
   Zimbabwe
 }
+  

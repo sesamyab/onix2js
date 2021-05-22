@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const TradeCategory = {
   "01": "UkOpenMarketEdition",
   "02": "AirportEdition",
@@ -39,3 +42,4 @@ export enum TradeCategoryEnum {
   Podcast,
   Periodical
 }
+  

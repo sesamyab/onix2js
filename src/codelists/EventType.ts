@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const EventType = {
   "00": "UnspecifiedSeeDescription",
   "01": "BookSigning",
@@ -9,3 +12,4 @@ export enum EventTypeEnum {
   BookSigning,
   BookReading
 }
+  

@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const OnixReturnsConditions = {
   "00": "Unspecified",
   "01": "Consignment",
@@ -19,3 +22,4 @@ export enum OnixReturnsConditionsEnum {
   SaleOrReturnOfStrippedCovers,
   SaleOrCertifiedDestruction
 }
+  

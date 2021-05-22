@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const SpecialCoverMaterial = {
   "01": "BerkshireLeather",
   "02": "Calfskin",
@@ -57,3 +60,4 @@ export enum SpecialCoverMaterialEnum {
   Pigskin,
   Goatskin
 }
+  

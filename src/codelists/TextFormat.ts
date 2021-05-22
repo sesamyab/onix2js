@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const TextFormat = {
   "02": "Html",
   "03": "Xml",
@@ -13,3 +16,4 @@ export enum TextFormatEnum {
   DefaultTextFormat,
   BasicAsciiText
 }
+  

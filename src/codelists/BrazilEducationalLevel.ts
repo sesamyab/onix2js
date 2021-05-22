@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const BrazilEducationalLevel = {
   "K": "EducaOInfantil",
   "1": "FundamentalI_1Ano",
@@ -45,3 +48,4 @@ export enum BrazilEducationalLevelEnum {
   EnsinoSuperiorPSGraduaOStrictoSensu,
   EnsinoSuperiorPSGraduaOLatoSensu
 }
+  

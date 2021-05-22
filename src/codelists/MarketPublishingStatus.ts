@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const MarketPublishingStatus = {
   "00": "Unspecified",
   "01": "Cancelled",
@@ -37,3 +40,4 @@ export enum MarketPublishingStatusEnum {
   Recalled,
   TemporarilyWithdrawnFromSale
 }
+  

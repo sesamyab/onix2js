@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const AvItemTypeCode = {
   "01": "AudiovisualWork",
   "02": "FrontMatter",
@@ -11,3 +14,4 @@ export enum AvItemTypeCodeEnum {
   BodyMatter,
   EndMatter
 }
+  

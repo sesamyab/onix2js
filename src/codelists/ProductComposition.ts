@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ProductComposition = {
   "00": "SingleComponentRetailProduct",
   "01": "SingleComponentNotAvailableSeparately",
@@ -17,3 +20,4 @@ export enum ProductCompositionEnum {
   MultipleItemTradeOnlyPack,
   MultipleItemPack
 }
+  

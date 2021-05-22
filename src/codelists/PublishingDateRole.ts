@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const PublishingDateRole = {
   "01": "PublicationDate",
   "02": "SalesEmbargoDate",
@@ -45,3 +48,4 @@ export enum PublishingDateRoleEnum {
   SubscriptionEmbargoDate,
   CipDate
 }
+  

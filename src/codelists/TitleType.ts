@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const TitleType = {
   "00": "Undefined",
   "01": "DistinctiveTitleBookCoverTitleSerialTitleOnItemSerialContentItemOrReviewedResource",
@@ -31,3 +34,4 @@ export enum TitleTypeEnum {
   ExpandedTitle,
   AlternativeTitle
 }
+  

@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ThesisType = {
   "01": "Habilitationsschrift",
   "02": "Dissertationsschrift",
@@ -17,3 +20,4 @@ export enum ThesisTypeEnum {
   Bachelorarbeit,
   Masterarbeit
 }
+  

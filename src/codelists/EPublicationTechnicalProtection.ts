@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const EPublicationTechnicalProtection = {
   "00": "None",
   "01": "Drm",
@@ -19,3 +22,4 @@ export enum EPublicationTechnicalProtectionEnum {
   ReadiumLcpDrm,
   SonyDrm
 }
+  

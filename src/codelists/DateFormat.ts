@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const DateFormat = {
   "00": "Yyyymmdd",
   "01": "Yyyymm",
@@ -41,3 +44,4 @@ export enum DateFormatEnum {
   YyyyH,
   TextStringH
 }
+  

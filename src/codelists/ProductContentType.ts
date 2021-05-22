@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ProductContentType = {
   "10": "TextEyeReadable",
   "15": "ExtensiveLinksBetweenInternalContent",
@@ -89,3 +92,4 @@ export enum ProductContentTypeEnum {
   Scripting,
   ScriptedPopUps
 }
+  

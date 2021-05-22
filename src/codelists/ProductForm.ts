@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ProductForm = {
   "00": "Undefined",
   "AA": "Audio",
@@ -295,3 +298,4 @@ export enum ProductFormEnum {
   OtherApparel,
   OtherMerchandise
 }
+  

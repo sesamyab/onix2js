@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const OperatingSystem = {
   "01": "Android",
   "02": "BlackBerryOs",
@@ -30,3 +33,4 @@ export enum OperatingSystemEnum {
   WindowsMobile,
   WindowsPhone_7
 }
+  

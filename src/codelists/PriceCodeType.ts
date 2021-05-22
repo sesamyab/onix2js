@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const PriceCodeType = {
   "01": "Proprietary",
   "02": "FinnishPocketBookPriceCode",
@@ -9,3 +12,4 @@ export enum PriceCodeTypeEnum {
   FinnishPocketBookPriceCode,
   FinnishMikiBookPriceCode
 }
+  

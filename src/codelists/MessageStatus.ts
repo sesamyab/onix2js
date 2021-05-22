@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const MessageStatus = {
   "00": "MessageReceived",
   "01": "MessageRejected",
@@ -11,3 +14,4 @@ export enum MessageStatusEnum {
   MessagePartProcessed,
   MessageProcessed
 }
+  

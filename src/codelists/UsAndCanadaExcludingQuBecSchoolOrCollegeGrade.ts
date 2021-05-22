@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const UsAndCanadaExcludingQuBecSchoolOrCollegeGrade = {
   "P": "Preschool",
   "K": "Kindergarten",
@@ -41,3 +44,4 @@ export enum UsAndCanadaExcludingQuBecSchoolOrCollegeGradeEnum {
   CollegeSenior,
   CollegeGraduateStudent
 }
+  

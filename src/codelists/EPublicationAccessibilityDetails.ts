@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const EPublicationAccessibilityDetails = {
   "00": "AccessibilitySummary",
   "01": "LiaComplianceScheme",
@@ -67,3 +70,4 @@ export enum EPublicationAccessibilityDetailsEnum {
   TrustedIntermediaryContact,
   PublisherContactForFurtherAccessibilityInformation
 }
+  

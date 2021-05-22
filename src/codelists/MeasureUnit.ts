@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const MeasureUnit = {
   "cm": "Centimeters",
   "gr": "Grams",
@@ -19,3 +22,4 @@ export enum MeasureUnitEnum {
   OuncesUs,
   Pixels
 }
+  

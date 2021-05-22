@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const SupportingResourceFileFormat = {
   "A103": "Mp3",
   "A104": "Wav",
@@ -70,3 +73,4 @@ export enum SupportingResourceFileFormatEnum {
   Ceb,
   Cebx
 }
+  

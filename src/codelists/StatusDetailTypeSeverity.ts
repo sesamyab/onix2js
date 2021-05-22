@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const StatusDetailTypeSeverity = {
   "U": "Unclassifiable",
   "I": "Info",
@@ -15,3 +18,4 @@ export enum StatusDetailTypeSeverityEnum {
   Error,
   FatalError
 }
+  

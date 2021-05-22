@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const PriceTypeQualifier = {
   "00": "UnqualifiedPrice",
   "01": "MemberSubscriberPrice",
@@ -41,3 +44,4 @@ export enum PriceTypeQualifierEnum {
   IntroductoryPrice,
   ConsortialPrice
 }
+  

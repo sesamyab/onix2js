@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const PriceConditionType = {
   "00": "NoConditions",
   "01": "IncludesUpdates",
@@ -27,3 +30,4 @@ export enum PriceConditionTypeEnum {
   RentalToPurchase,
   RentalExtension
 }
+  

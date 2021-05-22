@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const LanguageRole = {
   "01": "LanguageOfText",
   "02": "OriginalLanguageOfATranslatedText",
@@ -23,3 +26,4 @@ export enum LanguageRoleEnum {
   OriginalLanguageAudioTrackInAMultilingualProduct,
   LanguageOfNotes
 }
+  

@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const NameIdentifierType = {
   "01": "Proprietary",
   "02": "Proprietary",
@@ -70,3 +73,4 @@ export enum NameIdentifierTypeEnum {
   Grid,
   IdRef
 }
+  

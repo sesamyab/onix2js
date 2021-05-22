@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const TaxRateType = {
   "H": "HigherRate",
   "P": "TaxPaidAtSourceItaly",
@@ -15,3 +18,4 @@ export enum TaxRateTypeEnum {
   SuperLowRate,
   ZeroRated
 }
+  

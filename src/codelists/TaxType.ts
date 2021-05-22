@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const TaxType = {
   "01": "Vat",
   "02": "Gst",
@@ -9,3 +12,4 @@ export enum TaxTypeEnum {
   Gst,
   Eco
 }
+  

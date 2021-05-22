@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const SupplyDateRole = {
   "02": "SalesEmbargoDate",
   "08": "ExpectedAvailabilityDate",
@@ -21,3 +24,4 @@ export enum SupplyDateRoleEnum {
   NewSupplierStartDate,
   SupplierEndDate
 }
+  

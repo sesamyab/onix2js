@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const PublishingRole = {
   "01": "Publisher",
   "02": "CoPublisher",
@@ -39,3 +42,4 @@ export enum PublishingRoleEnum {
   Binder,
   Manufacturer
 }
+  

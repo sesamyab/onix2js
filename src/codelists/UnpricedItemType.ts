@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const UnpricedItemType = {
   "01": "FreeOfCharge",
   "02": "PriceToBeAnnounced",
@@ -17,3 +20,4 @@ export enum UnpricedItemTypeEnum {
   RevenueShare,
   CalculatedFromContents
 }
+  

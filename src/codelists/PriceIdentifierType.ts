@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const PriceIdentifierType = {
   "01": "Proprietary",
   "02": "ProprietaryPricePointIdentifier",
@@ -17,3 +20,4 @@ export enum PriceIdentifierTypeEnum {
   ProprietaryProductPricePointIdentifier,
   ProprietaryProductPriceTypeIdentifier
 }
+  

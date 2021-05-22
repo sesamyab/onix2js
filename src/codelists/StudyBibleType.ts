@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const StudyBibleType = {
   "CAM": "CambridgeAnnotated",
   "LIF": "LifeApplication",
@@ -23,3 +26,4 @@ export enum StudyBibleTypeEnum {
   Scofield,
   SpiritFilled
 }
+  

@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const WorkIdentifierType = {
   "01": "Proprietary",
   "02": "Isbn_10",
@@ -21,3 +24,4 @@ export enum WorkIdentifierTypeEnum {
   Owi,
   Iscc
 }
+  

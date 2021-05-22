@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const BibleTextOrganization = {
   "CHR": "Chronological",
   "CHA": "ChainReference",
@@ -13,3 +16,4 @@ export enum BibleTextOrganizationEnum {
   Parallel,
   Standard
 }
+  

@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const UnitOfUsage = {
   "01": "Copies",
   "02": "Characters",
@@ -65,3 +68,4 @@ export enum UnitOfUsageEnum {
   ValidFrom,
   ValidTo
 }
+  

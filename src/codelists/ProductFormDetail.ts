@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ProductFormDetail = {
   "A101": "CdStandardAudioFormat",
   "A102": "SacdSuperAudioFormat",
@@ -590,3 +593,4 @@ export enum ProductFormDetailEnum {
   Puppet,
   ExtraLargePieces
 }
+  

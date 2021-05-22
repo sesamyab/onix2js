@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const PositionOnProduct = {
   "00": "UnknownUnspecified",
   "01": "Cover_4",
@@ -27,3 +30,4 @@ export enum PositionOnProductEnum {
   OnOuterSleeveBack,
   OnRemovableWrapping
 }
+  

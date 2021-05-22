@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ProductRelation = {
   "00": "Unspecified",
   "01": "Includes",
@@ -87,3 +90,4 @@ export enum ProductRelationEnum {
   AdaptedFrom,
   AdaptedAs
 }
+  

@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const AvItemIdentifierType = {
   "01": "Proprietary",
   "03": "Gtin_13",
@@ -17,3 +20,4 @@ export enum AvItemIdentifierTypeEnum {
   Isan,
   EidrDoi
 }
+  

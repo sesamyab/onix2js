@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const TitleElementLevel = {
   "01": "Product",
   "02": "CollectionLevel",
@@ -15,3 +18,4 @@ export enum TitleElementLevelEnum {
   MasterBrand,
   SubSubcollection
 }
+  

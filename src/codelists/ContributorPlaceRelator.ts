@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ContributorPlaceRelator = {
   "00": "AssociatedWith",
   "01": "BornIn",
@@ -25,3 +28,4 @@ export enum ContributorPlaceRelatorEnum {
   RegisteredIn,
   OperatingFrom
 }
+  

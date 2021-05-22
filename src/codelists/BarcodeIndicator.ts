@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const BarcodeIndicator = {
   "00": "NotBarcoded",
   "01": "BarcodedSchemeUnspecified",
@@ -23,3 +26,4 @@ export enum BarcodeIndicatorEnum {
   Upc_12PricePoint,
   Upc_12_5PricePoint
 }
+  

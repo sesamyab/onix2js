@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ReligiousTextFeatureType = {
   "01": "ChurchSeasonOrActivity",
 };
@@ -5,3 +8,4 @@ export const ReligiousTextFeatureType = {
 export enum ReligiousTextFeatureTypeEnum {
   ChurchSeasonOrActivity
 }
+  

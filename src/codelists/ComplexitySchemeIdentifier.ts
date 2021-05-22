@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ComplexitySchemeIdentifier = {
   "01": "LexileCode",
   "02": "LexileNumber",
@@ -23,3 +26,4 @@ export enum ComplexitySchemeIdentifierEnum {
   GuidedReadingLevel,
   ReadingRecoveryLevel
 }
+  

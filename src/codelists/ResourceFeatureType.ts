@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ResourceFeatureType = {
   "01": "RequiredCredit",
   "02": "Caption",
@@ -23,3 +26,4 @@ export enum ResourceFeatureTypeEnum {
   AttributeOfProductImageResource,
   BackgroundColorOfPage
 }
+  

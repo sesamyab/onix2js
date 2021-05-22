@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ProductIdentifierType = {
   "01": "Proprietary",
   "02": "Isbn_10",
@@ -45,3 +48,4 @@ export enum ProductIdentifierTypeEnum {
   BnfControlNumber,
   Ark
 }
+  

@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const RegionBasedOnIso_3166_2 = {
   "AU-CT": "AustralianCapitalTerritory",
   "AU-NS": "NewSouthWales",
@@ -673,3 +676,4 @@ export enum RegionBasedOnIso_3166_2Enum {
   Eurozone,
   World
 }
+  

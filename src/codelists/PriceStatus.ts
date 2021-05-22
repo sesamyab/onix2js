@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const PriceStatus = {
   "00": "Unspecified",
   "01": "Provisional",
@@ -9,3 +12,4 @@ export enum PriceStatusEnum {
   Provisional,
   Firm
 }
+  

@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const BatteryTypeAndSafety = {
   "00": "BatteriesNotRequired",
   "01": "BatteriesBuiltIn",
@@ -47,3 +50,4 @@ export enum BatteryTypeAndSafetyEnum {
   SilverOxide,
   BatteryDescription
 }
+  

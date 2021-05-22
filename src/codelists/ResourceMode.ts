@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ResourceMode = {
   "01": "Application",
   "02": "Audio",
@@ -15,3 +18,4 @@ export enum ResourceModeEnum {
   Video,
   MultiMode
 }
+  

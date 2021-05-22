@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const PersonOrganizationDateRole = {
   "50": "DateOfBirth",
   "51": "DateOfDeath",
@@ -9,3 +12,4 @@ export enum PersonOrganizationDateRoleEnum {
   DateOfDeath,
   FlourishedAround
 }
+  

@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const UnnamedPersonS = {
   "01": "Unknown",
   "02": "Anonymous",
@@ -19,3 +22,4 @@ export enum UnnamedPersonSEnum {
   SynthesisedVoiceUnspecified,
   SynthesisedVoiceBasedOnRealVoiceActor
 }
+  

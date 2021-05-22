@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const AgentRole = {
   "05": "ExclusiveSalesAgent",
   "06": "NonExclusiveSalesAgent",
@@ -11,3 +14,4 @@ export enum AgentRoleEnum {
   LocalPublisher,
   SalesAgent
 }
+  

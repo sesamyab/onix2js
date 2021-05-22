@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ResourceVersionFeatureType = {
   "01": "FileFormat",
   "02": "ImageHeightInPixels",
@@ -21,3 +24,4 @@ export enum ResourceVersionFeatureTypeEnum {
   Sha_256HashValue,
   Iscc
 }
+  

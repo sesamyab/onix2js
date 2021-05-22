@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const DiscountType = {
   "01": "RisingDiscount",
   "02": "RisingDiscountCumulative",
@@ -11,3 +14,4 @@ export enum DiscountTypeEnum {
   ProgressiveDiscount,
   ProgressiveDiscountCumulative
 }
+  

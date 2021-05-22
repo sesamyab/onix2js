@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const TextCaseFlag = {
   "00": "Undefined",
   "01": "SentenceCase",
@@ -11,3 +14,4 @@ export enum TextCaseFlagEnum {
   TitleCase,
   AllCapitals
 }
+  

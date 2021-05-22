@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const CitedContentType = {
   "01": "Review",
   "02": "BestsellerList",
@@ -15,3 +18,4 @@ export enum CitedContentTypeEnum {
   CuratedList,
   CommentaryDiscussion
 }
+  

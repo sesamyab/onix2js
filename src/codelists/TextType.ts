@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const TextType = {
   "01": "SenderDefinedText",
   "02": "ShortDescriptionAnnotation",
@@ -67,3 +70,4 @@ export enum TextTypeEnum {
   RulesOrInstructions,
   ListOfContents
 }
+  

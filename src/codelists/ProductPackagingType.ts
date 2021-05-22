@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ProductPackagingType = {
   "00": "NoOuterPackaging",
   "01": "SlipSleeve",
@@ -47,3 +50,4 @@ export enum ProductPackagingTypeEnum {
   CarryCase,
   InTin
 }
+  

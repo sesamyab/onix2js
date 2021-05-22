@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const EPublicationVersionNumber = {
   "101A": "Epub_2_0_1",
   "101B": "Epub_3_0",
@@ -19,3 +22,4 @@ export enum EPublicationVersionNumberEnum {
   KindleKf8,
   KindleKfx
 }
+  

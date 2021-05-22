@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const LanguageBasedOnIso_639_2B = {
   "aar": "Afar",
   "abk": "Abkhaz",
@@ -1041,3 +1044,4 @@ export enum LanguageBasedOnIso_639_2BEnum {
   NoLinguisticContent,
   ZazaDimiliDimliKirdkiKirmanjkiZazaki
 }
+  

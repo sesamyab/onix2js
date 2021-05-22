@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const DvdRegion = {
   "0": "AllRegions",
   "1": "DvdRegion_1",
@@ -27,3 +30,4 @@ export enum DvdRegionEnum {
   BluRayRegionB,
   BluRayRegionC
 }
+  

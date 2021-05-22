@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const TextItemType = {
   "01": "TextualWork",
   "02": "FrontMatter",
@@ -11,3 +14,4 @@ export enum TextItemTypeEnum {
   BodyMatter,
   BackMatter
 }
+  

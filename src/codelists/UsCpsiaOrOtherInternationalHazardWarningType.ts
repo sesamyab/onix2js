@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const UsCpsiaOrOtherInternationalHazardWarningType = {
   "01": "WarningChokingHazardSmallPartsNotForChildrenUnder_3Yrs",
   "02": "WarningChokingHazardChildrenUnder_8YrsCanChokeOrSuffocateOnUninflatedOrBrokenBalloonsAdultSupervisionRequiredKeepUninflatedBalloonsFromChildrenDiscardBrokenBalloonsAtOnce",
@@ -39,3 +42,4 @@ export enum UsCpsiaOrOtherInternationalHazardWarningTypeEnum {
   NoCaliforniaProposition_65HazardWarningNecessary,
   CaliforniaProposition_65ChemicalName
 }
+  

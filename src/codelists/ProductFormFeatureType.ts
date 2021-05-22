@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ProductFormFeatureType = {
   "01": "ColorOfCover",
   "02": "ColorOfPageEdge",
@@ -69,3 +72,4 @@ export enum ProductFormFeatureTypeEnum {
   ClaimedPreAndPostConsumerWastePcwPercentage,
   PaperProducedByGreenTechnology
 }
+  

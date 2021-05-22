@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ContentSourceType = {
   "01": "PrintedMedia",
   "02": "Website",
@@ -11,3 +14,4 @@ export enum ContentSourceTypeEnum {
   Radio,
   Tv
 }
+  

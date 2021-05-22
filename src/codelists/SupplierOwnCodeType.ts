@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const SupplierOwnCodeType = {
   "01": "SupplierSSalesClassification",
   "02": "SupplierSBonusEligibility",
@@ -17,3 +20,4 @@ export enum SupplierOwnCodeTypeEnum {
   PublisherSSalesExpectation,
   SupplierSOrderRoutingEligibility
 }
+  

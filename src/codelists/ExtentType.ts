@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ExtentType = {
   "00": "MainContentPageCount",
   "02": "TotalTextLength",
@@ -39,3 +42,4 @@ export enum ExtentTypeEnum {
   Filesize,
   StorageFilesize
 }
+  

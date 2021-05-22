@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const DangerousGoodsRegulations = {
   "00": "Inapplicable",
   "01": "Ghs",
@@ -17,3 +20,4 @@ export enum DangerousGoodsRegulationsEnum {
   Other,
   SafetyDataSheetAvailable
 }
+  

@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const OnixRetailSalesOutletIDs = {
   "SYM": "24Symbols",
   "ACM": "ACMoore",
@@ -353,3 +356,4 @@ export enum OnixRetailSalesOutletIDsEnum {
   PublisherSOwnDirectSales,
   Other
 }
+  

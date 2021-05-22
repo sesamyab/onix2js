@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const RecordSourceType = {
   "00": "Unspecified",
   "01": "Publisher",
@@ -31,3 +34,4 @@ export enum RecordSourceTypeEnum {
   EducationBookseller,
   Library
 }
+  

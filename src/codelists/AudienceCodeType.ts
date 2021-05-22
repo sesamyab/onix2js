@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const AudienceCodeType = {
   "01": "OnixAudienceCodes",
   "02": "Proprietary",
@@ -61,3 +64,4 @@ export enum AudienceCodeTypeEnum {
   PegiRating,
   Gymnasieprogram
 }
+  

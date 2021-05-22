@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const BindingOrPageEdgeColor = {
   "BLK": "Black",
   "BLU": "Blue",
@@ -51,3 +54,4 @@ export enum BindingOrPageEdgeColorEnum {
   Yellow,
   Other
 }
+  

@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const SalesOutletIdentifierType = {
   "01": "Proprietary",
   "03": "OnixRetailSalesOutletIdCode",
@@ -11,3 +14,4 @@ export enum SalesOutletIdentifierTypeEnum {
   RetailSalesOutletGln,
   RetailSalesOutletSan
 }
+  

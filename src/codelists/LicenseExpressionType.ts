@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const LicenseExpressionType = {
   "01": "HumanReadable",
   "02": "ProfessionalReadable",
@@ -9,3 +12,4 @@ export enum LicenseExpressionTypeEnum {
   ProfessionalReadable,
   OnixPl
 }
+  

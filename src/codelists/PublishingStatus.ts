@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const PublishingStatus = {
   "00": "Unspecified",
   "01": "Cancelled",
@@ -36,3 +39,4 @@ export enum PublishingStatusEnum {
   TemporarilyWithdrawnFromSale,
   PermanentlyWithdrawnFromSale
 }
+  

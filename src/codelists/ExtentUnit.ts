@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ExtentUnit = {
   "01": "Characters",
   "02": "Words",
@@ -31,3 +34,4 @@ export enum ExtentUnitEnum {
   Kbytes,
   Mbytes
 }
+  

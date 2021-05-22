@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ProductClassificationType = {
   "01": "WcoHarmonizedSystem",
   "02": "Unspsc",
@@ -33,3 +36,4 @@ export enum ProductClassificationTypeEnum {
   UsScheduleB,
   ElectreGenre
 }
+  

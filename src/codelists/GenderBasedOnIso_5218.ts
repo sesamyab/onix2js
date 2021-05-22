@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const GenderBasedOnIso_5218 = {
   "u": "UnknownOrUnspecified",
   "f": "Female",
@@ -9,3 +12,4 @@ export enum GenderBasedOnIso_5218Enum {
   Female,
   Male
 }
+  

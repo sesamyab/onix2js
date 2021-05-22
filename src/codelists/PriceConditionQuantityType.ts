@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const PriceConditionQuantityType = {
   "01": "TimePeriod",
   "02": "NumberOfUpdates",
@@ -9,3 +12,4 @@ export enum PriceConditionQuantityTypeEnum {
   NumberOfUpdates,
   NumberOfLinkedProducts
 }
+  

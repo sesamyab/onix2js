@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const RecordStatus = {
   "00": "NoRecordErrors",
   "01": "NoRecordErrorsErrorsInCollateral",
@@ -13,3 +16,4 @@ export enum RecordStatusEnum {
   RecordRejected,
   ReportedPreviously
 }
+  

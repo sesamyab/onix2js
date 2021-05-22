@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const SubjectSchemeIdentifier = {
   "01": "Dewey",
   "02": "AbridgedDewey",
@@ -249,3 +252,4 @@ export enum SubjectSchemeIdentifierEnum {
   ClilTypeDArticleScolaire,
   GarTypePDagogique
 }
+  

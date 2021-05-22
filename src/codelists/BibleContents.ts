@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const BibleContents = {
   "AP": "ApocryphaCatholicCanon",
   "AQ": "ApocryphaCanonUnspecified",
@@ -37,3 +40,4 @@ export enum BibleContentsEnum {
   Pentateuch,
   OtherPortions
 }
+  

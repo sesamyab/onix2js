@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const AudienceType = {
   "01": "GeneralTrade",
   "02": "ChildrenJuvenile",
@@ -21,3 +24,4 @@ export enum AudienceTypeEnum {
   AdultEducation,
   SecondLanguageTeaching
 }
+  

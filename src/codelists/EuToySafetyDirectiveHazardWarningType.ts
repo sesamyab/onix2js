@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const EuToySafetyDirectiveHazardWarningType = {
   "00": "NoWarning",
   "01": "CarriesCeLogo",
@@ -23,3 +26,4 @@ export enum EuToySafetyDirectiveHazardWarningTypeEnum {
   CarriesEn71ConformityStatement,
   CarriesUkcaLogo
 }
+  

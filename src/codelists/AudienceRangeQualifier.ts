@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const AudienceRangeQualifier = {
   "11": "UsSchoolGradeRange",
   "12": "UkSchoolGrade",
@@ -45,3 +48,4 @@ export enum AudienceRangeQualifierEnum {
   NomenclatureNiveauxDucatifDeBase,
   FinnishUpperSecondarySchoolCourse_2021
 }
+  

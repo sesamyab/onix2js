@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ResourceContentType = {
   "01": "FrontCover",
   "02": "BackCover",
@@ -99,3 +102,4 @@ export enum ResourceContentTypeEnum {
   Transcript,
   License
 }
+  

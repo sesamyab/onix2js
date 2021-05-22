@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const VelocityMetric = {
   "01": "MeanDailySale",
   "02": "MaximumDailySale",
@@ -21,3 +24,4 @@ export enum VelocityMetricEnum {
   MaximumMonthlySale,
   MinimumMonthlySale
 }
+  

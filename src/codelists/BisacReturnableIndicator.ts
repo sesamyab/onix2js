@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const BisacReturnableIndicator = {
   "N": "NoNotReturnable",
   "Y": "YesReturnableFullCopiesOnly",
@@ -11,3 +14,4 @@ export enum BisacReturnableIndicatorEnum {
   YesReturnableStrippedCover,
   Conditional
 }
+  

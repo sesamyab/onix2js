@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ContentDateRole = {
   "01": "PublicationDate",
   "04": "BroadcastDate",
@@ -23,3 +26,4 @@ export enum ContentDateRoleEnum {
   AssociatedStartDate,
   AssociatedEndDate
 }
+  

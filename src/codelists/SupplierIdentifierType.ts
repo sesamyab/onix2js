@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const SupplierIdentifierType = {
   "01": "Proprietary",
   "02": "Proprietary",
@@ -20,3 +23,4 @@ export enum SupplierIdentifierTypeEnum {
   FondscodeBoekenbank,
   VatIdentityNumber
 }
+  

@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const PersonOrganizationNameType = {
   "00": "Unspecified",
   "01": "Pseudonym",
@@ -19,3 +22,4 @@ export enum PersonOrganizationNameTypeEnum {
   LaterName,
   FictionalCharacterName
 }
+  

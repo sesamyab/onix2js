@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const CurrencyCodeBasedOnIso_4217 = {
   "AED": "UaeDirham",
   "AFA": "Afghani",
@@ -388,3 +391,4 @@ export enum CurrencyCodeBasedOnIso_4217Enum {
   ZambianKwacha,
   ZimbabweDollar
 }
+  

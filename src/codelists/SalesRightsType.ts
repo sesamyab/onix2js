@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const SalesRightsType = {
   "00": "SalesRightsUnknownOrUnstatedForAnyReason",
   "01": "ForSaleWithExclusiveRightsInTheSpecifiedCountriesOrTerritories",
@@ -21,3 +24,4 @@ export enum SalesRightsTypeEnum {
   ForSaleWithExclusiveRightsInTheSpecifiedCountriesOrTerritoriesSalesRestrictionApplies,
   ForSaleWithNonExclusiveRightsInTheSpecifiedCountriesOrTerritoriesSalesRestrictionApplies
 }
+  

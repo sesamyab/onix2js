@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const BibleTextFeature = {
   "RL": "RedLetter",
 };
@@ -5,3 +8,4 @@ export const BibleTextFeature = {
 export enum BibleTextFeatureEnum {
   RedLetter
 }
+  

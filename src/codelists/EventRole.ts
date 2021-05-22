@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const EventRole = {
   "01": "PublicationLinkedToConference",
   "02": "CompleteProceedingsOfConference",
@@ -21,3 +24,4 @@ export enum EventRoleEnum {
   PublicationLinkedToExposition,
   ProgrammeOrGuideForExposition
 }
+  

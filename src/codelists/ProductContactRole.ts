@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ProductContactRole = {
   "00": "MetadataContact",
   "01": "AccessibilityRequestContact",
@@ -21,3 +24,4 @@ export enum ProductContactRoleEnum {
   ReturnAuthorisationContact,
   CipLegalDepositContact
 }
+  

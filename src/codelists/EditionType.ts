@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const EditionType = {
   "ABR": "AbridgedEdition",
   "ACT": "ActingEdition",
@@ -81,3 +84,4 @@ export enum EditionTypeEnum {
   UnexpurgatedEdition,
   VariorumEdition
 }
+  

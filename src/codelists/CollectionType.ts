@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const CollectionType = {
   "00": "UnspecifiedDefault",
   "10": "PublisherCollection",
@@ -11,3 +14,4 @@ export enum CollectionTypeEnum {
   CollectionDitoriale,
   AscribedCollection
 }
+  

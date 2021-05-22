@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ReturnsConditionsCodeType = {
   "00": "Proprietary",
   "01": "FrenchBookTradeReturnsConditionsCode",
@@ -13,3 +16,4 @@ export enum ReturnsConditionsCodeTypeEnum {
   UkBookTradeReturnsConditionsCode,
   OnixReturnsConditionsCode
 }
+  

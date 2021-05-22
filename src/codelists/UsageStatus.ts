@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const UsageStatus = {
   "01": "PermittedUnlimited",
   "02": "PermittedSubjectToLimit",
@@ -9,3 +12,4 @@ export enum UsageStatusEnum {
   PermittedSubjectToLimit,
   Prohibited
 }
+  

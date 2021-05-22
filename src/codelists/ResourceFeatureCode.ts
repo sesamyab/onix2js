@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ResourceFeatureCode = {
   "01": "ImageShowsProductInPackaging",
   "02": "ImageShowsProductWithoutPackaging",
@@ -43,3 +46,4 @@ export enum ResourceFeatureCodeEnum {
   "3DPerspectiveHorizontal",
   "3DPerspectiveVertical"
 }
+  

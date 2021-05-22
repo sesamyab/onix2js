@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const SupplierRole = {
   "00": "Unspecified",
   "01": "PublisherToRetailers",
@@ -35,3 +38,4 @@ export enum SupplierRoleEnum {
   NonExclusiveDistributorToRetailersAndEndCustomers,
   DistributorToRetailersAndEndCustomers
 }
+  

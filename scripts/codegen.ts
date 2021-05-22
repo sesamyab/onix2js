@@ -22,6 +22,14 @@ async function generateCodelist(codelist) {
   const name = pascalCase(codelist.CodeListDescription);
   const sourceFile = project.createSourceFile(`src/codelists/${name}.ts`, {});
 
+  sourceFile.insertText(
+    0,
+    `// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
+  `
+  );
+
   const prop = sourceFile
     .addVariableStatement({
       declarationKind: VariableDeclarationKind.Const,

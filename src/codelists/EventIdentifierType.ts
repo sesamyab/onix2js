@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const EventIdentifierType = {
   "01": "Proprietary",
 };
@@ -5,3 +8,4 @@ export const EventIdentifierType = {
 export enum EventIdentifierTypeEnum {
   Proprietary
 }
+  

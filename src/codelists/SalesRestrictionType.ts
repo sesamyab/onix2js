@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const SalesRestrictionType = {
   "00": "UnspecifiedSeeText",
   "01": "RetailerExclusiveOwnBrand",
@@ -45,3 +48,4 @@ export enum SalesRestrictionTypeEnum {
   ExceptThroughPod,
   NoRestrictionsOnSales
 }
+  

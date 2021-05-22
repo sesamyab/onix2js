@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const PrizeOrAwardAchievement = {
   "01": "Winner",
   "02": "RunnerUp",
@@ -17,3 +20,4 @@ export enum PrizeOrAwardAchievementEnum {
   JointWinner,
   Nominated
 }
+  

@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ResourceForm = {
   "01": "LinkableResource",
   "02": "DownloadableFile",
@@ -9,3 +12,4 @@ export enum ResourceFormEnum {
   DownloadableFile,
   EmbeddableApplication
 }
+  

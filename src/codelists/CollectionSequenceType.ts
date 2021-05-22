@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const CollectionSequenceType = {
   "01": "Proprietary",
   "02": "TitleOrder",
@@ -17,3 +20,4 @@ export enum CollectionSequenceTypeEnum {
   SuggestedReadingOrder,
   SuggestedDisplayOrder
 }
+  

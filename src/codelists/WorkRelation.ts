@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const WorkRelation = {
   "01": "ManifestationOf",
   "02": "DerivedFrom",
@@ -13,3 +16,4 @@ export enum WorkRelationEnum {
   OtherWorkInSameCollection,
   OtherWorkBySameContributor
 }
+  

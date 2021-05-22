@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const ReligiousTextFeature = {
   "01": "AcademicYear",
   "02": "CatechisticYear",
@@ -25,3 +28,4 @@ export enum ReligiousTextFeatureEnum {
   Lent,
   MarianThemes
 }
+  

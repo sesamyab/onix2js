@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const BibleVersion = {
   "ALV": "AlbertoVaccari",
   "AMP": "Amplified",
@@ -143,3 +146,4 @@ export enum BibleVersionEnum {
   TodaySNewInternational,
   Other
 }
+  

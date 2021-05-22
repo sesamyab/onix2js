@@ -1,3 +1,6 @@
+// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
 export const Proximity = {
   "01": "LessThan",
   "02": "NotMoreThan",
@@ -17,3 +20,4 @@ export enum ProximityEnum {
   NotLessThan,
   MoreThan
 }
+  
