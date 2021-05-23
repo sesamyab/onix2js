@@ -5,7 +5,7 @@ import {
 } from "../codelists/CurrencyCodeBasedOnIso_4217";
 
 export class Price {
-  constructor(json) {
+  constructor(json: any) {
     this.priceType = PriceType[json.PriceType[0]];
     this.priceAmount = parseFloat(json.PriceAmount[0]);
     this.currenctyCode = json.CurrencyCode[0];

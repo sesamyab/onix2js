@@ -1,7 +1,7 @@
 import { parseValue } from "../utils/parse";
 
 export class Website {
-  constructor(json) {
+  constructor(json: object) {
     this.websiteLink = parseValue(json, "WebsiteLink");
   }
 

@@ -5,7 +5,7 @@ import {
 import { Territory } from "./Territory";
 
 export class SalesRights {
-  constructor(json) {
+  constructor(json: any) {
     this.salesRightsType = SalesRightsType[json.SalesRightsType[0]];
     this.territory = new Territory(json.Territory[0]);
   }

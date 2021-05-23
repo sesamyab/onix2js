@@ -4,7 +4,7 @@ import {
 } from "../codelists/RegionBasedOnIso_3166_2";
 
 export class Territory {
-  constructor(json) {
+  constructor(json: any) {
     this.regionsIncluded = RegionBasedOnIso_3166_2[json.RegionsIncluded[0]];
   }
 

@@ -1,3 +1,5 @@
 import Onix from "./entities/Onix";
 
-export default Onix;
+const parse = Onix.parse;
+
+export { parse };

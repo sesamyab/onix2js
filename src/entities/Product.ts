@@ -11,7 +11,7 @@ import { ProductSupply } from "./ProductSupply";
 import { parseValue } from "../utils/parse";
 
 export class Product {
-  constructor(json) {
+  constructor(json: any) {
     this.notificationType = NotificationOrUpdateType[json.NotificationType[0]];
     this.recordReference = json.RecordReference[0];
     this.productIdentifiers = json.ProductIdentifier.map(

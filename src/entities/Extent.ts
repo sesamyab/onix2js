@@ -3,7 +3,7 @@ import { ExtentUnitEnum, ExtentUnit } from "../codelists/ExtentUnit";
 import { parseValue, parseType } from "../utils/parse";
 
 export class Extent {
-  constructor(json) {
+  constructor(json: any) {
     this.extentType = parseType(json, "ExtentType", ExtentType);
     this.extentUnit = parseType(json, "ExtentUnit", ExtentUnit);
     this.extentValue = parseValue(json, "ExtentValue");

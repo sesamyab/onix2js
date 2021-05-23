@@ -1,7 +1,7 @@
 import { SupplyDetail } from "./SupplyDetail";
 
 export class ProductSupply {
-  constructor(json) {
+  constructor(json: any) {
     this.supplyDetail = new SupplyDetail(json.SupplyDetail[0]);
   }
 

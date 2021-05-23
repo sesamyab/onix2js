@@ -1,7 +1,7 @@
 import { parseValue } from "../utils/parse";
 
 export class Imprint {
-  constructor(json) {
+  constructor(json: any) {
     this.imprintName = parseValue(json, "ImprintName");
   }
 

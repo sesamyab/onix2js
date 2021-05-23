@@ -5,7 +5,7 @@ import {
 import { parseValue } from "../utils/parse";
 
 export class Contributor {
-  constructor(json) {
+  constructor(json: any) {
     this.personName = parseValue(json, "PersonName");
     this.personNameInverted = parseValue(json, "PersonNameInverted");
     this.namesBeforeKey = parseValue(json, "NamesBeforeKey");

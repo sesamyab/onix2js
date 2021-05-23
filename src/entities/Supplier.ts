@@ -3,7 +3,7 @@ import { Website } from "./Website";
 import { parseValue, parseType } from "../utils/parse";
 
 export class Supplier {
-  constructor(json) {
+  constructor(json: any) {
     this.supplierRole = parseType(json, "SupplierRole", SupplierRole);
     this.supplierName = parseValue(json, "SupplierName");
     this.website = new Website(parseValue(json, "Website"));

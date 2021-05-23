@@ -11,7 +11,7 @@ import {
 import { parseValue, parseType } from "../utils/parse";
 
 export class PublishingDetail {
-  constructor(json) {
+  constructor(json: any) {
     this.publisher = new Publisher(parseValue(json, "Publisher"));
     this.publishingStatus = parseType(
       json,

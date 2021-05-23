@@ -1,7 +1,7 @@
 import {
   ResourceContentTypeEnum,
   ResourceContentType,
-} from "../codelists/resourceContentType";
+} from "../codelists/ResourceContentType";
 import {
   ContentAudienceEnum,
   ContentAudience,
@@ -11,7 +11,7 @@ import { ResourceModeEnum, ResourceMode } from "../codelists/ResourceMode";
 import { ResourceVersion } from "./ResourceVersion";
 
 export class SupportingResource {
-  constructor(json) {
+  constructor(json: any) {
     this.resourceContentType = ResourceContentType[json.ResourceContentType[0]];
     this.contentAudience = ContentAudience[json.ContentAudience[0]];
     this.resourceMode = ResourceMode[json.ResourceMode[0]];

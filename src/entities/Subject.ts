@@ -4,7 +4,7 @@ import {
 } from "../codelists/SubjectSchemeIdentifier";
 
 export class Subject {
-  constructor(json) {
+  constructor(json: any) {
     this.subjectSchemeIdentifier =
       SubjectSchemeIdentifier[json.SubjectSchemeIdentifier[0]];
     this.subjectCode = json.SubjectCode[0];

@@ -1,5 +1,5 @@
 export class RelatedMaterial {
-  constructor(json) {
+  constructor(json: any) {
     // Not implemented yet
   }
 }

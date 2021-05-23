@@ -23,7 +23,7 @@ import { Subject } from "./Subject";
 import { Extent } from "./Extent";
 
 export class DescriptiveDetail {
-  constructor(json) {
+  constructor(json: any) {
     this.productComposition = ProductComposition[json.ProductComposition[0]];
     this.productForm = ProductForm[json.ProductForm[0]];
     this.productFormDetail = ProductFormDetail[json.ProductFormDetail[0]];

@@ -7,7 +7,7 @@ import {
 import { parseValue, parseType } from "../utils/parse";
 
 export class SupplyDetail {
-  constructor(json) {
+  constructor(json: any) {
     this.supplier = new Supplier(parseValue(json, "Supplier"));
     this.price = new Price(parseValue(json, "Price"));
     this.productAvailability = parseType(

@@ -1,7 +1,7 @@
 import { ResourceFormEnum, ResourceForm } from "../codelists/ResourceForm";
 
 export class ResourceVersion {
-  constructor(json) {
+  constructor(json: any) {
     this.resourceForm = ResourceForm[json.ResourceForm[0]];
     this.resourceLink = json.ResourceLink[0];
   }

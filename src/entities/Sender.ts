@@ -1,6 +1,6 @@
 export class Sender {
-  constructor(senderJson) {
-    this.senderName = senderJson?.SenderName[0];
+  constructor(json: any) {
+    this.senderName = json?.SenderName[0];
   }
 
   senderName: string;

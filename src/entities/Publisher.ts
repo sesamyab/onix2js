@@ -4,7 +4,7 @@ import {
 } from "../codelists/PublishingRole";
 
 export class Publisher {
-  constructor(json) {
+  constructor(json: any) {
     this.publishingRole = PublishingRole[json.PublishingRole[0]];
   }
 

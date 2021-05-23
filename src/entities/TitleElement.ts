@@ -4,10 +4,9 @@ import {
 } from "../codelists/TitleElementLevel";
 
 export class TitleElement {
-  constructor(titleElementJson) {
-    this.titleElementLevel =
-      TitleElementLevel[titleElementJson.TitleElementLevel[0]];
-    this.titleText = titleElementJson.TitleText[0];
+  constructor(json: any) {
+    this.titleElementLevel = TitleElementLevel[json.TitleElementLevel[0]];
+    this.titleText = json.TitleText[0];
   }
 
   titleElementLevel: TitleElementLevelEnum;

@@ -7,7 +7,7 @@ import {
 import { parseValue, parseType } from "../utils/parse";
 
 export class TextContent {
-  constructor(json) {
+  constructor(json: any) {
     this.textType = TextType[json.TextType[0]];
     this.contentAudience = ContentAudience[json.ContentAudience[0]];
 
