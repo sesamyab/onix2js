@@ -1,5 +1,10 @@
+import { parseStringPromise } from "xml2js";
+
 import Onix from "./entities/Onix";
 
-const parse = Onix.parse;
+async function parse(xmlText) {
+  const onixJson = await parseStringPromise(xmlText);
+  return new Onix(onixJson.ONIXMessage);
+}
 
 export { parse };

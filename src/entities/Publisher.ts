@@ -3,12 +3,16 @@ import {
   PublishingRole,
 } from "../codelists/PublishingRole";
 
+import { parseValue, parseType } from "../utils/parse";
+
 export class Publisher {
   constructor(json: any) {
-    this.publishingRole = PublishingRole[json.PublishingRole[0]];
+    this.publishingRole = parseType(json, "PublishingRole", PublishingRole);
+    this.publishingName = parseValue(json, "PublisherName");
   }
 
   publishingRole: PublishingRoleEnum;
+  publishingName: string;
 }
 
 //   <Publisher>

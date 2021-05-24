@@ -113,6 +113,7 @@ describe("Feeds", () => {
             },
             publisher: {
               publishingRole: "Publisher",
+              publishingName: "xx Media",
             },
             publishingStatus: "Active",
             publishingDates: [
@@ -289,6 +290,7 @@ describe("Feeds", () => {
             },
             publisher: {
               publishingRole: "Publisher",
+              publishingName: "Gyldendal",
             },
             publishingStatus: "Active",
             publishingDates: [
