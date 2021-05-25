@@ -22,14 +22,31 @@ import { Language } from "./Language";
 import { Subject } from "./Subject";
 import { Extent } from "./Extent";
 
+import { parseValue, parseType } from "../utils/parse";
+
 export class DescriptiveDetail {
   constructor(json: any) {
-    this.productComposition = ProductComposition[json.ProductComposition[0]];
-    this.productForm = ProductForm[json.ProductForm[0]];
-    this.productFormDetail = ProductFormDetail[json.ProductFormDetail[0]];
-    this.primaryContentType = ProductContentType[json.PrimaryContentType[0]];
-    this.epubTechnicalProtection =
-      EPublicationTechnicalProtection[json.EpubTechnicalProtection[0]];
+    this.productComposition = parseType(
+      json,
+      "ProductComposition",
+      ProductComposition
+    );
+    this.productForm = parseType(json, "ProductForm", ProductForm);
+    this.productFormDetail = parseType(
+      json,
+      "ProductFormDetail",
+      ProductFormDetail
+    );
+    this.primaryContentType = parseType(
+      json,
+      "PrimaryContentType",
+      ProductContentType
+    );
+    this.epubTechnicalProtection = parseType(
+      json,
+      "EpubTechnicalProtection",
+      EPublicationTechnicalProtection
+    );
 
     this.titleDetail = new TitleDetail(json.TitleDetail[0]);
     this.contributors = json.Contributor?.map((c) => new Contributor(c)) || [];
