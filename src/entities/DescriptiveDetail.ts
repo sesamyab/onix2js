@@ -21,8 +21,9 @@ import { Contributor } from "./Contributor";
 import { Language } from "./Language";
 import { Subject } from "./Subject";
 import { Extent } from "./Extent";
+import { Collection } from "./Collection";
 
-import { parseValue, parseType } from "../utils/parse";
+import { parseType } from "../utils/parse";
 
 export class DescriptiveDetail {
   constructor(json: any) {
@@ -49,6 +50,7 @@ export class DescriptiveDetail {
     );
 
     this.titleDetail = new TitleDetail(json.TitleDetail[0]);
+    this.collections = json.Collection?.map((c) => new Collection(c)) || [];
     this.contributors = json.Contributor?.map((c) => new Contributor(c)) || [];
     this.languages = json.Language?.map((l) => new Language(l)) || [];
     this.subjects = json.Subject?.map((s) => new Subject(s)) || [];
@@ -61,6 +63,7 @@ export class DescriptiveDetail {
   primaryContentType: ProductContentTypeEnum;
   epubTechnicalProtection: EPublicationTechnicalProtectionEnum;
   titleDetail: TitleDetail;
+  collections: Collection[];
   contributors: Contributor[];
   languages: Language[];
   subjects: Subject[];

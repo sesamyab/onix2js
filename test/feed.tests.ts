@@ -35,6 +35,25 @@ describe("Feeds", () => {
             productFormDetail: "Epub",
             primaryContentType: "TextEyeReadable",
             epubTechnicalProtection: "DigitalWatermarking",
+            collections: [
+              {
+                collectionType: "PublisherCollection",
+                titleDetail: {
+                  titleElements: [
+                    {
+                      titleElementLevel: "CollectionLevel",
+                      titleText: "Kampen om Tusenvärld",
+                    },
+                    {
+                      titleElementLevel: "Product",
+                      titleText: "2",
+                    },
+                  ],
+                  titleType:
+                    "DistinctiveTitleBookCoverTitleSerialTitleOnItemSerialContentItemOrReviewedResource",
+                },
+              },
+            ],
             titleDetail: {
               titleType:
                 "DistinctiveTitleBookCoverTitleSerialTitleOnItemSerialContentItemOrReviewedResource",
@@ -199,6 +218,7 @@ describe("Feeds", () => {
             productFormDetail: "Reflowable",
             primaryContentType: "TextEyeReadable",
             epubTechnicalProtection: "DigitalWatermarking",
+            collections: [],
             titleDetail: {
               titleType:
                 "DistinctiveTitleBookCoverTitleSerialTitleOnItemSerialContentItemOrReviewedResource",
