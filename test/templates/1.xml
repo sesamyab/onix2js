@@ -30,6 +30,10 @@
           <TitleElementLevel>01</TitleElementLevel>
           <TitleText>Moby Dick – Valen</TitleText>
         </TitleElement>
+        <TitleElement>
+          <TitleElementLevel>02</TitleElementLevel>
+          <TitleText>Series</TitleText>
+        </TitleElement>
       </TitleDetail>
       <Contributor>
         <ContributorRole>A01</ContributorRole>

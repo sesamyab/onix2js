@@ -1,12 +1,12 @@
 import { expect } from "chai";
 import fs from "fs";
-import Onix from "../src/entities/Onix";
+import { parse } from "../src/index";
 
 describe("Feeds", () => {
   it("1.xml", async () => {
     const xml = fs.readFileSync("./test/templates/1.xml", "utf8");
 
-    const onix = await Onix.parse(xml);
+    const onix = await parse(xml);
 
     const expected = {
       header: {
@@ -38,10 +38,16 @@ describe("Feeds", () => {
             titleDetail: {
               titleType:
                 "DistinctiveTitleBookCoverTitleSerialTitleOnItemSerialContentItemOrReviewedResource",
-              titleElement: {
-                titleElementLevel: "Product",
-                titleText: "Moby Dick – Valen",
-              },
+              titleElements: [
+                {
+                  titleElementLevel: "Product",
+                  titleText: "Moby Dick – Valen",
+                },
+                {
+                  titleElementLevel: "CollectionLevel",
+                  titleText: "Series",
+                },
+              ],
             },
             contributors: [
               {
@@ -168,7 +174,7 @@ describe("Feeds", () => {
   it("2.xml", async () => {
     const xml = fs.readFileSync("./test/templates/2.xml", "utf8");
 
-    const onix = await Onix.parse(xml);
+    const onix = await parse(xml);
 
     const expected = {
       header: {
@@ -196,10 +202,12 @@ describe("Feeds", () => {
             titleDetail: {
               titleType:
                 "DistinctiveTitleBookCoverTitleSerialTitleOnItemSerialContentItemOrReviewedResource",
-              titleElement: {
-                titleElementLevel: "Product",
-                titleText: "Gemmesteder",
-              },
+              titleElements: [
+                {
+                  titleElementLevel: "Product",
+                  titleText: "Gemmesteder",
+                },
+              ],
             },
             contributors: [
               {

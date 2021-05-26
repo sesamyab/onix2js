@@ -8,11 +8,6 @@ export default class Onix {
     this.products = json.Product.map((product) => new Product(product));
   }
 
-  static async parse(xmlText) {
-    const onixJson = await parseStringPromise(xmlText);
-    return new Onix(onixJson.ONIXMessage);
-  }
-
   header: Header;
   products: Product[];
 }
