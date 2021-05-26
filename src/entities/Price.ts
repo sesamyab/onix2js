@@ -8,13 +8,13 @@ export class Price {
   constructor(json: any) {
     this.priceType = PriceType[json.PriceType[0]];
     this.priceAmount = parseFloat(json.PriceAmount[0]);
-    this.currenctyCode = json.CurrencyCode[0];
+    this.currencyCode = json.CurrencyCode[0];
     this.currency = CurrencyCodeBasedOnIso_4217[json.CurrencyCode[0]];
   }
 
   priceType: PriceTypeEnum;
   priceAmount: Number;
-  currenctyCode: string;
+  currencyCode: string;
   currency: CurrencyCodeBasedOnIso_4217Enum;
 }
 
