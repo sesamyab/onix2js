@@ -11,24 +11,23 @@ import { pascalCase } from "change-case";
 
 import * as data from "../onix53.json";
 
-async function generateCodelist(codelist) {
-  const project = new Project({
-    manipulationSettings: {
-      indentationText: IndentationText.TwoSpaces,
-      useTrailingCommas: true,
-    },
-  });
+const project = new Project({
+  manipulationSettings: {
+    indentationText: IndentationText.TwoSpaces,
+    useTrailingCommas: true,
+  },
+});
 
+const comment = `// -----------------------------------
+// This file is generated. Do not edit
+// -----------------------------------
+  `;
+
+async function generateCodelist(codelist): Promise<string> {
   const name = pascalCase(codelist.CodeListDescription);
   const sourceFile = project.createSourceFile(`src/codelists/${name}.ts`, {});
 
-  sourceFile.insertText(
-    0,
-    `// -----------------------------------
-// This file is generated. Do not edit
-// -----------------------------------
-  `
-  );
+  sourceFile.insertText(0, comment);
 
   const prop = sourceFile
     .addVariableStatement({
@@ -46,25 +45,38 @@ async function generateCodelist(codelist) {
     });
   });
 
-  const codes = codelist.Code.map((code) => pascalCase(code.CodeDescription));
+  const codes: string[] = uniq(
+    codelist.Code.map((code) => pascalCase(code.CodeDescription))
+  );
 
   sourceFile.addEnum({
     name: `${name}Enum`,
-    members: uniq(codes).map((code) => ({ name: code })),
+    members: codes.map((code) => ({ name: code })),
     isExported: true,
   });
 
   await project.save();
+
+  return name;
 }
 
 async function generate(codelists) {
+  const codelistsFile = project.createSourceFile(`src/codelists/index.ts`, {});
+  codelistsFile.insertText(0, comment);
   for (let i = 0; i < codelists.length; i += 1) {
     try {
-      await generateCodelist(codelists[i]);
+      const name = await generateCodelist(codelists[i]);
+
+      codelistsFile.addExportDeclaration({
+        namedExports: [`${name}Enum`],
+        moduleSpecifier: `./${name}`,
+      });
     } catch (err) {
       console.log(err.message);
     }
   }
+
+  await codelistsFile.save();
 }
 
 console.log("start");

@@ -75,6 +75,11 @@ describe("Feeds", () => {
                 subjectCode: "FB",
                 subjectSchemeIdentifier: "ThemaSubjectCategory",
               },
+              {
+                subjectCode: "5AK",
+                subjectSchemeIdentifier:
+                  "ThemaInterestAgeSpecialInterestQualifier",
+              },
             ],
           },
           collateralDetail: {
@@ -147,7 +152,7 @@ describe("Feeds", () => {
               },
               price: {
                 priceType: "SupplierSNetPriceExcludingTax",
-                currenctyCode: "SEK",
+                currencyCode: "SEK",
                 currency: "SwedishKrona",
                 priceAmount: 55,
               },
@@ -320,7 +325,7 @@ describe("Feeds", () => {
               },
               price: {
                 priceType: "SupplierSNetPriceExcludingTax",
-                currenctyCode: "DKK",
+                currencyCode: "DKK",
                 currency: "DanishKrone",
                 priceAmount: 50,
               },
