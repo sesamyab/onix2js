@@ -1,9 +1,11 @@
 import { ResourceFormEnum, ResourceForm } from "../codelists/ResourceForm";
 
+import { parseValue, parseType } from "../utils/parse";
+
 export class ResourceVersion {
   constructor(json: any) {
-    this.resourceForm = ResourceForm[json.ResourceForm[0]];
-    this.resourceLink = json.ResourceLink[0];
+    this.resourceForm = parseType(json, "ResourceForm", ResourceForm);
+    this.resourceLink = parseValue(json, "ResourceLink");
   }
 
   resourceForm: ResourceFormEnum;

@@ -4,10 +4,16 @@ import {
 } from "../codelists/PublishingDateRole";
 import { parseOnixDate } from "../utils/date";
 
+import { parseValue, parseType } from "../utils/parse";
+
 export class PublishingDate {
   constructor(json) {
-    this.publishingDateRole = PublishingDateRole[json.PublishingDateRole[0]];
-    this.date = parseOnixDate(json.Date[0]);
+    this.publishingDateRole = parseType(
+      json,
+      "PublishingDateRole",
+      PublishingDateRole
+    );
+    this.date = parseOnixDate(parseValue(json, "Date"));
   }
 
   publishingDateRole: PublishingDateRoleEnum;

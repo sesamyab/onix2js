@@ -4,10 +4,12 @@ import {
 } from "../codelists/SalesRightsType";
 import { Territory } from "./Territory";
 
+import { parseValue, parseType } from "../utils/parse";
+
 export class SalesRights {
   constructor(json: any) {
-    this.salesRightsType = SalesRightsType[json.SalesRightsType[0]];
-    this.territory = new Territory(json.Territory[0]);
+    this.salesRightsType = parseType(json, "SalesRightsType", SalesRightsType);
+    this.territory = new Territory(parseValue(json, "Territory"));
   }
 
   salesRightsType: SalesRightsTypeEnum;
