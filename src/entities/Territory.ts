@@ -3,9 +3,15 @@ import {
   RegionBasedOnIso_3166_2,
 } from "../codelists/RegionBasedOnIso_3166_2";
 
+import { parseType } from "../utils/parse";
+
 export class Territory {
   constructor(json: any) {
-    this.regionsIncluded = RegionBasedOnIso_3166_2[json.RegionsIncluded[0]];
+    this.regionsIncluded = parseType(
+      json,
+      "RegionsIncluded",
+      RegionBasedOnIso_3166_2
+    );
   }
 
   regionsIncluded: RegionBasedOnIso_3166_2Enum;

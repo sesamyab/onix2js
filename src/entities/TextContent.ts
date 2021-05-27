@@ -8,8 +8,8 @@ import { parseValue, parseType } from "../utils/parse";
 
 export class TextContent {
   constructor(json: any) {
-    this.textType = TextType[json.TextType[0]];
-    this.contentAudience = ContentAudience[json.ContentAudience[0]];
+    this.textType = parseType(json, "TextType", TextType);
+    this.contentAudience = parseType(json, "ContentAudience", ContentAudience);
 
     this.text = parseValue(json, "Text");
     this.textFormat = parseType(json, "Text.0.$.textformat", TextFormat);

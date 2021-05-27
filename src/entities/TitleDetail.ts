@@ -2,10 +2,14 @@ import { TitleTypeEnum, TitleType } from "../codelists/TitleType";
 
 import { TitleElement } from "./TitleElement";
 
+import { parseType } from "../utils/parse";
+
 export class TitleDetail {
   constructor(json: any) {
-    this.titleType = TitleType[json.TitleType[0]];
-    this.titleElements = json.TitleElement.map((te) => new TitleElement(te));
+    this.titleType = parseType(json, "TitleType", TitleType);
+    this.titleElements = (json.TitleElement || []).map(
+      (te) => new TitleElement(te)
+    );
   }
 
   titleType: TitleTypeEnum;

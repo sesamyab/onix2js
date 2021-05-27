@@ -41,10 +41,12 @@ describe("Feeds", () => {
                 titleDetail: {
                   titleElements: [
                     {
+                      partNumber: null,
                       titleElementLevel: "CollectionLevel",
                       titleText: "Kampen om Tusenvärld",
                     },
                     {
+                      partNumber: null,
                       titleElementLevel: "Product",
                       titleText: "2",
                     },
@@ -59,10 +61,12 @@ describe("Feeds", () => {
                 "DistinctiveTitleBookCoverTitleSerialTitleOnItemSerialContentItemOrReviewedResource",
               titleElements: [
                 {
+                  partNumber: null,
                   titleElementLevel: "Product",
                   titleText: "Moby Dick – Valen",
                 },
                 {
+                  partNumber: null,
                   titleElementLevel: "CollectionLevel",
                   titleText: "Series",
                 },
@@ -224,6 +228,7 @@ describe("Feeds", () => {
                 "DistinctiveTitleBookCoverTitleSerialTitleOnItemSerialContentItemOrReviewedResource",
               titleElements: [
                 {
+                  partNumber: null,
                   titleElementLevel: "Product",
                   titleText: "Gemmesteder",
                 },

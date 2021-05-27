@@ -10,12 +10,20 @@ import { ResourceModeEnum, ResourceMode } from "../codelists/ResourceMode";
 
 import { ResourceVersion } from "./ResourceVersion";
 
+import { parseValue, parseType } from "../utils/parse";
+
 export class SupportingResource {
   constructor(json: any) {
-    this.resourceContentType = ResourceContentType[json.ResourceContentType[0]];
-    this.contentAudience = ContentAudience[json.ContentAudience[0]];
-    this.resourceMode = ResourceMode[json.ResourceMode[0]];
-    this.resourceVersion = new ResourceVersion(json.ResourceVersion[0]);
+    this.resourceContentType = parseType(
+      json,
+      "ResourceContentType",
+      ResourceContentType
+    );
+    this.contentAudience = parseType(json, "ContentAudience", ContentAudience);
+    this.resourceMode = parseType(json, "ResourceMode", ResourceMode);
+    this.resourceVersion = new ResourceVersion(
+      parseValue(json, "ResourceVersion")
+    );
   }
 
   resourceContentType: ResourceContentTypeEnum;
