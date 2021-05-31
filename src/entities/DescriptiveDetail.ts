@@ -50,11 +50,13 @@ export class DescriptiveDetail {
     );
 
     this.titleDetail = new TitleDetail(json.TitleDetail[0]);
-    this.collections = json.Collection?.map((c) => new Collection(c)) || [];
-    this.contributors = json.Contributor?.map((c) => new Contributor(c)) || [];
-    this.languages = json.Language?.map((l) => new Language(l)) || [];
-    this.subjects = json.Subject?.map((s) => new Subject(s)) || [];
-    this.extents = json.Extent?.map((e) => new Extent(e)) || [];
+    this.collections =
+      (json.Collection || []).map((c) => new Collection(c)) || [];
+    this.contributors =
+      (json.Contributor || []).map((c) => new Contributor(c)) || [];
+    this.languages = (json.Language || []).map((l) => new Language(l)) || [];
+    this.subjects = (json.Subject || []).map((s) => new Subject(s)) || [];
+    this.extents = (json.Extent || []).map((e) => new Extent(e)) || [];
   }
 
   productComposition: ProductCompositionEnum;
