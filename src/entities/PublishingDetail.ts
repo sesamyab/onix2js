@@ -18,7 +18,7 @@ export class PublishingDetail {
       "PublishingStatus",
       PublishingStatus
     );
-    this.publishingDates = json.PublishingDate.map(
+    this.publishingDates = (json.PublishingDate || []).map(
       (pd) => new PublishingDate(pd)
     );
     this.salesRights = new SalesRights(parseValue(json, "SalesRights"));
