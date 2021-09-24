@@ -15,15 +15,15 @@ export const EuToySafetyDirectiveHazardWarningType = {
 };
 
 export enum EuToySafetyDirectiveHazardWarningTypeEnum {
-  NoWarning,
-  CarriesCeLogo,
-  CarriesMinimumAgeWarning,
-  CarriesEuToySafetyDirectiveUnsuitableForChildrenAges_0_3WarningLogo,
-  CarriesEuToySafetyDirectiveHazardWarning,
-  CarriesOtherTextAssociatedWithToySafety,
-  MaterialSafetyDataSheetAvailable,
-  DeclarationOfConformityAvailable,
-  CarriesEn71ConformityStatement,
-  CarriesUkcaLogo
+  NoWarning = "NoWarning",
+  CarriesCeLogo = "CarriesCeLogo",
+  CarriesMinimumAgeWarning = "CarriesMinimumAgeWarning",
+  CarriesEuToySafetyDirectiveUnsuitableForChildrenAges_0_3WarningLogo = "CarriesEuToySafetyDirectiveUnsuitableForChildrenAges_0_3WarningLogo",
+  CarriesEuToySafetyDirectiveHazardWarning = "CarriesEuToySafetyDirectiveHazardWarning",
+  CarriesOtherTextAssociatedWithToySafety = "CarriesOtherTextAssociatedWithToySafety",
+  MaterialSafetyDataSheetAvailable = "MaterialSafetyDataSheetAvailable",
+  DeclarationOfConformityAvailable = "DeclarationOfConformityAvailable",
+  CarriesEn71ConformityStatement = "CarriesEn71ConformityStatement",
+  CarriesUkcaLogo = "CarriesUkcaLogo"
 }
   

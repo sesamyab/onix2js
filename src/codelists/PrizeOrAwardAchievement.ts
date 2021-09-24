@@ -12,12 +12,12 @@ export const PrizeOrAwardAchievement = {
 };
 
 export enum PrizeOrAwardAchievementEnum {
-  Winner,
-  RunnerUp,
-  Commended,
-  ShortListed,
-  LongListed,
-  JointWinner,
-  Nominated
+  Winner = "Winner",
+  RunnerUp = "RunnerUp",
+  Commended = "Commended",
+  ShortListed = "ShortListed",
+  LongListed = "LongListed",
+  JointWinner = "JointWinner",
+  Nominated = "Nominated"
 }
   

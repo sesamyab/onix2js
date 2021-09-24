@@ -8,8 +8,8 @@ export const PriceStatus = {
 };
 
 export enum PriceStatusEnum {
-  Unspecified,
-  Provisional,
-  Firm
+  Unspecified = "Unspecified",
+  Provisional = "Provisional",
+  Firm = "Firm"
 }
   

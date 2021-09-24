@@ -21,21 +21,21 @@ export const SupplierRole = {
 };
 
 export enum SupplierRoleEnum {
-  Unspecified,
-  PublisherToRetailers,
-  PublisherSExclusiveDistributorToRetailers,
-  PublisherSNonExclusiveDistributorToRetailers,
-  Wholesaler,
-  SalesAgent,
-  PublisherSDistributorToRetailers,
-  PodSupplier,
-  Retailer,
-  PublisherToEndCustomers,
-  ExclusiveDistributorToEndCustomers,
-  NonExclusiveDistributorToEndCustomers,
-  DistributorToEndCustomers,
-  ExclusiveDistributorToRetailersAndEndCustomers,
-  NonExclusiveDistributorToRetailersAndEndCustomers,
-  DistributorToRetailersAndEndCustomers
+  Unspecified = "Unspecified",
+  PublisherToRetailers = "PublisherToRetailers",
+  PublisherSExclusiveDistributorToRetailers = "PublisherSExclusiveDistributorToRetailers",
+  PublisherSNonExclusiveDistributorToRetailers = "PublisherSNonExclusiveDistributorToRetailers",
+  Wholesaler = "Wholesaler",
+  SalesAgent = "SalesAgent",
+  PublisherSDistributorToRetailers = "PublisherSDistributorToRetailers",
+  PodSupplier = "PodSupplier",
+  Retailer = "Retailer",
+  PublisherToEndCustomers = "PublisherToEndCustomers",
+  ExclusiveDistributorToEndCustomers = "ExclusiveDistributorToEndCustomers",
+  NonExclusiveDistributorToEndCustomers = "NonExclusiveDistributorToEndCustomers",
+  DistributorToEndCustomers = "DistributorToEndCustomers",
+  ExclusiveDistributorToRetailersAndEndCustomers = "ExclusiveDistributorToRetailersAndEndCustomers",
+  NonExclusiveDistributorToRetailersAndEndCustomers = "NonExclusiveDistributorToRetailersAndEndCustomers",
+  DistributorToRetailersAndEndCustomers = "DistributorToRetailersAndEndCustomers"
 }
   

@@ -13,13 +13,13 @@ export const UnnamedPersonS = {
 };
 
 export enum UnnamedPersonSEnum {
-  Unknown,
-  Anonymous,
-  EtAl,
-  Various,
-  SynthesisedVoiceMale,
-  SynthesisedVoiceFemale,
-  SynthesisedVoiceUnspecified,
-  SynthesisedVoiceBasedOnRealVoiceActor
+  Unknown = "Unknown",
+  Anonymous = "Anonymous",
+  EtAl = "EtAl",
+  Various = "Various",
+  SynthesisedVoiceMale = "SynthesisedVoiceMale",
+  SynthesisedVoiceFemale = "SynthesisedVoiceFemale",
+  SynthesisedVoiceUnspecified = "SynthesisedVoiceUnspecified",
+  SynthesisedVoiceBasedOnRealVoiceActor = "SynthesisedVoiceBasedOnRealVoiceActor"
 }
   

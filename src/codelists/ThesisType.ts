@@ -12,12 +12,12 @@ export const ThesisType = {
 };
 
 export enum ThesisTypeEnum {
-  Habilitationsschrift,
-  Dissertationsschrift,
-  Staatsexamensarbeit,
-  Magisterarbeit,
-  Diplomarbeit,
-  Bachelorarbeit,
-  Masterarbeit
+  Habilitationsschrift = "Habilitationsschrift",
+  Dissertationsschrift = "Dissertationsschrift",
+  Staatsexamensarbeit = "Staatsexamensarbeit",
+  Magisterarbeit = "Magisterarbeit",
+  Diplomarbeit = "Diplomarbeit",
+  Bachelorarbeit = "Bachelorarbeit",
+  Masterarbeit = "Masterarbeit"
 }
   

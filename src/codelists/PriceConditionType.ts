@@ -17,17 +17,17 @@ export const PriceConditionType = {
 };
 
 export enum PriceConditionTypeEnum {
-  NoConditions,
-  IncludesUpdates,
-  MustAlsoPurchaseUpdates,
-  UpdatesAvailable,
-  LinkedSubsequentPurchasePrice,
-  LinkedPriorPurchasePrice,
-  LinkedPrice,
-  AutoRenewing,
-  CombinedPrice,
-  RentalDuration,
-  RentalToPurchase,
-  RentalExtension
+  NoConditions = "NoConditions",
+  IncludesUpdates = "IncludesUpdates",
+  MustAlsoPurchaseUpdates = "MustAlsoPurchaseUpdates",
+  UpdatesAvailable = "UpdatesAvailable",
+  LinkedSubsequentPurchasePrice = "LinkedSubsequentPurchasePrice",
+  LinkedPriorPurchasePrice = "LinkedPriorPurchasePrice",
+  LinkedPrice = "LinkedPrice",
+  AutoRenewing = "AutoRenewing",
+  CombinedPrice = "CombinedPrice",
+  RentalDuration = "RentalDuration",
+  RentalToPurchase = "RentalToPurchase",
+  RentalExtension = "RentalExtension"
 }
   

@@ -8,8 +8,8 @@ export const GenderBasedOnIso_5218 = {
 };
 
 export enum GenderBasedOnIso_5218Enum {
-  UnknownOrUnspecified,
-  Female,
-  Male
+  UnknownOrUnspecified = "UnknownOrUnspecified",
+  Female = "Female",
+  Male = "Male"
 }
   

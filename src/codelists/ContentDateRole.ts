@@ -15,15 +15,15 @@ export const ContentDateRole = {
 };
 
 export enum ContentDateRoleEnum {
-  PublicationDate,
-  BroadcastDate,
-  FromDate,
-  UntilDate,
-  LastUpdated,
-  FromUntilDate,
-  AvailableFrom,
-  AvailableUntil,
-  AssociatedStartDate,
-  AssociatedEndDate
+  PublicationDate = "PublicationDate",
+  BroadcastDate = "BroadcastDate",
+  FromDate = "FromDate",
+  UntilDate = "UntilDate",
+  LastUpdated = "LastUpdated",
+  FromUntilDate = "FromUntilDate",
+  AvailableFrom = "AvailableFrom",
+  AvailableUntil = "AvailableUntil",
+  AssociatedStartDate = "AssociatedStartDate",
+  AssociatedEndDate = "AssociatedEndDate"
 }
   

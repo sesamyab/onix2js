@@ -13,13 +13,13 @@ export const MeasureUnit = {
 };
 
 export enum MeasureUnitEnum {
-  Centimeters,
-  Grams,
-  InchesUs,
-  Kilograms,
-  PoundsUs,
-  Millimeters,
-  OuncesUs,
-  Pixels
+  Centimeters = "Centimeters",
+  Grams = "Grams",
+  InchesUs = "InchesUs",
+  Kilograms = "Kilograms",
+  PoundsUs = "PoundsUs",
+  Millimeters = "Millimeters",
+  OuncesUs = "OuncesUs",
+  Pixels = "Pixels"
 }
   

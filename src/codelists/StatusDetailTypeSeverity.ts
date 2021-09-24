@@ -11,11 +11,11 @@ export const StatusDetailTypeSeverity = {
 };
 
 export enum StatusDetailTypeSeverityEnum {
-  Unclassifiable,
-  Info,
-  Query,
-  Warning,
-  Error,
-  FatalError
+  Unclassifiable = "Unclassifiable",
+  Info = "Info",
+  Query = "Query",
+  Warning = "Warning",
+  Error = "Error",
+  FatalError = "FatalError"
 }
   

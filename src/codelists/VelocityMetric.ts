@@ -14,14 +14,14 @@ export const VelocityMetric = {
 };
 
 export enum VelocityMetricEnum {
-  MeanDailySale,
-  MaximumDailySale,
-  MinimumDailySale,
-  MeanWeeklySale,
-  MaximumWeeklySale,
-  MinimumWeeklySale,
-  MeanMonthlySale,
-  MaximumMonthlySale,
-  MinimumMonthlySale
+  MeanDailySale = "MeanDailySale",
+  MaximumDailySale = "MaximumDailySale",
+  MinimumDailySale = "MinimumDailySale",
+  MeanWeeklySale = "MeanWeeklySale",
+  MaximumWeeklySale = "MaximumWeeklySale",
+  MinimumWeeklySale = "MinimumWeeklySale",
+  MeanMonthlySale = "MeanMonthlySale",
+  MaximumMonthlySale = "MaximumMonthlySale",
+  MinimumMonthlySale = "MinimumMonthlySale"
 }
   

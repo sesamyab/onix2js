@@ -14,14 +14,14 @@ export const ProductContactRole = {
 };
 
 export enum ProductContactRoleEnum {
-  MetadataContact,
-  AccessibilityRequestContact,
-  PromotionalContact,
-  AdvertisingContact,
-  ReviewCopyContact,
-  EvaluationCopyContact,
-  PermissionsContact,
-  ReturnAuthorisationContact,
-  CipLegalDepositContact
+  MetadataContact = "MetadataContact",
+  AccessibilityRequestContact = "AccessibilityRequestContact",
+  PromotionalContact = "PromotionalContact",
+  AdvertisingContact = "AdvertisingContact",
+  ReviewCopyContact = "ReviewCopyContact",
+  EvaluationCopyContact = "EvaluationCopyContact",
+  PermissionsContact = "PermissionsContact",
+  ReturnAuthorisationContact = "ReturnAuthorisationContact",
+  CipLegalDepositContact = "CipLegalDepositContact"
 }
   

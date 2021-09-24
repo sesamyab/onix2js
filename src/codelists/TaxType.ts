@@ -8,8 +8,8 @@ export const TaxType = {
 };
 
 export enum TaxTypeEnum {
-  Vat,
-  Gst,
-  Eco
+  Vat = "Vat",
+  Gst = "Gst",
+  Eco = "Eco"
 }
   

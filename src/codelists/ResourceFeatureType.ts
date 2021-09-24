@@ -15,15 +15,15 @@ export const ResourceFeatureType = {
 };
 
 export enum ResourceFeatureTypeEnum {
-  RequiredCredit,
-  Caption,
-  CopyrightHolder,
-  LengthInMinutes,
-  IsniOfResourceContributor,
-  ProprietaryIdOfResourceContributor,
-  ResourceAlternativeText,
-  BackgroundColorOfImageResource,
-  AttributeOfProductImageResource,
-  BackgroundColorOfPage
+  RequiredCredit = "RequiredCredit",
+  Caption = "Caption",
+  CopyrightHolder = "CopyrightHolder",
+  LengthInMinutes = "LengthInMinutes",
+  IsniOfResourceContributor = "IsniOfResourceContributor",
+  ProprietaryIdOfResourceContributor = "ProprietaryIdOfResourceContributor",
+  ResourceAlternativeText = "ResourceAlternativeText",
+  BackgroundColorOfImageResource = "BackgroundColorOfImageResource",
+  AttributeOfProductImageResource = "AttributeOfProductImageResource",
+  BackgroundColorOfPage = "BackgroundColorOfPage"
 }
   

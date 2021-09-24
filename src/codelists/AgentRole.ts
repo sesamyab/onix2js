@@ -9,9 +9,9 @@ export const AgentRole = {
 };
 
 export enum AgentRoleEnum {
-  ExclusiveSalesAgent,
-  NonExclusiveSalesAgent,
-  LocalPublisher,
-  SalesAgent
+  ExclusiveSalesAgent = "ExclusiveSalesAgent",
+  NonExclusiveSalesAgent = "NonExclusiveSalesAgent",
+  LocalPublisher = "LocalPublisher",
+  SalesAgent = "SalesAgent"
 }
   

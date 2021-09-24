@@ -7,7 +7,7 @@ export const StockQuantityCodeType = {
 };
 
 export enum StockQuantityCodeTypeEnum {
-  Proprietary,
-  ApaStockQuantityCode
+  Proprietary = "Proprietary",
+  ApaStockQuantityCode = "ApaStockQuantityCode"
 }
   

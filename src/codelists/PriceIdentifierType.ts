@@ -12,12 +12,12 @@ export const PriceIdentifierType = {
 };
 
 export enum PriceIdentifierTypeEnum {
-  Proprietary,
-  ProprietaryPricePointIdentifier,
-  ProprietaryPriceTypeIdentifier,
-  ProprietaryPricePointAndTypeIdentifier,
-  ProprietaryUniquePriceIdentifier,
-  ProprietaryProductPricePointIdentifier,
-  ProprietaryProductPriceTypeIdentifier
+  Proprietary = "Proprietary",
+  ProprietaryPricePointIdentifier = "ProprietaryPricePointIdentifier",
+  ProprietaryPriceTypeIdentifier = "ProprietaryPriceTypeIdentifier",
+  ProprietaryPricePointAndTypeIdentifier = "ProprietaryPricePointAndTypeIdentifier",
+  ProprietaryUniquePriceIdentifier = "ProprietaryUniquePriceIdentifier",
+  ProprietaryProductPricePointIdentifier = "ProprietaryProductPricePointIdentifier",
+  ProprietaryProductPriceTypeIdentifier = "ProprietaryProductPriceTypeIdentifier"
 }
   

@@ -19,19 +19,19 @@ export const ExtentUnit = {
 };
 
 export enum ExtentUnitEnum {
-  Characters,
-  Words,
-  Pages,
-  HoursIntegerAndDecimals,
-  MinutesIntegerAndDecimals,
-  SecondsIntegerOnly,
-  Tracks,
-  Discs,
-  HoursHhh,
-  HoursAndMinutesHhhmm,
-  HoursMinutesSecondsHhhmmss,
-  Bytes,
-  Kbytes,
-  Mbytes
+  Characters = "Characters",
+  Words = "Words",
+  Pages = "Pages",
+  HoursIntegerAndDecimals = "HoursIntegerAndDecimals",
+  MinutesIntegerAndDecimals = "MinutesIntegerAndDecimals",
+  SecondsIntegerOnly = "SecondsIntegerOnly",
+  Tracks = "Tracks",
+  Discs = "Discs",
+  HoursHhh = "HoursHhh",
+  HoursAndMinutesHhhmm = "HoursAndMinutesHhhmm",
+  HoursMinutesSecondsHhhmmss = "HoursMinutesSecondsHhhmmss",
+  Bytes = "Bytes",
+  Kbytes = "Kbytes",
+  Mbytes = "Mbytes"
 }
   

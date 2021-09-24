@@ -10,10 +10,10 @@ export const BibleTextOrganization = {
 };
 
 export enum BibleTextOrganizationEnum {
-  Chronological,
-  ChainReference,
-  Interlinear,
-  Parallel,
-  Standard
+  Chronological = "Chronological",
+  ChainReference = "ChainReference",
+  Interlinear = "Interlinear",
+  Parallel = "Parallel",
+  Standard = "Standard"
 }
   

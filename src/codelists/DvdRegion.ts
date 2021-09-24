@@ -17,17 +17,17 @@ export const DvdRegion = {
 };
 
 export enum DvdRegionEnum {
-  AllRegions,
-  DvdRegion_1,
-  DvdRegion_2,
-  DvdRegion_3,
-  DvdRegion_4,
-  DvdRegion_5,
-  DvdRegion_6,
-  DvdRegion_7,
-  DvdRegion_8,
-  BluRayRegionA,
-  BluRayRegionB,
-  BluRayRegionC
+  AllRegions = "AllRegions",
+  DvdRegion_1 = "DvdRegion_1",
+  DvdRegion_2 = "DvdRegion_2",
+  DvdRegion_3 = "DvdRegion_3",
+  DvdRegion_4 = "DvdRegion_4",
+  DvdRegion_5 = "DvdRegion_5",
+  DvdRegion_6 = "DvdRegion_6",
+  DvdRegion_7 = "DvdRegion_7",
+  DvdRegion_8 = "DvdRegion_8",
+  BluRayRegionA = "BluRayRegionA",
+  BluRayRegionB = "BluRayRegionB",
+  BluRayRegionC = "BluRayRegionC"
 }
   

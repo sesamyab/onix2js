@@ -15,15 +15,15 @@ export const ComplexitySchemeIdentifier = {
 };
 
 export enum ComplexitySchemeIdentifierEnum {
-  LexileCode,
-  LexileNumber,
-  FryReadabilityScore,
-  IoEBookBand,
-  FountasPinnellTextLevelGradient,
-  LexileMeasure,
-  AtosForBooks,
-  FleschKincaidGradeLevel,
-  GuidedReadingLevel,
-  ReadingRecoveryLevel
+  LexileCode = "LexileCode",
+  LexileNumber = "LexileNumber",
+  FryReadabilityScore = "FryReadabilityScore",
+  IoEBookBand = "IoEBookBand",
+  FountasPinnellTextLevelGradient = "FountasPinnellTextLevelGradient",
+  LexileMeasure = "LexileMeasure",
+  AtosForBooks = "AtosForBooks",
+  FleschKincaidGradeLevel = "FleschKincaidGradeLevel",
+  GuidedReadingLevel = "GuidedReadingLevel",
+  ReadingRecoveryLevel = "ReadingRecoveryLevel"
 }
   

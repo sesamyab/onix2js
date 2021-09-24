@@ -7,7 +7,7 @@ export const EventStatus = {
 };
 
 export enum EventStatusEnum {
-  Announced,
-  Cancelled
+  Announced = "Announced",
+  Cancelled = "Cancelled"
 }
   

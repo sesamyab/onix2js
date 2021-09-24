@@ -9,9 +9,9 @@ export const CollectionType = {
 };
 
 export enum CollectionTypeEnum {
-  UnspecifiedDefault,
-  PublisherCollection,
-  CollectionDitoriale,
-  AscribedCollection
+  UnspecifiedDefault = "UnspecifiedDefault",
+  PublisherCollection = "PublisherCollection",
+  CollectionDitoriale = "CollectionDitoriale",
+  AscribedCollection = "AscribedCollection"
 }
   

@@ -17,17 +17,17 @@ export const PositionOnProduct = {
 };
 
 export enum PositionOnProductEnum {
-  UnknownUnspecified,
-  Cover_4,
-  Cover_3,
-  Cover_2,
-  Cover_1,
-  OnSpine,
-  OnBox,
-  OnTag,
-  OnBottom,
-  OnBack,
-  OnOuterSleeveBack,
-  OnRemovableWrapping
+  UnknownUnspecified = "UnknownUnspecified",
+  Cover_4 = "Cover_4",
+  Cover_3 = "Cover_3",
+  Cover_2 = "Cover_2",
+  Cover_1 = "Cover_1",
+  OnSpine = "OnSpine",
+  OnBox = "OnBox",
+  OnTag = "OnTag",
+  OnBottom = "OnBottom",
+  OnBack = "OnBack",
+  OnOuterSleeveBack = "OnOuterSleeveBack",
+  OnRemovableWrapping = "OnRemovableWrapping"
 }
   

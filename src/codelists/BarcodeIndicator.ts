@@ -15,15 +15,15 @@ export const BarcodeIndicator = {
 };
 
 export enum BarcodeIndicatorEnum {
-  NotBarcoded,
-  BarcodedSchemeUnspecified,
-  Gtin_13,
-  Gtin_13_5UsDollarPriceEncoded,
-  Gtin_13_5CanDollarPriceEncoded,
-  Gtin_13_5NoPriceEncoded,
-  Upc_12ItemSpecific,
-  Upc_12_5ItemSpecific,
-  Upc_12PricePoint,
-  Upc_12_5PricePoint
+  NotBarcoded = "NotBarcoded",
+  BarcodedSchemeUnspecified = "BarcodedSchemeUnspecified",
+  Gtin_13 = "Gtin_13",
+  Gtin_13_5UsDollarPriceEncoded = "Gtin_13_5UsDollarPriceEncoded",
+  Gtin_13_5CanDollarPriceEncoded = "Gtin_13_5CanDollarPriceEncoded",
+  Gtin_13_5NoPriceEncoded = "Gtin_13_5NoPriceEncoded",
+  Upc_12ItemSpecific = "Upc_12ItemSpecific",
+  Upc_12_5ItemSpecific = "Upc_12_5ItemSpecific",
+  Upc_12PricePoint = "Upc_12PricePoint",
+  Upc_12_5PricePoint = "Upc_12_5PricePoint"
 }
   

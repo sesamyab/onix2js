@@ -9,9 +9,9 @@ export const MessageStatus = {
 };
 
 export enum MessageStatusEnum {
-  MessageReceived,
-  MessageRejected,
-  MessagePartProcessed,
-  MessageProcessed
+  MessageReceived = "MessageReceived",
+  MessageRejected = "MessageRejected",
+  MessagePartProcessed = "MessagePartProcessed",
+  MessageProcessed = "MessageProcessed"
 }
   

@@ -19,19 +19,19 @@ export const RecordSourceType = {
 };
 
 export enum RecordSourceTypeEnum {
-  Unspecified,
-  Publisher,
-  PublisherSDistributor,
-  Wholesaler,
-  BibliographicAgency,
-  LibraryBookseller,
-  PublisherSSalesAgent,
-  PublisherSConversionServiceProvider,
-  ConversionServiceProvider,
-  IsbnRegistrationAgency,
-  IstcRegistrationAgency,
-  RetailBookseller,
-  EducationBookseller,
-  Library
+  Unspecified = "Unspecified",
+  Publisher = "Publisher",
+  PublisherSDistributor = "PublisherSDistributor",
+  Wholesaler = "Wholesaler",
+  BibliographicAgency = "BibliographicAgency",
+  LibraryBookseller = "LibraryBookseller",
+  PublisherSSalesAgent = "PublisherSSalesAgent",
+  PublisherSConversionServiceProvider = "PublisherSConversionServiceProvider",
+  ConversionServiceProvider = "ConversionServiceProvider",
+  IsbnRegistrationAgency = "IsbnRegistrationAgency",
+  IstcRegistrationAgency = "IstcRegistrationAgency",
+  RetailBookseller = "RetailBookseller",
+  EducationBookseller = "EducationBookseller",
+  Library = "Library"
 }
   

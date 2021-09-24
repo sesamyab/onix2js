@@ -7,7 +7,7 @@ export const EventOccurrenceDateRole = {
 };
 
 export enum EventOccurrenceDateRoleEnum {
-  DateOfOccurrence,
-  DateOfOccurrenceEnd
+  DateOfOccurrence = "DateOfOccurrence",
+  DateOfOccurrenceEnd = "DateOfOccurrenceEnd"
 }
   

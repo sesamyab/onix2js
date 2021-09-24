@@ -16,16 +16,16 @@ export const UsageType = {
 };
 
 export enum UsageTypeEnum {
-  NoConstraints,
-  Preview,
-  Print,
-  CopyPaste,
-  Share,
-  TextToSpeech,
-  Lend,
-  TimeLimitedLicense,
-  LoanRenewal,
-  MultiUserLicense,
-  PreviewOnPremises
+  NoConstraints = "NoConstraints",
+  Preview = "Preview",
+  Print = "Print",
+  CopyPaste = "CopyPaste",
+  Share = "Share",
+  TextToSpeech = "TextToSpeech",
+  Lend = "Lend",
+  TimeLimitedLicense = "TimeLimitedLicense",
+  LoanRenewal = "LoanRenewal",
+  MultiUserLicense = "MultiUserLicense",
+  PreviewOnPremises = "PreviewOnPremises"
 }
   

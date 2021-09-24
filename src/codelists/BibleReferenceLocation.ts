@@ -11,11 +11,11 @@ export const BibleReferenceLocation = {
 };
 
 export enum BibleReferenceLocationEnum {
-  CenterColumn,
-  PageEnd,
-  SideColumn,
-  VerseEnd,
-  Unknown,
-  Other
+  CenterColumn = "CenterColumn",
+  PageEnd = "PageEnd",
+  SideColumn = "SideColumn",
+  VerseEnd = "VerseEnd",
+  Unknown = "Unknown",
+  Other = "Other"
 }
   

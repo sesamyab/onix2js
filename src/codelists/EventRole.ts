@@ -14,14 +14,14 @@ export const EventRole = {
 };
 
 export enum EventRoleEnum {
-  PublicationLinkedToConference,
-  CompleteProceedingsOfConference,
-  SelectedPapersFromConference,
-  PublicationLinkedToSportingEvent,
-  ProgrammeOrGuideForSportingEvent,
-  PublicationLinkedToArtisticEvent,
-  ProgrammeOrGuideForArtisticEvent,
-  PublicationLinkedToExposition,
-  ProgrammeOrGuideForExposition
+  PublicationLinkedToConference = "PublicationLinkedToConference",
+  CompleteProceedingsOfConference = "CompleteProceedingsOfConference",
+  SelectedPapersFromConference = "SelectedPapersFromConference",
+  PublicationLinkedToSportingEvent = "PublicationLinkedToSportingEvent",
+  ProgrammeOrGuideForSportingEvent = "ProgrammeOrGuideForSportingEvent",
+  PublicationLinkedToArtisticEvent = "PublicationLinkedToArtisticEvent",
+  ProgrammeOrGuideForArtisticEvent = "ProgrammeOrGuideForArtisticEvent",
+  PublicationLinkedToExposition = "PublicationLinkedToExposition",
+  ProgrammeOrGuideForExposition = "ProgrammeOrGuideForExposition"
 }
   

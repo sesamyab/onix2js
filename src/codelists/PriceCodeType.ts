@@ -8,8 +8,8 @@ export const PriceCodeType = {
 };
 
 export enum PriceCodeTypeEnum {
-  Proprietary,
-  FinnishPocketBookPriceCode,
-  FinnishMikiBookPriceCode
+  Proprietary = "Proprietary",
+  FinnishPocketBookPriceCode = "FinnishPocketBookPriceCode",
+  FinnishMikiBookPriceCode = "FinnishMikiBookPriceCode"
 }
   

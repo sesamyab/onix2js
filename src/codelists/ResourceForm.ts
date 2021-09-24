@@ -8,8 +8,8 @@ export const ResourceForm = {
 };
 
 export enum ResourceFormEnum {
-  LinkableResource,
-  DownloadableFile,
-  EmbeddableApplication
+  LinkableResource = "LinkableResource",
+  DownloadableFile = "DownloadableFile",
+  EmbeddableApplication = "EmbeddableApplication"
 }
   

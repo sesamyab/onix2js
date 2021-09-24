@@ -9,9 +9,9 @@ export const AvItemTypeCode = {
 };
 
 export enum AvItemTypeCodeEnum {
-  AudiovisualWork,
-  FrontMatter,
-  BodyMatter,
-  EndMatter
+  AudiovisualWork = "AudiovisualWork",
+  FrontMatter = "FrontMatter",
+  BodyMatter = "BodyMatter",
+  EndMatter = "EndMatter"
 }
   

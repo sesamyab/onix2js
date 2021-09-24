@@ -10,10 +10,10 @@ export const WorkRelation = {
 };
 
 export enum WorkRelationEnum {
-  ManifestationOf,
-  DerivedFrom,
-  RelatedWorkIsDerivedFromThis,
-  OtherWorkInSameCollection,
-  OtherWorkBySameContributor
+  ManifestationOf = "ManifestationOf",
+  DerivedFrom = "DerivedFrom",
+  RelatedWorkIsDerivedFromThis = "RelatedWorkIsDerivedFromThis",
+  OtherWorkInSameCollection = "OtherWorkInSameCollection",
+  OtherWorkBySameContributor = "OtherWorkBySameContributor"
 }
   

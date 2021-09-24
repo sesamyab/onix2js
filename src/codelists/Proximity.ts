@@ -12,12 +12,12 @@ export const Proximity = {
 };
 
 export enum ProximityEnum {
-  LessThan,
-  NotMoreThan,
-  Exactly,
-  Approximately,
-  About,
-  NotLessThan,
-  MoreThan
+  LessThan = "LessThan",
+  NotMoreThan = "NotMoreThan",
+  Exactly = "Exactly",
+  Approximately = "Approximately",
+  About = "About",
+  NotLessThan = "NotLessThan",
+  MoreThan = "MoreThan"
 }
   

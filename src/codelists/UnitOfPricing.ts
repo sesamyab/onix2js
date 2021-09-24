@@ -7,7 +7,7 @@ export const UnitOfPricing = {
 };
 
 export enum UnitOfPricingEnum {
-  PerCopyOfWholeProduct,
-  PerPageForPrintedLooseLeafContentOnly
+  PerCopyOfWholeProduct = "PerCopyOfWholeProduct",
+  PerPageForPrintedLooseLeafContentOnly = "PerPageForPrintedLooseLeafContentOnly"
 }
   

@@ -16,16 +16,16 @@ export const ContributorPlaceRelator = {
 };
 
 export enum ContributorPlaceRelatorEnum {
-  AssociatedWith,
-  BornIn,
-  DiedIn,
-  FormerlyResidedIn,
-  CurrentlyResidesIn,
-  EducatedIn,
-  WorkedIn,
-  FlourishedIn,
-  CitizenOf,
-  RegisteredIn,
-  OperatingFrom
+  AssociatedWith = "AssociatedWith",
+  BornIn = "BornIn",
+  DiedIn = "DiedIn",
+  FormerlyResidedIn = "FormerlyResidedIn",
+  CurrentlyResidesIn = "CurrentlyResidesIn",
+  EducatedIn = "EducatedIn",
+  WorkedIn = "WorkedIn",
+  FlourishedIn = "FlourishedIn",
+  CitizenOf = "CitizenOf",
+  RegisteredIn = "RegisteredIn",
+  OperatingFrom = "OperatingFrom"
 }
   

@@ -14,14 +14,14 @@ export const WorkIdentifierType = {
 };
 
 export enum WorkIdentifierTypeEnum {
-  Proprietary,
-  Isbn_10,
-  Doi,
-  Istc,
-  Isbn_13,
-  Isrc,
-  Glimir,
-  Owi,
-  Iscc
+  Proprietary = "Proprietary",
+  Isbn_10 = "Isbn_10",
+  Doi = "Doi",
+  Istc = "Istc",
+  Isbn_13 = "Isbn_13",
+  Isrc = "Isrc",
+  Glimir = "Glimir",
+  Owi = "Owi",
+  Iscc = "Iscc"
 }
   

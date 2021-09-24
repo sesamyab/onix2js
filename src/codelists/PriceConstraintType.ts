@@ -11,11 +11,11 @@ export const PriceConstraintType = {
 };
 
 export enum PriceConstraintTypeEnum {
-  NoConstraints,
-  Lend,
-  TimeLimitedLicense,
-  LoanRenewal,
-  MultiUserLicense,
-  PreviewOnPremises
+  NoConstraints = "NoConstraints",
+  Lend = "Lend",
+  TimeLimitedLicense = "TimeLimitedLicense",
+  LoanRenewal = "LoanRenewal",
+  MultiUserLicense = "MultiUserLicense",
+  PreviewOnPremises = "PreviewOnPremises"
 }
   

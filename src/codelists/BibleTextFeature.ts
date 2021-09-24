@@ -6,6 +6,6 @@ export const BibleTextFeature = {
 };
 
 export enum BibleTextFeatureEnum {
-  RedLetter
+  RedLetter = "RedLetter"
 }
   

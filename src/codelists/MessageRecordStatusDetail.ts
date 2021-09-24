@@ -7,7 +7,7 @@ export const MessageRecordStatusDetail = {
 };
 
 export enum MessageRecordStatusDetailEnum {
-  UnknownError,
-  UnknownWarning
+  UnknownError = "UnknownError",
+  UnknownWarning = "UnknownWarning"
 }
   

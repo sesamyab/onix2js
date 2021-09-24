@@ -16,16 +16,16 @@ export const SeriesIdentifierType = {
 };
 
 export enum SeriesIdentifierTypeEnum {
-  Proprietary,
-  Issn,
-  GermanNationalBibliographySeriesId,
-  GermanBooksInPrintSeriesId,
-  ElectreSeriesId,
-  Doi,
-  Isbn_13,
-  Urn,
-  BnfControlNumber,
-  Ark,
-  IssnL
+  Proprietary = "Proprietary",
+  Issn = "Issn",
+  GermanNationalBibliographySeriesId = "GermanNationalBibliographySeriesId",
+  GermanBooksInPrintSeriesId = "GermanBooksInPrintSeriesId",
+  ElectreSeriesId = "ElectreSeriesId",
+  Doi = "Doi",
+  Isbn_13 = "Isbn_13",
+  Urn = "Urn",
+  BnfControlNumber = "BnfControlNumber",
+  Ark = "Ark",
+  IssnL = "IssnL"
 }
   

@@ -9,9 +9,9 @@ export const SalesOutletIdentifierType = {
 };
 
 export enum SalesOutletIdentifierTypeEnum {
-  Proprietary,
-  OnixRetailSalesOutletIdCode,
-  RetailSalesOutletGln,
-  RetailSalesOutletSan
+  Proprietary = "Proprietary",
+  OnixRetailSalesOutletIdCode = "OnixRetailSalesOutletIdCode",
+  RetailSalesOutletGln = "RetailSalesOutletGln",
+  RetailSalesOutletSan = "RetailSalesOutletSan"
 }
   

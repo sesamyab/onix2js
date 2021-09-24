@@ -10,10 +10,10 @@ export const QuantityUnit = {
 };
 
 export enum QuantityUnitEnum {
-  Units,
-  Days,
-  Weeks,
-  Months,
-  Years
+  Units = "Units",
+  Days = "Days",
+  Weeks = "Weeks",
+  Months = "Months",
+  Years = "Years"
 }
   

@@ -22,22 +22,22 @@ export const BibleContents = {
 };
 
 export enum BibleContentsEnum {
-  ApocryphaCatholicCanon,
-  ApocryphaCanonUnspecified,
-  AdditionalApocryphalTextsGreekOrthodoxCanon,
-  AdditionalApocryphalTextsSlavonicOrthodoxCanon,
-  AdditionalApocryphalTexts,
-  GeneralCanonWithApocryphaCatholicCanon,
-  GeneralCanonWithApocryphalTextsCanonUnspecified,
-  GeneralCanon,
-  Gospels,
-  OldTestament,
-  NewTestament,
-  NewTestamentWithPsalmsAndProverbs,
-  PaulSEpistles,
-  PsalmsAndProverbs,
-  Psalms,
-  Pentateuch,
-  OtherPortions
+  ApocryphaCatholicCanon = "ApocryphaCatholicCanon",
+  ApocryphaCanonUnspecified = "ApocryphaCanonUnspecified",
+  AdditionalApocryphalTextsGreekOrthodoxCanon = "AdditionalApocryphalTextsGreekOrthodoxCanon",
+  AdditionalApocryphalTextsSlavonicOrthodoxCanon = "AdditionalApocryphalTextsSlavonicOrthodoxCanon",
+  AdditionalApocryphalTexts = "AdditionalApocryphalTexts",
+  GeneralCanonWithApocryphaCatholicCanon = "GeneralCanonWithApocryphaCatholicCanon",
+  GeneralCanonWithApocryphalTextsCanonUnspecified = "GeneralCanonWithApocryphalTextsCanonUnspecified",
+  GeneralCanon = "GeneralCanon",
+  Gospels = "Gospels",
+  OldTestament = "OldTestament",
+  NewTestament = "NewTestament",
+  NewTestamentWithPsalmsAndProverbs = "NewTestamentWithPsalmsAndProverbs",
+  PaulSEpistles = "PaulSEpistles",
+  PsalmsAndProverbs = "PsalmsAndProverbs",
+  Psalms = "Psalms",
+  Pentateuch = "Pentateuch",
+  OtherPortions = "OtherPortions"
 }
   

@@ -6,6 +6,6 @@ export const GrantIdentifierType = {
 };
 
 export enum GrantIdentifierTypeEnum {
-  Proprietary
+  Proprietary = "Proprietary"
 }
   

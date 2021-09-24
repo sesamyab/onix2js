@@ -14,14 +14,14 @@ export const ResourceVersionFeatureType = {
 };
 
 export enum ResourceVersionFeatureTypeEnum {
-  FileFormat,
-  ImageHeightInPixels,
-  ImageWidthInPixels,
-  Filename,
-  ApproximateDownloadFileSizeInMegabytes,
-  Md5HashValue,
-  ExactDownloadFileSizeInBytes,
-  Sha_256HashValue,
-  Iscc
+  FileFormat = "FileFormat",
+  ImageHeightInPixels = "ImageHeightInPixels",
+  ImageWidthInPixels = "ImageWidthInPixels",
+  Filename = "Filename",
+  ApproximateDownloadFileSizeInMegabytes = "ApproximateDownloadFileSizeInMegabytes",
+  Md5HashValue = "Md5HashValue",
+  ExactDownloadFileSizeInBytes = "ExactDownloadFileSizeInBytes",
+  Sha_256HashValue = "Sha_256HashValue",
+  Iscc = "Iscc"
 }
   

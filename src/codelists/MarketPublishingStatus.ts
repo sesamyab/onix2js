@@ -22,22 +22,22 @@ export const MarketPublishingStatus = {
 };
 
 export enum MarketPublishingStatusEnum {
-  Unspecified,
-  Cancelled,
-  Forthcoming,
-  PostponedIndefinitely,
-  Active,
-  NoLongerOurProduct,
-  OutOfStockIndefinitely,
-  OutOfPrint,
-  Inactive,
-  Unknown,
-  Remaindered,
-  WithdrawnFromSale,
-  NotAvailableInThisMarket,
-  ActiveButNotSoldSeparately,
-  ActiveWithMarketRestrictions,
-  Recalled,
-  TemporarilyWithdrawnFromSale
+  Unspecified = "Unspecified",
+  Cancelled = "Cancelled",
+  Forthcoming = "Forthcoming",
+  PostponedIndefinitely = "PostponedIndefinitely",
+  Active = "Active",
+  NoLongerOurProduct = "NoLongerOurProduct",
+  OutOfStockIndefinitely = "OutOfStockIndefinitely",
+  OutOfPrint = "OutOfPrint",
+  Inactive = "Inactive",
+  Unknown = "Unknown",
+  Remaindered = "Remaindered",
+  WithdrawnFromSale = "WithdrawnFromSale",
+  NotAvailableInThisMarket = "NotAvailableInThisMarket",
+  ActiveButNotSoldSeparately = "ActiveButNotSoldSeparately",
+  ActiveWithMarketRestrictions = "ActiveWithMarketRestrictions",
+  Recalled = "Recalled",
+  TemporarilyWithdrawnFromSale = "TemporarilyWithdrawnFromSale"
 }
   

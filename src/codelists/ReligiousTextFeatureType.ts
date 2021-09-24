@@ -6,6 +6,6 @@ export const ReligiousTextFeatureType = {
 };
 
 export enum ReligiousTextFeatureTypeEnum {
-  ChurchSeasonOrActivity
+  ChurchSeasonOrActivity = "ChurchSeasonOrActivity"
 }
   

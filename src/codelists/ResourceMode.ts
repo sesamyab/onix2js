@@ -11,11 +11,11 @@ export const ResourceMode = {
 };
 
 export enum ResourceModeEnum {
-  Application,
-  Audio,
-  Image,
-  Text,
-  Video,
-  MultiMode
+  Application = "Application",
+  Audio = "Audio",
+  Image = "Image",
+  Text = "Text",
+  Video = "Video",
+  MultiMode = "MultiMode"
 }
   

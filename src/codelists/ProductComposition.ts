@@ -12,12 +12,12 @@ export const ProductComposition = {
 };
 
 export enum ProductCompositionEnum {
-  SingleComponentRetailProduct,
-  SingleComponentNotAvailableSeparately,
-  MultipleComponentRetailProduct,
-  MultipleItemCollectionRetailedAsSeparateParts,
-  TradeOnlyProduct,
-  MultipleItemTradeOnlyPack,
-  MultipleItemPack
+  SingleComponentRetailProduct = "SingleComponentRetailProduct",
+  SingleComponentNotAvailableSeparately = "SingleComponentNotAvailableSeparately",
+  MultipleComponentRetailProduct = "MultipleComponentRetailProduct",
+  MultipleItemCollectionRetailedAsSeparateParts = "MultipleItemCollectionRetailedAsSeparateParts",
+  TradeOnlyProduct = "TradeOnlyProduct",
+  MultipleItemTradeOnlyPack = "MultipleItemTradeOnlyPack",
+  MultipleItemPack = "MultipleItemPack"
 }
   

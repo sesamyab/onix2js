@@ -11,11 +11,11 @@ export const TitleElementLevel = {
 };
 
 export enum TitleElementLevelEnum {
-  Product,
-  CollectionLevel,
-  Subcollection,
-  ContentItem,
-  MasterBrand,
-  SubSubcollection
+  Product = "Product",
+  CollectionLevel = "CollectionLevel",
+  Subcollection = "Subcollection",
+  ContentItem = "ContentItem",
+  MasterBrand = "MasterBrand",
+  SubSubcollection = "SubSubcollection"
 }
   

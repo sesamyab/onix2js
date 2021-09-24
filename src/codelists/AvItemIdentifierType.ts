@@ -12,12 +12,12 @@ export const AvItemIdentifierType = {
 };
 
 export enum AvItemIdentifierTypeEnum {
-  Proprietary,
-  Gtin_13,
-  Doi,
-  Imdb,
-  Isrc,
-  Isan,
-  EidrDoi
+  Proprietary = "Proprietary",
+  Gtin_13 = "Gtin_13",
+  Doi = "Doi",
+  Imdb = "Imdb",
+  Isrc = "Isrc",
+  Isan = "Isan",
+  EidrDoi = "EidrDoi"
 }
   

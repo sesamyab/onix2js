@@ -7,7 +7,7 @@ export const PrintedOnProduct = {
 };
 
 export enum PrintedOnProductEnum {
-  No,
-  Yes
+  No = "No",
+  Yes = "Yes"
 }
   

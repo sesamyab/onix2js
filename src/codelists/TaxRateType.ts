@@ -11,11 +11,11 @@ export const TaxRateType = {
 };
 
 export enum TaxRateTypeEnum {
-  HigherRate,
-  TaxPaidAtSourceItaly,
-  LowerRate,
-  StandardRate,
-  SuperLowRate,
-  ZeroRated
+  HigherRate = "HigherRate",
+  TaxPaidAtSourceItaly = "TaxPaidAtSourceItaly",
+  LowerRate = "LowerRate",
+  StandardRate = "StandardRate",
+  SuperLowRate = "SuperLowRate",
+  ZeroRated = "ZeroRated"
 }
   

@@ -10,10 +10,10 @@ export const ReturnsConditionsCodeType = {
 };
 
 export enum ReturnsConditionsCodeTypeEnum {
-  Proprietary,
-  FrenchBookTradeReturnsConditionsCode,
-  BisacReturnableIndicatorCode,
-  UkBookTradeReturnsConditionsCode,
-  OnixReturnsConditionsCode
+  Proprietary = "Proprietary",
+  FrenchBookTradeReturnsConditionsCode = "FrenchBookTradeReturnsConditionsCode",
+  BisacReturnableIndicatorCode = "BisacReturnableIndicatorCode",
+  UkBookTradeReturnsConditionsCode = "UkBookTradeReturnsConditionsCode",
+  OnixReturnsConditionsCode = "OnixReturnsConditionsCode"
 }
   

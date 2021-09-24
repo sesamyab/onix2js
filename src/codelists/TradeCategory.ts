@@ -23,23 +23,23 @@ export const TradeCategory = {
 };
 
 export enum TradeCategoryEnum {
-  UkOpenMarketEdition,
-  AirportEdition,
-  Sonderausgabe,
-  PocketBook,
-  InternationalEditionUs,
-  LibraryAudioEdition,
-  UsOpenMarketEdition,
-  LivreScolaireDClarParLDiteur,
-  LivreScolaireNonSpCifi,
-  SupplementToNewspaper,
-  PrecioLibreTextbook,
-  NewsOutletEdition,
-  UsTextbook,
-  EBookShort,
-  SuperpocketBook,
-  BeauLivre,
-  Podcast,
-  Periodical
+  UkOpenMarketEdition = "UkOpenMarketEdition",
+  AirportEdition = "AirportEdition",
+  Sonderausgabe = "Sonderausgabe",
+  PocketBook = "PocketBook",
+  InternationalEditionUs = "InternationalEditionUs",
+  LibraryAudioEdition = "LibraryAudioEdition",
+  UsOpenMarketEdition = "UsOpenMarketEdition",
+  LivreScolaireDClarParLDiteur = "LivreScolaireDClarParLDiteur",
+  LivreScolaireNonSpCifi = "LivreScolaireNonSpCifi",
+  SupplementToNewspaper = "SupplementToNewspaper",
+  PrecioLibreTextbook = "PrecioLibreTextbook",
+  NewsOutletEdition = "NewsOutletEdition",
+  UsTextbook = "UsTextbook",
+  EBookShort = "EBookShort",
+  SuperpocketBook = "SuperpocketBook",
+  BeauLivre = "BeauLivre",
+  Podcast = "Podcast",
+  Periodical = "Periodical"
 }
   

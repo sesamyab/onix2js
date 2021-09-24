@@ -24,24 +24,24 @@ export const DateFormat = {
 };
 
 export enum DateFormatEnum {
-  Yyyymmdd,
-  Yyyymm,
-  Yyyyww,
-  Yyyyq,
-  Yyyys,
-  Yyyy,
-  Yyyymmddyyyymmdd,
-  Yyyymmyyyymm,
-  Yyyywwyyyyww,
-  Yyyyqyyyyq,
-  Yyyysyyyys,
-  Yyyyyyyy,
-  TextString,
-  YyyymmddThhmm,
-  YyyymmddThhmmss,
-  YyyymmddH,
-  YyyymmH,
-  YyyyH,
-  TextStringH
+  Yyyymmdd = "Yyyymmdd",
+  Yyyymm = "Yyyymm",
+  Yyyyww = "Yyyyww",
+  Yyyyq = "Yyyyq",
+  Yyyys = "Yyyys",
+  Yyyy = "Yyyy",
+  Yyyymmddyyyymmdd = "Yyyymmddyyyymmdd",
+  Yyyymmyyyymm = "Yyyymmyyyymm",
+  Yyyywwyyyyww = "Yyyywwyyyyww",
+  Yyyyqyyyyq = "Yyyyqyyyyq",
+  Yyyysyyyys = "Yyyysyyyys",
+  Yyyyyyyy = "Yyyyyyyy",
+  TextString = "TextString",
+  YyyymmddThhmm = "YyyymmddThhmm",
+  YyyymmddThhmmss = "YyyymmddThhmmss",
+  YyyymmddH = "YyyymmddH",
+  YyyymmH = "YyyymmH",
+  YyyyH = "YyyyH",
+  TextStringH = "TextStringH"
 }
   

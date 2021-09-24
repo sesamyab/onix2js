@@ -14,13 +14,13 @@ export const SupplierIdentifierType = {
 };
 
 export enum SupplierIdentifierTypeEnum {
-  Proprietary,
-  BRsenvereinVerkehrsnummer,
-  GermanIsbnAgencyPublisherIdentifier,
-  Gln,
-  San,
-  DistributeurscodeBoekenbank,
-  FondscodeBoekenbank,
-  VatIdentityNumber
+  Proprietary = "Proprietary",
+  BRsenvereinVerkehrsnummer = "BRsenvereinVerkehrsnummer",
+  GermanIsbnAgencyPublisherIdentifier = "GermanIsbnAgencyPublisherIdentifier",
+  Gln = "Gln",
+  San = "San",
+  DistributeurscodeBoekenbank = "DistributeurscodeBoekenbank",
+  FondscodeBoekenbank = "FondscodeBoekenbank",
+  VatIdentityNumber = "VatIdentityNumber"
 }
   
