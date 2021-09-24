@@ -10,10 +10,10 @@ export const RecordStatus = {
 };
 
 export enum RecordStatusEnum {
-  NoRecordErrors,
-  NoRecordErrorsErrorsInCollateral,
-  RecordWithErrors,
-  RecordRejected,
-  ReportedPreviously
+  NoRecordErrors = "NoRecordErrors",
+  NoRecordErrorsErrorsInCollateral = "NoRecordErrorsErrorsInCollateral",
+  RecordWithErrors = "RecordWithErrors",
+  RecordRejected = "RecordRejected",
+  ReportedPreviously = "ReportedPreviously"
 }
   

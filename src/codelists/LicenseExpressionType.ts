@@ -8,8 +8,8 @@ export const LicenseExpressionType = {
 };
 
 export enum LicenseExpressionTypeEnum {
-  HumanReadable,
-  ProfessionalReadable,
-  OnixPl
+  HumanReadable = "HumanReadable",
+  ProfessionalReadable = "ProfessionalReadable",
+  OnixPl = "OnixPl"
 }
   

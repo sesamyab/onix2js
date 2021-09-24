@@ -4,6 +4,8 @@
         "module": "commonjs",
         "declaration": true,
         // "strict": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
         "esModuleInterop": true,
         "forceConsistentCasingInFileNames": true,
         "outDir": "./lib/cjs",

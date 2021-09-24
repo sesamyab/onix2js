@@ -15,15 +15,15 @@ export const LanguageRole = {
 };
 
 export enum LanguageRoleEnum {
-  LanguageOfText,
-  OriginalLanguageOfATranslatedText,
-  LanguageOfAbstracts,
-  OriginalLanguageInAMultilingualEdition,
-  TranslatedLanguageInAMultilingualEdition,
-  LanguageOfAudioTrack,
-  LanguageOfSubtitles,
-  LanguageOfOriginalAudioTrack,
-  OriginalLanguageAudioTrackInAMultilingualProduct,
-  LanguageOfNotes
+  LanguageOfText = "LanguageOfText",
+  OriginalLanguageOfATranslatedText = "OriginalLanguageOfATranslatedText",
+  LanguageOfAbstracts = "LanguageOfAbstracts",
+  OriginalLanguageInAMultilingualEdition = "OriginalLanguageInAMultilingualEdition",
+  TranslatedLanguageInAMultilingualEdition = "TranslatedLanguageInAMultilingualEdition",
+  LanguageOfAudioTrack = "LanguageOfAudioTrack",
+  LanguageOfSubtitles = "LanguageOfSubtitles",
+  LanguageOfOriginalAudioTrack = "LanguageOfOriginalAudioTrack",
+  OriginalLanguageAudioTrackInAMultilingualProduct = "OriginalLanguageAudioTrackInAMultilingualProduct",
+  LanguageOfNotes = "LanguageOfNotes"
 }
   

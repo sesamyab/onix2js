@@ -23,23 +23,23 @@ export const ExtentType = {
 };
 
 export enum ExtentTypeEnum {
-  MainContentPageCount,
-  TotalTextLength,
-  FrontMatterPageCount,
-  BackMatterPageCount,
-  TotalNumberedPages,
-  ProductionPageCount,
-  AbsolutePageCount,
-  NumberOfPagesInPrintCounterpart,
-  Duration,
-  NotionalNumberOfPagesInDigitalProduct,
-  ContentPageCount,
-  TotalUnnumberedInsertPageCount,
-  DurationOfIntroductoryMatter,
-  DurationOfMainContent,
-  DurationOfBackMatter,
-  ProductionDuration,
-  Filesize,
-  StorageFilesize
+  MainContentPageCount = "MainContentPageCount",
+  TotalTextLength = "TotalTextLength",
+  FrontMatterPageCount = "FrontMatterPageCount",
+  BackMatterPageCount = "BackMatterPageCount",
+  TotalNumberedPages = "TotalNumberedPages",
+  ProductionPageCount = "ProductionPageCount",
+  AbsolutePageCount = "AbsolutePageCount",
+  NumberOfPagesInPrintCounterpart = "NumberOfPagesInPrintCounterpart",
+  Duration = "Duration",
+  NotionalNumberOfPagesInDigitalProduct = "NotionalNumberOfPagesInDigitalProduct",
+  ContentPageCount = "ContentPageCount",
+  TotalUnnumberedInsertPageCount = "TotalUnnumberedInsertPageCount",
+  DurationOfIntroductoryMatter = "DurationOfIntroductoryMatter",
+  DurationOfMainContent = "DurationOfMainContent",
+  DurationOfBackMatter = "DurationOfBackMatter",
+  ProductionDuration = "ProductionDuration",
+  Filesize = "Filesize",
+  StorageFilesize = "StorageFilesize"
 }
   

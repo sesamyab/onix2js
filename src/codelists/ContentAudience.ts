@@ -16,16 +16,16 @@ export const ContentAudience = {
 };
 
 export enum ContentAudienceEnum {
-  Unrestricted,
-  Restricted,
-  Booktrade,
-  EndCustomers,
-  Librarians,
-  Teachers,
-  Students,
-  Press,
-  ShoppingComparisonService,
-  SearchEngineIndex,
-  Bloggers
+  Unrestricted = "Unrestricted",
+  Restricted = "Restricted",
+  Booktrade = "Booktrade",
+  EndCustomers = "EndCustomers",
+  Librarians = "Librarians",
+  Teachers = "Teachers",
+  Students = "Students",
+  Press = "Press",
+  ShoppingComparisonService = "ShoppingComparisonService",
+  SearchEngineIndex = "SearchEngineIndex",
+  Bloggers = "Bloggers"
 }
   

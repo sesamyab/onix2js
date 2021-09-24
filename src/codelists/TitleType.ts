@@ -19,19 +19,19 @@ export const TitleType = {
 };
 
 export enum TitleTypeEnum {
-  Undefined,
-  DistinctiveTitleBookCoverTitleSerialTitleOnItemSerialContentItemOrReviewedResource,
-  IssnKeyTitleOfSerial,
-  TitleInOriginalLanguage,
-  TitleAcronymOrInitialism,
-  AbbreviatedTitle,
-  TitleInOtherLanguage,
-  ThematicTitleOfJournalIssue,
-  FormerTitle,
-  DistributorSTitle,
-  AlternativeTitleOnCover,
-  AlternativeTitleOnBack,
-  ExpandedTitle,
-  AlternativeTitle
+  Undefined = "Undefined",
+  DistinctiveTitleBookCoverTitleSerialTitleOnItemSerialContentItemOrReviewedResource = "DistinctiveTitleBookCoverTitleSerialTitleOnItemSerialContentItemOrReviewedResource",
+  IssnKeyTitleOfSerial = "IssnKeyTitleOfSerial",
+  TitleInOriginalLanguage = "TitleInOriginalLanguage",
+  TitleAcronymOrInitialism = "TitleAcronymOrInitialism",
+  AbbreviatedTitle = "AbbreviatedTitle",
+  TitleInOtherLanguage = "TitleInOtherLanguage",
+  ThematicTitleOfJournalIssue = "ThematicTitleOfJournalIssue",
+  FormerTitle = "FormerTitle",
+  DistributorSTitle = "DistributorSTitle",
+  AlternativeTitleOnCover = "AlternativeTitleOnCover",
+  AlternativeTitleOnBack = "AlternativeTitleOnBack",
+  ExpandedTitle = "ExpandedTitle",
+  AlternativeTitle = "AlternativeTitle"
 }
   

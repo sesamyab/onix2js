@@ -7,7 +7,7 @@ export const SupplyContactRole = {
 };
 
 export enum SupplyContactRoleEnum {
-  ReturnAuthorisationContact,
-  CustomerServicesContact
+  ReturnAuthorisationContact = "ReturnAuthorisationContact",
+  CustomerServicesContact = "CustomerServicesContact"
 }
   

@@ -13,13 +13,13 @@ export const OnixAdultAudienceRating = {
 };
 
 export enum OnixAdultAudienceRatingEnum {
-  Unrated,
-  AnyAdultAudience,
-  ContentWarning,
-  ContentWarningSex,
-  ContentWarningViolence,
-  ContentWarningDrugTaking,
-  ContentWarningLanguage,
-  ContentWarningIntolerance
+  Unrated = "Unrated",
+  AnyAdultAudience = "AnyAdultAudience",
+  ContentWarning = "ContentWarning",
+  ContentWarningSex = "ContentWarningSex",
+  ContentWarningViolence = "ContentWarningViolence",
+  ContentWarningDrugTaking = "ContentWarningDrugTaking",
+  ContentWarningLanguage = "ContentWarningLanguage",
+  ContentWarningIntolerance = "ContentWarningIntolerance"
 }
   

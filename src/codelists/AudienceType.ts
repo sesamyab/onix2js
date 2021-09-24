@@ -14,14 +14,14 @@ export const AudienceType = {
 };
 
 export enum AudienceTypeEnum {
-  GeneralTrade,
-  ChildrenJuvenile,
-  YoungAdult,
-  PrimaryAndSecondaryElementaryAndHighSchool,
-  CollegeHigherEducation,
-  ProfessionalAndScholarly,
-  EltEsl,
-  AdultEducation,
-  SecondLanguageTeaching
+  GeneralTrade = "GeneralTrade",
+  ChildrenJuvenile = "ChildrenJuvenile",
+  YoungAdult = "YoungAdult",
+  PrimaryAndSecondaryElementaryAndHighSchool = "PrimaryAndSecondaryElementaryAndHighSchool",
+  CollegeHigherEducation = "CollegeHigherEducation",
+  ProfessionalAndScholarly = "ProfessionalAndScholarly",
+  EltEsl = "EltEsl",
+  AdultEducation = "AdultEducation",
+  SecondLanguageTeaching = "SecondLanguageTeaching"
 }
   

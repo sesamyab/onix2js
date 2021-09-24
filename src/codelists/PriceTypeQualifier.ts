@@ -24,24 +24,24 @@ export const PriceTypeQualifier = {
 };
 
 export enum PriceTypeQualifierEnum {
-  UnqualifiedPrice,
-  MemberSubscriberPrice,
-  ExportPrice,
-  ReducedPriceApplicableWhenTheItemIsPurchasedAsPartOfASetOrSeriesOrCollection,
-  VoucherPrice,
-  ConsumerPrice,
-  CorporateLibraryEducationPrice,
-  ReservationOrderPrice,
-  PromotionalOfferPrice,
-  LinkedPrice,
-  LibraryPrice,
-  EducationPrice,
-  CorporatePrice,
-  SubscriptionServicePrice,
-  SchoolLibraryPrice,
-  AcademicLibraryPrice,
-  PublicLibraryPrice,
-  IntroductoryPrice,
-  ConsortialPrice
+  UnqualifiedPrice = "UnqualifiedPrice",
+  MemberSubscriberPrice = "MemberSubscriberPrice",
+  ExportPrice = "ExportPrice",
+  ReducedPriceApplicableWhenTheItemIsPurchasedAsPartOfASetOrSeriesOrCollection = "ReducedPriceApplicableWhenTheItemIsPurchasedAsPartOfASetOrSeriesOrCollection",
+  VoucherPrice = "VoucherPrice",
+  ConsumerPrice = "ConsumerPrice",
+  CorporateLibraryEducationPrice = "CorporateLibraryEducationPrice",
+  ReservationOrderPrice = "ReservationOrderPrice",
+  PromotionalOfferPrice = "PromotionalOfferPrice",
+  LinkedPrice = "LinkedPrice",
+  LibraryPrice = "LibraryPrice",
+  EducationPrice = "EducationPrice",
+  CorporatePrice = "CorporatePrice",
+  SubscriptionServicePrice = "SubscriptionServicePrice",
+  SchoolLibraryPrice = "SchoolLibraryPrice",
+  AcademicLibraryPrice = "AcademicLibraryPrice",
+  PublicLibraryPrice = "PublicLibraryPrice",
+  IntroductoryPrice = "IntroductoryPrice",
+  ConsortialPrice = "ConsortialPrice"
 }
   

@@ -14,14 +14,14 @@ export const SupplyDateRole = {
 };
 
 export enum SupplyDateRoleEnum {
-  SalesEmbargoDate,
-  ExpectedAvailabilityDate,
-  LastDateForReturns,
-  ReservationOrderDeadline,
-  LastRedownloadDate,
-  LastTpmDate,
-  ExpectedWarehouseDate,
-  NewSupplierStartDate,
-  SupplierEndDate
+  SalesEmbargoDate = "SalesEmbargoDate",
+  ExpectedAvailabilityDate = "ExpectedAvailabilityDate",
+  LastDateForReturns = "LastDateForReturns",
+  ReservationOrderDeadline = "ReservationOrderDeadline",
+  LastRedownloadDate = "LastRedownloadDate",
+  LastTpmDate = "LastTpmDate",
+  ExpectedWarehouseDate = "ExpectedWarehouseDate",
+  NewSupplierStartDate = "NewSupplierStartDate",
+  SupplierEndDate = "SupplierEndDate"
 }
   

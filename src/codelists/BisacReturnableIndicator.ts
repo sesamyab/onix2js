@@ -9,9 +9,9 @@ export const BisacReturnableIndicator = {
 };
 
 export enum BisacReturnableIndicatorEnum {
-  NoNotReturnable,
-  YesReturnableFullCopiesOnly,
-  YesReturnableStrippedCover,
-  Conditional
+  NoNotReturnable = "NoNotReturnable",
+  YesReturnableFullCopiesOnly = "YesReturnableFullCopiesOnly",
+  YesReturnableStrippedCover = "YesReturnableStrippedCover",
+  Conditional = "Conditional"
 }
   

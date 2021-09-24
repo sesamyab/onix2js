@@ -24,24 +24,24 @@ export const ChineseSchoolGrade = {
 };
 
 export enum ChineseSchoolGradeEnum {
-  Preschool,
-  Kindergarten,
-  PrimarySchoolFirstGrade,
-  PrimarySchoolSecondGrade,
-  PrimarySchoolThirdGrade,
-  PrimarySchoolFourthGrade,
-  PrimarySchoolFifthGrade,
-  PrimarySchoolSixthGrade,
-  JuniorSecondarySchoolSeventhGrade,
-  JuniorSecondarySchoolEighthGrade,
-  JuniorSecondarySchoolNinthGrade,
-  SeniorSecondarySchoolTenthGrade,
-  SeniorSecondarySchoolEleventhGrade,
-  SeniorSecondarySchoolTwelfthGrade,
-  UniversityFirstYear,
-  UniversitySecondYear,
-  UniversityThirdYear,
-  UniversityFourthYear,
-  GraduateLevel
+  Preschool = "Preschool",
+  Kindergarten = "Kindergarten",
+  PrimarySchoolFirstGrade = "PrimarySchoolFirstGrade",
+  PrimarySchoolSecondGrade = "PrimarySchoolSecondGrade",
+  PrimarySchoolThirdGrade = "PrimarySchoolThirdGrade",
+  PrimarySchoolFourthGrade = "PrimarySchoolFourthGrade",
+  PrimarySchoolFifthGrade = "PrimarySchoolFifthGrade",
+  PrimarySchoolSixthGrade = "PrimarySchoolSixthGrade",
+  JuniorSecondarySchoolSeventhGrade = "JuniorSecondarySchoolSeventhGrade",
+  JuniorSecondarySchoolEighthGrade = "JuniorSecondarySchoolEighthGrade",
+  JuniorSecondarySchoolNinthGrade = "JuniorSecondarySchoolNinthGrade",
+  SeniorSecondarySchoolTenthGrade = "SeniorSecondarySchoolTenthGrade",
+  SeniorSecondarySchoolEleventhGrade = "SeniorSecondarySchoolEleventhGrade",
+  SeniorSecondarySchoolTwelfthGrade = "SeniorSecondarySchoolTwelfthGrade",
+  UniversityFirstYear = "UniversityFirstYear",
+  UniversitySecondYear = "UniversitySecondYear",
+  UniversityThirdYear = "UniversityThirdYear",
+  UniversityFourthYear = "UniversityFourthYear",
+  GraduateLevel = "GraduateLevel"
 }
   

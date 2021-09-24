@@ -7,7 +7,7 @@ export const IllustratedNotIllustrated = {
 };
 
 export enum IllustratedNotIllustratedEnum {
-  No,
-  Yes
+  No = "No",
+  Yes = "Yes"
 }
   

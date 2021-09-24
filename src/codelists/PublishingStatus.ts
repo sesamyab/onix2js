@@ -22,21 +22,21 @@ export const PublishingStatus = {
 };
 
 export enum PublishingStatusEnum {
-  Unspecified,
-  Cancelled,
-  Forthcoming,
-  PostponedIndefinitely,
-  Active,
-  NoLongerOurProduct,
-  OutOfStockIndefinitely,
-  OutOfPrint,
-  Inactive,
-  Unknown,
-  Remaindered,
-  WithdrawnFromSale,
-  Recalled,
-  ActiveButNotSoldSeparately,
-  TemporarilyWithdrawnFromSale,
-  PermanentlyWithdrawnFromSale
+  Unspecified = "Unspecified",
+  Cancelled = "Cancelled",
+  Forthcoming = "Forthcoming",
+  PostponedIndefinitely = "PostponedIndefinitely",
+  Active = "Active",
+  NoLongerOurProduct = "NoLongerOurProduct",
+  OutOfStockIndefinitely = "OutOfStockIndefinitely",
+  OutOfPrint = "OutOfPrint",
+  Inactive = "Inactive",
+  Unknown = "Unknown",
+  Remaindered = "Remaindered",
+  WithdrawnFromSale = "WithdrawnFromSale",
+  Recalled = "Recalled",
+  ActiveButNotSoldSeparately = "ActiveButNotSoldSeparately",
+  TemporarilyWithdrawnFromSale = "TemporarilyWithdrawnFromSale",
+  PermanentlyWithdrawnFromSale = "PermanentlyWithdrawnFromSale"
 }
   

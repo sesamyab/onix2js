@@ -8,8 +8,8 @@ export const RightsType = {
 };
 
 export enum RightsTypeEnum {
-  Copyright,
-  PhonogramRight,
-  DatabaseRight
+  Copyright = "Copyright",
+  PhonogramRight = "PhonogramRight",
+  DatabaseRight = "DatabaseRight"
 }
   

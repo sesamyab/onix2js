@@ -7,7 +7,7 @@ export const StatusDetailCodeType = {
 };
 
 export enum StatusDetailCodeTypeEnum {
-  Proprietary,
-  OnixStatusDetailCode
+  Proprietary = "Proprietary",
+  OnixStatusDetailCode = "OnixStatusDetailCode"
 }
   

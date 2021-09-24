@@ -15,15 +15,15 @@ export const StudyBibleType = {
 };
 
 export enum StudyBibleTypeEnum {
-  CambridgeAnnotated,
-  LifeApplication,
-  Macarthur,
-  OxfordAnnotated,
-  StudiebibelDetNyeTestamentet,
-  NewOxfordAnnotated,
-  NorskStudiebibel,
-  Ryrie,
-  Scofield,
-  SpiritFilled
+  CambridgeAnnotated = "CambridgeAnnotated",
+  LifeApplication = "LifeApplication",
+  Macarthur = "Macarthur",
+  OxfordAnnotated = "OxfordAnnotated",
+  StudiebibelDetNyeTestamentet = "StudiebibelDetNyeTestamentet",
+  NewOxfordAnnotated = "NewOxfordAnnotated",
+  NorskStudiebibel = "NorskStudiebibel",
+  Ryrie = "Ryrie",
+  Scofield = "Scofield",
+  SpiritFilled = "SpiritFilled"
 }
   

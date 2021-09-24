@@ -13,13 +13,13 @@ export const EPublicationVersionNumber = {
 };
 
 export enum EPublicationVersionNumberEnum {
-  Epub_2_0_1,
-  Epub_3_0,
-  Epub_3_0_1,
-  Epub_3_1,
-  Epub_3_2,
-  KindleMobi_7,
-  KindleKf8,
-  KindleKfx
+  Epub_2_0_1 = "Epub_2_0_1",
+  Epub_3_0 = "Epub_3_0",
+  Epub_3_0_1 = "Epub_3_0_1",
+  Epub_3_1 = "Epub_3_1",
+  Epub_3_2 = "Epub_3_2",
+  KindleMobi_7 = "KindleMobi_7",
+  KindleKf8 = "KindleKf8",
+  KindleKfx = "KindleKfx"
 }
   

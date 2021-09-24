@@ -51,7 +51,7 @@ async function generateCodelist(codelist): Promise<string> {
 
   sourceFile.addEnum({
     name: `${name}Enum`,
-    members: codes.map((code) => ({ name: code })),
+    members: codes.map((code) => ({ name: code, value: code })),
     isExported: true,
   });
 

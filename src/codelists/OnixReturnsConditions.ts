@@ -13,13 +13,13 @@ export const OnixReturnsConditions = {
 };
 
 export enum OnixReturnsConditionsEnum {
-  Unspecified,
-  Consignment,
-  FirmSale,
-  SaleOrReturn,
-  DirectFulfillment,
-  SaleOrReturnOfSaleableCopies,
-  SaleOrReturnOfStrippedCovers,
-  SaleOrCertifiedDestruction
+  Unspecified = "Unspecified",
+  Consignment = "Consignment",
+  FirmSale = "FirmSale",
+  SaleOrReturn = "SaleOrReturn",
+  DirectFulfillment = "DirectFulfillment",
+  SaleOrReturnOfSaleableCopies = "SaleOrReturnOfSaleableCopies",
+  SaleOrReturnOfStrippedCovers = "SaleOrReturnOfStrippedCovers",
+  SaleOrCertifiedDestruction = "SaleOrCertifiedDestruction"
 }
   

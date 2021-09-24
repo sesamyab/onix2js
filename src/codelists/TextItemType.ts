@@ -9,9 +9,9 @@ export const TextItemType = {
 };
 
 export enum TextItemTypeEnum {
-  TextualWork,
-  FrontMatter,
-  BodyMatter,
-  BackMatter
+  TextualWork = "TextualWork",
+  FrontMatter = "FrontMatter",
+  BodyMatter = "BodyMatter",
+  BackMatter = "BackMatter"
 }
   

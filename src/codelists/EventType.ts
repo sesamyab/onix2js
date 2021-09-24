@@ -8,8 +8,8 @@ export const EventType = {
 };
 
 export enum EventTypeEnum {
-  UnspecifiedSeeDescription,
-  BookSigning,
-  BookReading
+  UnspecifiedSeeDescription = "UnspecifiedSeeDescription",
+  BookSigning = "BookSigning",
+  BookReading = "BookReading"
 }
   

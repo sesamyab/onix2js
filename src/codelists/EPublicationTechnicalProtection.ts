@@ -13,13 +13,13 @@ export const EPublicationTechnicalProtection = {
 };
 
 export enum EPublicationTechnicalProtectionEnum {
-  None,
-  Drm,
-  DigitalWatermarking,
-  AdobeDrm,
-  AppleDrm,
-  OmaDrm,
-  ReadiumLcpDrm,
-  SonyDrm
+  None = "None",
+  Drm = "Drm",
+  DigitalWatermarking = "DigitalWatermarking",
+  AdobeDrm = "AdobeDrm",
+  AppleDrm = "AppleDrm",
+  OmaDrm = "OmaDrm",
+  ReadiumLcpDrm = "ReadiumLcpDrm",
+  SonyDrm = "SonyDrm"
 }
   

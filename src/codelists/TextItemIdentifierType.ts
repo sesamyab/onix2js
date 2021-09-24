@@ -13,13 +13,13 @@ export const TextItemIdentifierType = {
 };
 
 export enum TextItemIdentifierTypeEnum {
-  Proprietary,
-  Gtin_13,
-  Doi,
-  Pii,
-  Sici,
-  Istc,
-  Isbn_13,
-  Iscc
+  Proprietary = "Proprietary",
+  Gtin_13 = "Gtin_13",
+  Doi = "Doi",
+  Pii = "Pii",
+  Sici = "Sici",
+  Istc = "Istc",
+  Isbn_13 = "Isbn_13",
+  Iscc = "Iscc"
 }
   

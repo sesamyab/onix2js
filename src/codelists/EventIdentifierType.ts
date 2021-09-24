@@ -6,6 +6,6 @@ export const EventIdentifierType = {
 };
 
 export enum EventIdentifierTypeEnum {
-  Proprietary
+  Proprietary = "Proprietary"
 }
   

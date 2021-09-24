@@ -20,20 +20,20 @@ export const ProductClassificationType = {
 };
 
 export enum ProductClassificationTypeEnum {
-  WcoHarmonizedSystem,
-  Unspsc,
-  Hmrc,
-  WarenverzeichnisFRDieAuEnhandelsstatistik,
-  Taric,
-  Fondsgroep,
-  SenderSProductCategory,
-  GappProductClass,
-  Cpa,
-  Ncm,
-  Cpv,
-  PkWiU,
-  Htsus,
-  UsScheduleB,
-  ElectreGenre
+  WcoHarmonizedSystem = "WcoHarmonizedSystem",
+  Unspsc = "Unspsc",
+  Hmrc = "Hmrc",
+  WarenverzeichnisFRDieAuEnhandelsstatistik = "WarenverzeichnisFRDieAuEnhandelsstatistik",
+  Taric = "Taric",
+  Fondsgroep = "Fondsgroep",
+  SenderSProductCategory = "SenderSProductCategory",
+  GappProductClass = "GappProductClass",
+  Cpa = "Cpa",
+  Ncm = "Ncm",
+  Cpv = "Cpv",
+  PkWiU = "PkWiU",
+  Htsus = "Htsus",
+  UsScheduleB = "UsScheduleB",
+  ElectreGenre = "ElectreGenre"
 }
   

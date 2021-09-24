@@ -8,8 +8,8 @@ export const PriceConditionQuantityType = {
 };
 
 export enum PriceConditionQuantityTypeEnum {
-  TimePeriod,
-  NumberOfUpdates,
-  NumberOfLinkedProducts
+  TimePeriod = "TimePeriod",
+  NumberOfUpdates = "NumberOfUpdates",
+  NumberOfLinkedProducts = "NumberOfLinkedProducts"
 }
   

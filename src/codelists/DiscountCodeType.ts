@@ -12,12 +12,12 @@ export const DiscountCodeType = {
 };
 
 export enum DiscountCodeTypeEnum {
-  BicDiscountGroupCode,
-  ProprietaryDiscountCode,
-  Boeksoort,
-  GermanTermsCode,
-  ProprietaryCommissionCode,
-  BicCommissionGroupCode,
-  IsniBasedDiscountGroupCode
+  BicDiscountGroupCode = "BicDiscountGroupCode",
+  ProprietaryDiscountCode = "ProprietaryDiscountCode",
+  Boeksoort = "Boeksoort",
+  GermanTermsCode = "GermanTermsCode",
+  ProprietaryCommissionCode = "ProprietaryCommissionCode",
+  BicCommissionGroupCode = "BicCommissionGroupCode",
+  IsniBasedDiscountGroupCode = "IsniBasedDiscountGroupCode"
 }
   

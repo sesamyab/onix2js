@@ -6,6 +6,6 @@ export const CurrencyZone = {
 };
 
 export enum CurrencyZoneEnum {
-  Eurozone
+  Eurozone = "Eurozone"
 }
   

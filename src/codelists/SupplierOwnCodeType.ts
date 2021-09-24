@@ -12,12 +12,12 @@ export const SupplierOwnCodeType = {
 };
 
 export enum SupplierOwnCodeTypeEnum {
-  SupplierSSalesClassification,
-  SupplierSBonusEligibility,
-  PublisherSSalesClassification,
-  SupplierSPricingRestrictionClassification,
-  SupplierSSalesExpectation,
-  PublisherSSalesExpectation,
-  SupplierSOrderRoutingEligibility
+  SupplierSSalesClassification = "SupplierSSalesClassification",
+  SupplierSBonusEligibility = "SupplierSBonusEligibility",
+  PublisherSSalesClassification = "PublisherSSalesClassification",
+  SupplierSPricingRestrictionClassification = "SupplierSPricingRestrictionClassification",
+  SupplierSSalesExpectation = "SupplierSSalesExpectation",
+  PublisherSSalesExpectation = "PublisherSSalesExpectation",
+  SupplierSOrderRoutingEligibility = "SupplierSOrderRoutingEligibility"
 }
   

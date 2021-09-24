@@ -12,12 +12,12 @@ export const CollectionSequenceType = {
 };
 
 export enum CollectionSequenceTypeEnum {
-  Proprietary,
-  TitleOrder,
-  PublicationOrder,
-  TemporalNarrativeOrder,
-  OriginalPublicationOrder,
-  SuggestedReadingOrder,
-  SuggestedDisplayOrder
+  Proprietary = "Proprietary",
+  TitleOrder = "TitleOrder",
+  PublicationOrder = "PublicationOrder",
+  TemporalNarrativeOrder = "TemporalNarrativeOrder",
+  OriginalPublicationOrder = "OriginalPublicationOrder",
+  SuggestedReadingOrder = "SuggestedReadingOrder",
+  SuggestedDisplayOrder = "SuggestedDisplayOrder"
 }
   

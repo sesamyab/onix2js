@@ -23,23 +23,23 @@ export const PublishingRole = {
 };
 
 export enum PublishingRoleEnum {
-  Publisher,
-  CoPublisher,
-  Sponsor,
-  PublisherOfOriginalLanguageVersion,
-  HostDistributorOfElectronicContent,
-  PublishedForOnBehalfOf,
-  PublishedInAssociationWith,
-  NewOrAcquiringPublisher,
-  PublishingGroup,
-  PublisherOfFacsimileOriginal,
-  RepackagerOfPreboundEdition,
-  FormerPublisher,
-  PublicationFunder,
-  ResearchFunder,
-  FundingBody,
-  Printer,
-  Binder,
-  Manufacturer
+  Publisher = "Publisher",
+  CoPublisher = "CoPublisher",
+  Sponsor = "Sponsor",
+  PublisherOfOriginalLanguageVersion = "PublisherOfOriginalLanguageVersion",
+  HostDistributorOfElectronicContent = "HostDistributorOfElectronicContent",
+  PublishedForOnBehalfOf = "PublishedForOnBehalfOf",
+  PublishedInAssociationWith = "PublishedInAssociationWith",
+  NewOrAcquiringPublisher = "NewOrAcquiringPublisher",
+  PublishingGroup = "PublishingGroup",
+  PublisherOfFacsimileOriginal = "PublisherOfFacsimileOriginal",
+  RepackagerOfPreboundEdition = "RepackagerOfPreboundEdition",
+  FormerPublisher = "FormerPublisher",
+  PublicationFunder = "PublicationFunder",
+  ResearchFunder = "ResearchFunder",
+  FundingBody = "FundingBody",
+  Printer = "Printer",
+  Binder = "Binder",
+  Manufacturer = "Manufacturer"
 }
   

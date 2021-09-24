@@ -16,16 +16,16 @@ export const ReligiousTextFeature = {
 };
 
 export enum ReligiousTextFeatureEnum {
-  AcademicYear,
-  CatechisticYear,
-  LiturgicalYear,
-  AdventAndChristmas,
-  Blessings,
-  ScholasticCycles,
-  ConfirmationAndHolyCommunion,
-  SummerActivites,
-  Easter,
-  Lent,
-  MarianThemes
+  AcademicYear = "AcademicYear",
+  CatechisticYear = "CatechisticYear",
+  LiturgicalYear = "LiturgicalYear",
+  AdventAndChristmas = "AdventAndChristmas",
+  Blessings = "Blessings",
+  ScholasticCycles = "ScholasticCycles",
+  ConfirmationAndHolyCommunion = "ConfirmationAndHolyCommunion",
+  SummerActivites = "SummerActivites",
+  Easter = "Easter",
+  Lent = "Lent",
+  MarianThemes = "MarianThemes"
 }
   

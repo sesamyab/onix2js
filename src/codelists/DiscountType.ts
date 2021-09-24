@@ -9,9 +9,9 @@ export const DiscountType = {
 };
 
 export enum DiscountTypeEnum {
-  RisingDiscount,
-  RisingDiscountCumulative,
-  ProgressiveDiscount,
-  ProgressiveDiscountCumulative
+  RisingDiscount = "RisingDiscount",
+  RisingDiscountCumulative = "RisingDiscountCumulative",
+  ProgressiveDiscount = "ProgressiveDiscount",
+  ProgressiveDiscountCumulative = "ProgressiveDiscountCumulative"
 }
   

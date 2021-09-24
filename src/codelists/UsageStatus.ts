@@ -8,8 +8,8 @@ export const UsageStatus = {
 };
 
 export enum UsageStatusEnum {
-  PermittedUnlimited,
-  PermittedSubjectToLimit,
-  Prohibited
+  PermittedUnlimited = "PermittedUnlimited",
+  PermittedSubjectToLimit = "PermittedSubjectToLimit",
+  Prohibited = "Prohibited"
 }
   

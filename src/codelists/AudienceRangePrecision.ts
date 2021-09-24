@@ -8,8 +8,8 @@ export const AudienceRangePrecision = {
 };
 
 export enum AudienceRangePrecisionEnum {
-  Exact,
-  From,
-  To
+  Exact = "Exact",
+  From = "From",
+  To = "To"
 }
   

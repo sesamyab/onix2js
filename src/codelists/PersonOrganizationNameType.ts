@@ -13,13 +13,13 @@ export const PersonOrganizationNameType = {
 };
 
 export enum PersonOrganizationNameTypeEnum {
-  Unspecified,
-  Pseudonym,
-  AuthorityControlledName,
-  EarlierName,
-  RealName,
-  TransliteratedFormOfPrimaryName,
-  LaterName,
-  FictionalCharacterName
+  Unspecified = "Unspecified",
+  Pseudonym = "Pseudonym",
+  AuthorityControlledName = "AuthorityControlledName",
+  EarlierName = "EarlierName",
+  RealName = "RealName",
+  TransliteratedFormOfPrimaryName = "TransliteratedFormOfPrimaryName",
+  LaterName = "LaterName",
+  FictionalCharacterName = "FictionalCharacterName"
 }
   

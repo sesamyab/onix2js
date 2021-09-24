@@ -8,8 +8,8 @@ export const PersonOrganizationDateRole = {
 };
 
 export enum PersonOrganizationDateRoleEnum {
-  DateOfBirth,
-  DateOfDeath,
-  FlourishedAround
+  DateOfBirth = "DateOfBirth",
+  DateOfDeath = "DateOfDeath",
+  FlourishedAround = "FlourishedAround"
 }
   

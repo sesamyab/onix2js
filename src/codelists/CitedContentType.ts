@@ -11,11 +11,11 @@ export const CitedContentType = {
 };
 
 export enum CitedContentTypeEnum {
-  Review,
-  BestsellerList,
-  MediaMention,
-  OneLocalityOneBookProgram,
-  CuratedList,
-  CommentaryDiscussion
+  Review = "Review",
+  BestsellerList = "BestsellerList",
+  MediaMention = "MediaMention",
+  OneLocalityOneBookProgram = "OneLocalityOneBookProgram",
+  CuratedList = "CuratedList",
+  CommentaryDiscussion = "CommentaryDiscussion"
 }
   

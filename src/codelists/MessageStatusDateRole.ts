@@ -7,7 +7,7 @@ export const MessageStatusDateRole = {
 };
 
 export enum MessageStatusDateRoleEnum {
-  IngestDate,
-  ExportDate
+  IngestDate = "IngestDate",
+  ExportDate = "ExportDate"
 }
   

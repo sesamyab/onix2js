@@ -14,14 +14,14 @@ export const NotificationOrUpdateType = {
 };
 
 export enum NotificationOrUpdateTypeEnum {
-  EarlyNotification,
-  AdvanceNotificationConfirmed,
-  NotificationConfirmedOnPublication,
-  UpdatePartial,
-  Delete,
-  NoticeOfSale,
-  NoticeOfAcquisition,
-  TestUpdatePartial,
-  TestRecord
+  EarlyNotification = "EarlyNotification",
+  AdvanceNotificationConfirmed = "AdvanceNotificationConfirmed",
+  NotificationConfirmedOnPublication = "NotificationConfirmedOnPublication",
+  UpdatePartial = "UpdatePartial",
+  Delete = "Delete",
+  NoticeOfSale = "NoticeOfSale",
+  NoticeOfAcquisition = "NoticeOfAcquisition",
+  TestUpdatePartial = "TestUpdatePartial",
+  TestRecord = "TestRecord"
 }
   

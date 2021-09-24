@@ -9,9 +9,9 @@ export const ContentSourceType = {
 };
 
 export enum ContentSourceTypeEnum {
-  PrintedMedia,
-  Website,
-  Radio,
-  Tv
+  PrintedMedia = "PrintedMedia",
+  Website = "Website",
+  Radio = "Radio",
+  Tv = "Tv"
 }
   

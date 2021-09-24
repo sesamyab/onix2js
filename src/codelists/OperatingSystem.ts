@@ -19,18 +19,18 @@ export const OperatingSystem = {
 };
 
 export enum OperatingSystemEnum {
-  Android,
-  BlackBerryOs,
-  IOs,
-  Linux,
-  MacOs,
-  MacOsX,
-  PalmOs,
-  WebOs,
-  Symbian,
-  Windows,
-  WindowsCe,
-  WindowsMobile,
-  WindowsPhone_7
+  Android = "Android",
+  BlackBerryOs = "BlackBerryOs",
+  IOs = "IOs",
+  Linux = "Linux",
+  MacOs = "MacOs",
+  MacOsX = "MacOsX",
+  PalmOs = "PalmOs",
+  WebOs = "WebOs",
+  Symbian = "Symbian",
+  Windows = "Windows",
+  WindowsCe = "WindowsCe",
+  WindowsMobile = "WindowsMobile",
+  WindowsPhone_7 = "WindowsPhone_7"
 }
   

@@ -12,12 +12,12 @@ export const DangerousGoodsRegulations = {
 };
 
 export enum DangerousGoodsRegulationsEnum {
-  Inapplicable,
-  Ghs,
-  Transport,
-  Storage,
-  Waste,
-  Other,
-  SafetyDataSheetAvailable
+  Inapplicable = "Inapplicable",
+  Ghs = "Ghs",
+  Transport = "Transport",
+  Storage = "Storage",
+  Waste = "Waste",
+  Other = "Other",
+  SafetyDataSheetAvailable = "SafetyDataSheetAvailable"
 }
   

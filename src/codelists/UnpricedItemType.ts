@@ -12,12 +12,12 @@ export const UnpricedItemType = {
 };
 
 export enum UnpricedItemTypeEnum {
-  FreeOfCharge,
-  PriceToBeAnnounced,
-  NotSoldSeparately,
-  ContactSupplier,
-  NotSoldAsSet,
-  RevenueShare,
-  CalculatedFromContents
+  FreeOfCharge = "FreeOfCharge",
+  PriceToBeAnnounced = "PriceToBeAnnounced",
+  NotSoldSeparately = "NotSoldSeparately",
+  ContactSupplier = "ContactSupplier",
+  NotSoldAsSet = "NotSoldAsSet",
+  RevenueShare = "RevenueShare",
+  CalculatedFromContents = "CalculatedFromContents"
 }
   

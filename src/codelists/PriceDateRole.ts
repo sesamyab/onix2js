@@ -8,8 +8,8 @@ export const PriceDateRole = {
 };
 
 export enum PriceDateRoleEnum {
-  FromDate,
-  UntilDate,
-  FromUntilDate
+  FromDate = "FromDate",
+  UntilDate = "UntilDate",
+  FromUntilDate = "FromUntilDate"
 }
   

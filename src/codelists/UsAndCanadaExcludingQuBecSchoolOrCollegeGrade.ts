@@ -24,24 +24,24 @@ export const UsAndCanadaExcludingQuBecSchoolOrCollegeGrade = {
 };
 
 export enum UsAndCanadaExcludingQuBecSchoolOrCollegeGradeEnum {
-  Preschool,
-  Kindergarten,
-  FirstGrade,
-  SecondGrade,
-  ThirdGrade,
-  FourthGrade,
-  FifthGrade,
-  SixthGrade,
-  SeventhGrade,
-  EighthGrade,
-  NinthGrade,
-  TenthGrade,
-  EleventhGrade,
-  TwelfthGrade,
-  CollegeFreshman,
-  CollegeSophomore,
-  CollegeJunior,
-  CollegeSenior,
-  CollegeGraduateStudent
+  Preschool = "Preschool",
+  Kindergarten = "Kindergarten",
+  FirstGrade = "FirstGrade",
+  SecondGrade = "SecondGrade",
+  ThirdGrade = "ThirdGrade",
+  FourthGrade = "FourthGrade",
+  FifthGrade = "FifthGrade",
+  SixthGrade = "SixthGrade",
+  SeventhGrade = "SeventhGrade",
+  EighthGrade = "EighthGrade",
+  NinthGrade = "NinthGrade",
+  TenthGrade = "TenthGrade",
+  EleventhGrade = "EleventhGrade",
+  TwelfthGrade = "TwelfthGrade",
+  CollegeFreshman = "CollegeFreshman",
+  CollegeSophomore = "CollegeSophomore",
+  CollegeJunior = "CollegeJunior",
+  CollegeSenior = "CollegeSenior",
+  CollegeGraduateStudent = "CollegeGraduateStudent"
 }
   
