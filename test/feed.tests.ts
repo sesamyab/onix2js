@@ -43,12 +43,16 @@ describe("Feeds", () => {
                     {
                       partNumber: null,
                       titleElementLevel: "CollectionLevel",
+                      titlePrefix: null,
                       titleText: "Kampen om Tusenvärld",
+                      titleWithoutPrefix: null,
                     },
                     {
                       partNumber: null,
                       titleElementLevel: "Product",
+                      titlePrefix: null,
                       titleText: "2",
+                      titleWithoutPrefix: null,
                     },
                   ],
                   titleType:
@@ -56,22 +60,26 @@ describe("Feeds", () => {
                 },
               },
             ],
-            titleDetail: {
+            titleDetails: [{
               titleType:
                 "DistinctiveTitleBookCoverTitleSerialTitleOnItemSerialContentItemOrReviewedResource",
               titleElements: [
                 {
                   partNumber: null,
                   titleElementLevel: "Product",
+                  titlePrefix: null,
                   titleText: "Moby Dick – Valen",
+                  titleWithoutPrefix: null,
                 },
                 {
                   partNumber: null,
                   titleElementLevel: "CollectionLevel",
+                  titlePrefix: null,
                   titleText: "Series",
+                  titleWithoutPrefix: null,
                 },
               ],
-            },
+            }],
             contributors: [
               {
                 contributorRole: "ByAuthor",
@@ -223,17 +231,19 @@ describe("Feeds", () => {
             primaryContentType: "TextEyeReadable",
             epubTechnicalProtection: "DigitalWatermarking",
             collections: [],
-            titleDetail: {
+            titleDetails: [{
               titleType:
                 "DistinctiveTitleBookCoverTitleSerialTitleOnItemSerialContentItemOrReviewedResource",
               titleElements: [
                 {
                   partNumber: null,
                   titleElementLevel: "Product",
+                  titlePrefix: null,
                   titleText: "Gemmesteder",
+                  titleWithoutPrefix: null,
                 },
               ],
-            },
+            }],
             contributors: [
               {
                 contributorRole: "ByAuthor",
