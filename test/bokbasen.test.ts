@@ -40,17 +40,33 @@ describe("Feeds", () => {
             primaryContentType: null,
             epubTechnicalProtection: "DigitalWatermarking",
             collections: [ ],
-            titleDetail: {
+            titleDetails: [{
               titleType:
                 "DistinctiveTitleBookCoverTitleSerialTitleOnItemSerialContentItemOrReviewedResource",
               titleElements: [
                 {
                   partNumber: null,
                   titleElementLevel: "Product",
+                  titlePrefix: null,
                   titleText: "Den 5. bølgen",
+                  titleWithoutPrefix: null,
                 },
               ],
             },
+            {
+              titleType:
+                  "TitleInOriginalLanguage",
+              titleElements: [
+                {
+                  partNumber: null,
+                  titleElementLevel: "Product",
+                  titlePrefix: null,
+                  titleText: "The 5th wave",
+                  titleWithoutPrefix: null,
+                },
+              ],
+            }
+            ],
             contributors: [
               {
                 contributorRole: "ByAuthor",

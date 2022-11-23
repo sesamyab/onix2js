@@ -49,7 +49,8 @@ export class DescriptiveDetail {
       EPublicationTechnicalProtection
     );
 
-    this.titleDetail = new TitleDetail(json.TitleDetail[0]);
+    this.titleDetails =
+        (json.TitleDetail || []).map((t) => new TitleDetail(t)) || [];
     this.collections =
       (json.Collection || []).map((c) => new Collection(c)) || [];
     this.contributors =
@@ -64,7 +65,7 @@ export class DescriptiveDetail {
   productFormDetail: ProductFormDetailEnum;
   primaryContentType: ProductContentTypeEnum;
   epubTechnicalProtection: EPublicationTechnicalProtectionEnum;
-  titleDetail: TitleDetail;
+  titleDetails: TitleDetail[];
   collections: Collection[];
   contributors: Contributor[];
   languages: Language[];
